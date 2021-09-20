@@ -1,0 +1,3 @@
+[submodule "CS3270"]
+	path = CS3270
+	url = git@github.com:AnthonyBahlWeber/CS3270.git
