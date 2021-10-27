@@ -1,0 +1,75 @@
+﻿<ResourceDictionary
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<DrawingBrush x:Key="Logo-Avocado" Stretch="Uniform">
+  <DrawingBrush.Drawing>
+    <DrawingGroup>
+      <DrawingGroup Transform="1,0,0,1,892.154663085938,-221.797973632813">
+        <DrawingGroup Transform="1,0,0,1,-902.857177734375,-97.1428604125977">
+          <DrawingGroup Transform="1,0,0,1.63157892227173,805.714294433594,-1049.31140136719">
+            <GeometryDrawing Geometry="M-28.571,1028.076A361.429,81.429,0.000,1,1,-751.429,1028.076A361.429,81.429,0.000,1,1,-28.571,1028.076z">
+              <GeometryDrawing.Brush>
+                <RadialGradientBrush Center="-355.714,965.219" RadiusX="361.429" RadiusY="361.429" GradientOrigin="-355.714,965.219" MappingMode="Absolute" Transform="0.99881237745285,-0.0402490645647049,0.0237154141068459,0.401615411043167,-23.3130416870117,611.950805664063">
+                  <GradientStop Color="#FF391C2B" Offset="0" />
+                  <GradientStop Color="#00000000" Offset="1" />
+                </RadialGradientBrush>
+              </GeometryDrawing.Brush>
+            </GeometryDrawing>
+          </DrawingGroup>
+          <GeometryDrawing Brush="#FC0C220C" Geometry="F1M523.098,375.814C427.066,377.636 331.759,382.204 250.897,440.855 195.290,482.051 136.338,468.781 76.469,499.211 50.453,505.545 8.882,515.789 28.272,570.062 53.933,641.885 137.657,667.966 271.973,683.010 420.244,699.616 521.461,730.672 647.265,638.274 716.311,587.563 754.549,488.097 700.147,410.387 654.862,357.487 590.359,375.876 523.098,375.814z" />
+          <GeometryDrawing Brush="#FC008000" Geometry="F1M515.933,340.859C419.901,342.412 327.451,377.963 246.589,427.952 190.982,463.064 123.459,471.236 63.589,497.171 46.146,505.005 26.493,517.356 23.964,538.077 22.400,558.179 34.185,577.192 48.777,590.015 75.567,611.726 111.427,616.796 144.808,619.734 214.582,624.754 284.380,615.458 353.415,606.587 387.223,601.644 421.207,597.713 455.429,597.080 521.364,593.023 588.708,583.905 648.671,554.818 679.212,539.636 709.054,516.439 719.433,482.640 727.741,454.055 716.414,422.643 695.839,401.984 662.995,367.296 615.577,351.034 569.246,344.140 551.622,341.593 533.746,340.628 515.933,340.859z" />
+          <GeometryDrawing Geometry="F1M523.098,375.814C427.066,377.636 331.759,382.204 250.897,440.855 195.290,482.051 136.338,468.781 76.469,499.211 50.453,505.545 8.882,515.789 28.272,570.062 53.933,641.885 137.657,667.966 271.973,683.010 420.244,699.616 521.461,730.672 647.265,638.274 716.311,587.563 754.549,488.097 700.147,410.387 654.862,357.487 590.359,375.876 523.098,375.814z">
+            <GeometryDrawing.Brush>
+              <RadialGradientBrush Center="-111.093,1221.384" RadiusX="351.34" RadiusY="351.34" GradientOrigin="-111.093,1221.384" MappingMode="Absolute" Transform="0.567818999290466,-0.823153376579285,0.431002497673035,0.29730948805809,205.568176269531,322.651336669922">
+                <GradientStop Color="#FF359735" Offset="0" />
+                <GradientStop Color="#00359735" Offset="1" />
+              </RadialGradientBrush>
+            </GeometryDrawing.Brush>
+          </GeometryDrawing>
+          <GeometryDrawing Brush="#FFD0E088" Geometry="F1M426.569,594.277C362.733,595.984 93.012,656.808 38.786,572.889 -17.198,486.249 153.162,490.990 246.372,432.825 668.530,169.389 966.354,579.843 426.569,594.277z" />
+          <DrawingGroup Transform="1,0,0,1,-194.949615478516,4.31974840164185">
+            <GeometryDrawing Geometry="M622.233,592.100C558.397,593.807 288.676,654.631 234.450,570.712 178.466,484.072 348.826,488.813 442.036,430.648 864.194,167.212 1162.018,577.666 622.233,592.100z">
+              <GeometryDrawing.Pen>
+                <Pen Brush="#FF00FD0A" Thickness="16.359" StartLineCap="Round" EndLineCap="Round" DashCap="Round" LineJoin="Round" MiterLimit="4" />
+              </GeometryDrawing.Pen>
+            </GeometryDrawing>
+          </DrawingGroup>
+          <GeometryDrawing Brush="#FF755423" Geometry="F1M394.011,348.698C466.144,309.135 600.513,332.330 612.139,449.349 563.526,533.240 400.611,552.310 312.779,489.776 311.048,444.003 349.282,373.231 394.011,348.698z" />
+          <GeometryDrawing Geometry="F1M394.011,348.698C466.144,309.135 600.513,332.330 612.139,449.349 563.526,533.240 400.611,552.310 312.779,489.776 311.048,444.003 349.282,373.231 394.011,348.698z">
+            <GeometryDrawing.Brush>
+              <RadialGradientBrush Center="-211.855,652.637" RadiusX="149.708" RadiusY="149.708" GradientOrigin="-211.855,652.637" MappingMode="Absolute" Transform="0.99976658821106,-0.0216051191091537,0.0190847367048264,0.883137106895447,767.4951171875,-117.865882873535">
+                <GradientStop Color="#FF453114" Offset="0" />
+                <GradientStop Color="#003D2C25" Offset="1" />
+              </RadialGradientBrush>
+            </GeometryDrawing.Brush>
+          </GeometryDrawing>
+          <GeometryDrawing Geometry="F1M394.011,348.698C466.144,309.135 600.513,332.330 612.139,449.349 563.526,533.240 400.611,552.310 312.779,489.776 311.048,444.003 349.282,373.231 394.011,348.698z">
+            <GeometryDrawing.Brush>
+              <RadialGradientBrush Center="-294.08,510.052" RadiusX="149.708" RadiusY="149.708" GradientOrigin="-294.08,510.052" MappingMode="Absolute" Transform="0.134106606245041,0.436323702335358,-1.49751102924347,0.460268497467041,1265.67687988281,248.061386108398">
+                <GradientStop Color="#FFF0E1CA" Offset="0" />
+                <GradientStop Color="#00E2C79E" Offset="1" />
+              </RadialGradientBrush>
+            </GeometryDrawing.Brush>
+          </GeometryDrawing>
+          <GeometryDrawing Geometry="F1M394.011,348.698C466.144,309.135 600.513,332.330 612.139,449.349 563.526,533.240 400.611,552.310 312.779,489.776 311.048,444.003 349.282,373.231 394.011,348.698z">
+            <GeometryDrawing.Brush>
+              <RadialGradientBrush Center="-406.349,574.015" RadiusX="149.708" RadiusY="149.708" GradientOrigin="-406.349,574.015" MappingMode="Absolute" Transform="1.15267789363861,0,0,1.03581500053406,839.391418457031,-182.922225952148">
+                <GradientStop Color="#FFDAB782" Offset="0" />
+                <GradientStop Color="#00E2C79E" Offset="1" />
+              </RadialGradientBrush>
+            </GeometryDrawing.Brush>
+          </GeometryDrawing>
+          <GeometryDrawing Geometry="F1M394.011,348.698C466.144,309.135 600.513,332.330 612.139,449.349 563.526,533.240 400.611,552.310 312.779,489.776 311.048,444.003 349.282,373.231 394.011,348.698z">
+            <GeometryDrawing.Brush>
+              <RadialGradientBrush Center="-262.584,634.699" RadiusX="149.708" RadiusY="149.708" GradientOrigin="-262.584,634.699" MappingMode="Absolute" Transform="1.15267789363861,0,0,1.03581500053406,839.391418457031,-182.922225952148">
+                <GradientStop Color="#FF503205" Offset="0" />
+                <GradientStop Color="#002E210D" Offset="1" />
+              </RadialGradientBrush>
+            </GeometryDrawing.Brush>
+          </GeometryDrawing>
+        </DrawingGroup>
+      </DrawingGroup>
+    </DrawingGroup>
+  </DrawingBrush.Drawing>
+</DrawingBrush>
+</ResourceDictionary>

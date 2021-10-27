@@ -1,0 +1,11 @@
+﻿<Window x:Class="LayoutArticle.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Layout Article">
+    <StackPanel Margin="20">
+        <Button Margin="5" Padding="10" Click="Button1_Click">Naive Example</Button>
+        <Button Margin="5" Padding="10" Click="Button2_Click">Slightly Better Example</Button>
+        <Button Margin="5" Padding="10" Click="Button3_Click">Stacked Example</Button>
+        <Button Margin="5" Padding="10" Click="Button4_Click">View</Button>
+    </StackPanel>
+</Window>

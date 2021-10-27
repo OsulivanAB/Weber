@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="Fig15_04-08">
+</Property><Property Name="Solution File" Value="C:\Users\ro086b.SW\Desktop\C# Class\2012\Code Examples\Threading Lecture\2.  Threading No Synchronization\Fig15_04-08.sln">
+</Property><Property Name="User Options File" Value="C:\Users\ro086b.SW\Desktop\C# Class\2012\Code Examples\Threading Lecture\2.  Threading No Synchronization\Fig15_04-08.suo">
+</Property><Property Name="Date" Value="Monday, July 09, 2012">
+</Property><Property Name="Time" Value="9:31 AM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="Fig15_04-08.sln" Description="File successfully backed up as C:\Users\ro086b.SW\Desktop\C# Class\2012\Code Examples\Threading Lecture\2.  Threading No Synchronization\Backup\Fig15_04-08.sln">
+</Event><Event ErrorLevel="0" Project="" Source="Fig15_04-08.suo" Description="File successfully backed up as C:\Users\ro086b.SW\Desktop\C# Class\2012\Code Examples\Threading Lecture\2.  Threading No Synchronization\Backup\Fig15_04-08.suo">
+</Event><Event ErrorLevel="0" Project="Unsynchronized" Source="Unsynchronized\Unsynchronized.csproj" Description="Project file successfully backed up as C:\Users\ro086b.SW\Desktop\C# Class\2012\Code Examples\Threading Lecture\2.  Threading No Synchronization\Backup\Unsynchronized\Unsynchronized.csproj">
+</Event><Event ErrorLevel="0" Project="Unsynchronized" Source="Unsynchronized\Unsynchronized.csproj.user" Description="Project user file successfully backed up as C:\Users\ro086b.SW\Desktop\C# Class\2012\Code Examples\Threading Lecture\2.  Threading No Synchronization\Backup\Unsynchronized\Unsynchronized.csproj.user">
+</Event><Event ErrorLevel="0" Project="Unsynchronized" Source="Unsynchronized\Buffer.cs" Description="File successfully backed up as C:\Users\ro086b.SW\Desktop\C# Class\2012\Code Examples\Threading Lecture\2.  Threading No Synchronization\Backup\Unsynchronized\Buffer.cs">
+</Event><Event ErrorLevel="0" Project="Unsynchronized" Source="Unsynchronized\Consumer.cs" Description="File successfully backed up as C:\Users\ro086b.SW\Desktop\C# Class\2012\Code Examples\Threading Lecture\2.  Threading No Synchronization\Backup\Unsynchronized\Consumer.cs">
+</Event><Event ErrorLevel="0" Project="Unsynchronized" Source="Unsynchronized\Producer.cs" Description="File successfully backed up as C:\Users\ro086b.SW\Desktop\C# Class\2012\Code Examples\Threading Lecture\2.  Threading No Synchronization\Backup\Unsynchronized\Producer.cs">
+</Event><Event ErrorLevel="0" Project="Unsynchronized" Source="Unsynchronized\UnsynchronizedBufferTest.cs" Description="File successfully backed up as C:\Users\ro086b.SW\Desktop\C# Class\2012\Code Examples\Threading Lecture\2.  Threading No Synchronization\Backup\Unsynchronized\UnsynchronizedBufferTest.cs">
+</Event><Event ErrorLevel="0" Project="Unsynchronized" Source="Unsynchronized\UnsynchronizedBuffer.cs" Description="File successfully backed up as C:\Users\ro086b.SW\Desktop\C# Class\2012\Code Examples\Threading Lecture\2.  Threading No Synchronization\Backup\Unsynchronized\UnsynchronizedBuffer.cs">
+</Event><Event ErrorLevel="1" Project="Unsynchronized" Source="Unsynchronized\Unsynchronized.csproj" Description="Your project is targeting .NET Framework 2.0 or 3.0. If your project uses assemblies requiring a newer .NET Framework, your project will fail to build. You can change the .NET Framework version by clicking Properties on the project menu and then selecting a new version in the '.NET Framework' dropdown box. (In Visual Basic, this is located on the Compile tab by clicking the 'Advanced Compiler Options...' button.)">
+</Event><Event ErrorLevel="0" Project="Unsynchronized" Source="Unsynchronized\Unsynchronized.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Unsynchronized" Source="Unsynchronized\Unsynchronized.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="Fig15_04-08.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="Fig15_04-08.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Unsynchronized" Source="Unsynchronized\Unsynchronized.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

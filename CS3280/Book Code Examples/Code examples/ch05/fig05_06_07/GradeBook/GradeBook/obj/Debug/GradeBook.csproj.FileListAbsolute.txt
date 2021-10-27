@@ -1,0 +1,5 @@
+C:\Users\Shawn\Desktop\C# WSU\_Spring Class 2017\Book Code Examples\code examples\ch05\fig05_06_07\GradeBook\GradeBook\bin\Debug\GradeBook.exe
+C:\Users\Shawn\Desktop\C# WSU\_Spring Class 2017\Book Code Examples\code examples\ch05\fig05_06_07\GradeBook\GradeBook\bin\Debug\GradeBook.pdb
+C:\Users\Shawn\Desktop\C# WSU\_Spring Class 2017\Book Code Examples\code examples\ch05\fig05_06_07\GradeBook\GradeBook\obj\Debug\GradeBook.csprojResolveAssemblyReference.cache
+C:\Users\Shawn\Desktop\C# WSU\_Spring Class 2017\Book Code Examples\code examples\ch05\fig05_06_07\GradeBook\GradeBook\obj\Debug\GradeBook.exe
+C:\Users\Shawn\Desktop\C# WSU\_Spring Class 2017\Book Code Examples\code examples\ch05\fig05_06_07\GradeBook\GradeBook\obj\Debug\GradeBook.pdb

@@ -1,0 +1,8 @@
+bin\Release\ThreadTester.exe
+bin\Release\ThreadTester.pdb
+obj\Release\ThreadTester.exe
+obj\Release\ThreadTester.pdb
+bin\Debug\ThreadTester.exe
+bin\Debug\ThreadTester.pdb
+obj\Debug\ThreadTester.exe
+obj\Debug\ThreadTester.pdb

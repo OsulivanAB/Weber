@@ -1,0 +1,14 @@
+To format the #directoryCount number with commas:
+Write-Output "Directories $($directoryCount.ToString("N0"))"
+
+
+use getdate to obtain a date object, then .addDays(-365) to calculate 365 days in teh past.
+
+
+***************
+Psedo code starts here
+***************
+
+if ($args.length -ne 1):
+	Write-Output "usage: srpt.ps1 PATH"
+	exit(1)

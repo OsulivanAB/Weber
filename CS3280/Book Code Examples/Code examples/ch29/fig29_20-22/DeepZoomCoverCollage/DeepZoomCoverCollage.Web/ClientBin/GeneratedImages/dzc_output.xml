@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Collection MaxLevel="8" TileSize="256" Format="jpg" NextItemId="12" ServerFormat="Default" xmlns="http://schemas.microsoft.com/deepzoom/2009">
+  <Items>
+    <I Id="0" N="0" Source="dzc_output_images/c%20how%20to%20program%20(5th%20edition).xml">
+      <Size Width="3175" Height="4174" />
+      <Viewport Width="4.3176826150297689" X="-0" Y="-0" />
+    </I>
+    <I Id="1" N="1" Source="dzc_output_images/cpp%20how%20to%20program%20(6th%20edition).xml">
+      <Size Width="2104" Height="2736" />
+      <Viewport Width="4.2708307151550891" X="-1.0861475644690453" Y="-0" />
+    </I>
+    <I Id="2" N="2" Source="dzc_output_images/internet%20and%20world%20wide%20web%20how%20to%20program%20(4th%20edition).xml">
+      <Size Width="2094" Height="2740" />
+      <Viewport Width="4.2974999999372443" X="-2.1963889384863404" Y="-0" />
+    </I>
+    <I Id="3" N="3" Source="dzc_output_images/java%20how%20to%20program%20(7th%20edition).xml">
+      <Size Width="2089" Height="2740" />
+      <Viewport Width="4.30778602195721" X="-3.3016551007081185" Y="-0" />
+    </I>
+    <I Id="4" N="4" Source="dzc_output_images/visual%20basic%20how%20to%20program%20(3rd%20edition).xml">
+      <Size Width="2093" Height="2744" />
+      <Viewport Width="4.305829992857567" X="-0" Y="-1.4355852842809387" />
+    </I>
+    <I Id="5" N="5" Source="dzc_output_images/visual%20cpp%202008%20how%20to%20program.xml">
+      <Size Width="2100" Height="2722" />
+      <Viewport Width="4.2570703388325111" X="-1.0826480581140148" Y="-1.4193285714285711" />
+    </I>
+    <I Id="6" N="6" Source="dzc_output_images/visual%20csharp%202005%20how%20to%20program.xml">
+      <Size Width="2105" Height="2736" />
+      <Viewport Width="4.2688018169531086" X="-2.181721719949532" Y="-1.4232399049881237" />
+    </I>
+    <I Id="7" N="7" Source="dzc_output_images/visual%20csharp%202008%20how%20to%20program.xml">
+      <Size Width="2088" Height="2722" />
+      <Viewport Width="4.2815362603200562" X="-3.2815362603200562" Y="-1.4274856321839082" />
+    </I>
+    <I Id="8" N="8" Source="dzc_output_images/simply%20cpp.xml">
+      <Size Width="2544" Height="3240" />
+      <Viewport Width="44.029757934685669" X="-10.197543881854374" Y="-13.406156901688197" />
+    </I>
+    <I Id="9" N="9" Source="dzc_output_images/simply%20csharp.xml">
+      <Size Width="2544" Height="3253" />
+      <Viewport Width="44.206420543683919" X="-21.593250283569645" Y="-13.459947037405168" />
+    </I>
+    <I Id="10" N="10" Source="dzc_output_images/simply%20java.xml">
+      <Size Width="2539" Height="3241" />
+      <Viewport Width="44.13008101594243" X="-32.823014035119144" Y="-13.436703219253333" />
+    </I>
+    <I Id="11" N="11" Source="dzc_output_images/simply%20visual%20basic%202008.xml">
+      <Size Width="2538" Height="3259" />
+      <Viewport Width="1" X="-1" Y="-1" />
+    </I>
+  </Items>
+</Collection>

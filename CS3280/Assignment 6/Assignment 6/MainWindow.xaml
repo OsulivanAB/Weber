@@ -1,0 +1,97 @@
+﻿<Window x:Class="Assignment_6.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Assignment_6"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="700" Width="800">
+
+    <Window.Resources>
+        <Style x:Key="StandardTextbox" TargetType="TextBlock">
+            <Setter Property="FontSize" Value="16"/>
+            <Setter Property="FontFamily" Value="Palatino Linotype"/>
+            <Setter Property="HorizontalAlignment" Value="Right"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+            <Setter Property="Margin" Value="5"/>
+        </Style>
+        <Style x:Key="StandardCombo" TargetType="ComboBox">
+            <Setter Property="FontSize" Value="16"/>
+            <Setter Property="FontFamily" Value="Palatino Linotype"/>
+            <Setter Property="Padding" Value="10,0"/>
+            <Setter Property="HorizontalAlignment" Value="Stretch"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+            <Setter Property="Margin" Value="10"/>
+        </Style>
+        <Style x:Key="StandardButton" TargetType="Button">
+            <Setter Property="FontSize" Value="16"/>
+            <Setter Property="FontFamily" Value="Palatino Linotype"/>
+            <Setter Property="HorizontalAlignment" Value="Stretch"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+            <Setter Property="Margin" Value="10"/>
+        </Style>
+    </Window.Resources>
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="3*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="2*"/>
+        </Grid.RowDefinitions>
+        <!-- Header -->
+        <TextBlock x:Name="header" Text="Flight Reservation System"
+                   HorizontalAlignment="Center"
+                   Margin="3"
+                   VerticalAlignment="Top"
+                   Grid.ColumnSpan="3"
+                   FontSize="24"
+                   Style="{StaticResource ResourceKey=StandardTextbox}"/>
+
+        <!-- Right Side Menu -->
+        <TextBlock x:Name="lblChoose_Flight" Text="Choose Flight :" Grid.Column="1" Grid.Row="2" Style="{StaticResource ResourceKey=StandardTextbox}"/>
+        <ComboBox x:Name="cboFlights" SelectionChanged="cboFlights_SelectionChanged" Grid.Column="2" Grid.Row="2" Style="{StaticResource ResourceKey=StandardCombo}"/>
+        <TextBlock x:Name="lblChoose_Passenger" Text="Choose Passenger :" Grid.Column="1" Grid.Row="3" Style="{StaticResource ResourceKey=StandardTextbox}"/>
+        <ComboBox x:Name="cboPassengers" SelectionChanged="cbocboPassengers_SelectionChanged" Grid.Column="2" Grid.Row="3" Style="{StaticResource ResourceKey=StandardCombo}" IsEnabled="False"/>
+        <TextBlock x:Name="lblPassengers_Seat" Text="Passenger's Seat : " Grid.Column="1" Grid.Row="4" Style="{StaticResource ResourceKey=StandardTextbox}"/>
+        <TextBlock x:Name="tblkInstruction" Text="" Grid.Column="1" Grid.Row="5" Foreground="Blue" TextWrapping="Wrap" Style="{StaticResource ResourceKey=StandardTextbox}"/>
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="2" Grid.Row="4" Margin="10,23">
+            <TextBlock x:Name="tblkPassengers_Seat" Text="" HorizontalAlignment="Center" Style="{StaticResource ResourceKey=StandardTextbox}"/>
+        </Border>
+        <Button x:Name="btnChange_Seat" Content="Change Seat" Grid.Row="5" Grid.Column="2" Style="{StaticResource ResourceKey=StandardButton}" IsEnabled="False" Click="btnChange_Seat_Click"/>
+        <Button x:Name="btnAdd_Passenger" Content="Add Passenger" Grid.Row="6" Grid.Column="1" Style="{StaticResource ResourceKey=StandardButton}" IsEnabled="False" Click="btnAdd_Passenger_Click"/>
+        <Button x:Name="btnDelete_Passenger" Content="Delete Passenger" Grid.Row="6" Grid.Column="2"  Style="{StaticResource ResourceKey=StandardButton}" IsEnabled="False" Click="btnDelete_Passenger_Click"/>
+        <GroupBox x:Name="gbColorKey" Header="Color Key" FontWeight="Bold"
+                  Grid.Row="7" Grid.RowSpan="3" Grid.Column="1" Grid.ColumnSpan="2" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="5">
+            <Grid Margin="5" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="4*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <Label x:Name="lblColorKey_Seat_Taken" Background="Red" Grid.Row="0" Grid.Column="0" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="3"/>
+                <Label x:Name="lblColorKey_Seat_Empty" Background="Blue" Grid.Row="1" Grid.Column="0" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="3"/>
+                <Label x:Name="lblColorKey_Selected_Passenger_Seat" Background="Green" Grid.Row="2" Grid.Column="0" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="3"/>
+                <TextBlock x:Name="tblkColorKey_Seat_Taken" Text="Seat is Taken" Grid.Column="1" Grid.Row="0" HorizontalAlignment="Left" Style="{StaticResource ResourceKey=StandardTextbox}"/>
+                <TextBlock x:Name="tblkColorKey_Seat_Empty" Text="Seat is Empty" Grid.Column="1" Grid.Row="1" HorizontalAlignment="Left" Style="{StaticResource ResourceKey=StandardTextbox}"/>
+                <TextBlock x:Name="tblkColorKey_Selected_Passenger_Seat" Text="Selected Passenger Seat" Grid.Column="1" Grid.Row="2" HorizontalAlignment="Left" Style="{StaticResource ResourceKey=StandardTextbox}"/>
+            </Grid>
+        </GroupBox>
+        <local:SeatSelector x:Name="spSeatSelector" Grid.Row="2" Grid.Column="0" Grid.RowSpan="5" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="10"/>
+
+    </Grid>
+</Window>

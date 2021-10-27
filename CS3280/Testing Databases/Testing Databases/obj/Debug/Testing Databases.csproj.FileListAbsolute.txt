@@ -1,0 +1,17 @@
+D:\School\Spring 2021\CS3280\Testing Databases\Testing Databases\bin\Debug\MagicalDatabase.accdb
+D:\School\Spring 2021\CS3280\Testing Databases\Testing Databases\bin\Debug\Testing Databases.exe.config
+D:\School\Spring 2021\CS3280\Testing Databases\Testing Databases\bin\Debug\Testing Databases.exe
+D:\School\Spring 2021\CS3280\Testing Databases\Testing Databases\bin\Debug\Testing Databases.pdb
+D:\School\Spring 2021\CS3280\Testing Databases\Testing Databases\obj\Debug\Testing Databases.csprojAssemblyReference.cache
+D:\School\Spring 2021\CS3280\Testing Databases\Testing Databases\obj\Debug\MainWindow.g.cs
+D:\School\Spring 2021\CS3280\Testing Databases\Testing Databases\obj\Debug\App.g.cs
+D:\School\Spring 2021\CS3280\Testing Databases\Testing Databases\obj\Debug\Testing Databases_Content.g.cs
+D:\School\Spring 2021\CS3280\Testing Databases\Testing Databases\obj\Debug\Testing Databases_MarkupCompile.cache
+D:\School\Spring 2021\CS3280\Testing Databases\Testing Databases\obj\Debug\Testing Databases_MarkupCompile.lref
+D:\School\Spring 2021\CS3280\Testing Databases\Testing Databases\obj\Debug\MainWindow.baml
+D:\School\Spring 2021\CS3280\Testing Databases\Testing Databases\obj\Debug\Testing Databases.g.resources
+D:\School\Spring 2021\CS3280\Testing Databases\Testing Databases\obj\Debug\Testing_Databases.Properties.Resources.resources
+D:\School\Spring 2021\CS3280\Testing Databases\Testing Databases\obj\Debug\Testing Databases.csproj.GenerateResource.cache
+D:\School\Spring 2021\CS3280\Testing Databases\Testing Databases\obj\Debug\Testing Databases.csproj.CoreCompileInputs.cache
+D:\School\Spring 2021\CS3280\Testing Databases\Testing Databases\obj\Debug\Testing Databases.exe
+D:\School\Spring 2021\CS3280\Testing Databases\Testing Databases\obj\Debug\Testing Databases.pdb

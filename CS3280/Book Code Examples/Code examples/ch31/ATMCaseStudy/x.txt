@@ -1,0 +1,836 @@
+// Account.cs
+// Represents a bank account.
+public class Account
+{
+   private int accountNumber; // account number
+   private int pin; // PIN for authentication
+   private decimal availableBalance; // available withdrawal amount
+   private decimal totalBalance; // funds available+pending deposit
+
+   // constructor initializes attributes
+   public Account( int theAccountNumber, int thePIN, 
+      decimal theAvailableBalance, decimal theTotalBalance )
+   {
+      accountNumber = theAccountNumber;
+      pin = thePIN;
+      availableBalance = theAvailableBalance;
+      totalBalance = theTotalBalance;
+   } // end constructor
+
+   // property that gets the account number
+   public int AccountNumber
+   {
+      get
+      {
+         return accountNumber;
+      } // end get
+   } // end property AccountNumber
+
+   // property that gets the available balance
+   public decimal AvailableBalance
+   {
+      get
+      {
+         return availableBalance;
+      } // end get
+   } // end property AvailableBalance
+
+   // property TotalBalance
+   public decimal TotalBalance
+   {
+      get
+      {
+         return totalBalance;
+      } // end get
+   } // end property TotalBalance
+
+   // determines whether a user-specified PIN matches PIN in Account
+   public bool ValidatePIN( int userPIN )
+   {
+      return ( userPIN == pin );
+   } // end method ValidatePIN
+
+   // credits the account (funds have not yet cleared)
+   public void Credit( decimal amount )
+   {
+      totalBalance += amount; // add to total balance
+   } // end method Credit
+
+   // debits the account
+   public void Debit( decimal amount )
+   {
+      availableBalance -= amount; // subtract from available balance
+      totalBalance -= amount; // subtract from total balance
+   } // end method Debit
+} // end class Account
+
+
+// **************************************************************************
+// * (C) Copyright 1992-2006 by Deitel & Associates, Inc. and               *
+// * Pearson Education, Inc. All Rights Reserved.                           *
+// *                                                                        *
+// * DISCLAIMER: The authors and publisher of this book have used their     *
+// * best efforts in preparing the book. These efforts include the          *
+// * development, research, and testing of the theories and programs        *
+// * to determine their effectiveness. The authors and publisher make       *
+// * no warranty of any kind, expressed or implied, with regard to these    *
+// * programs or to the documentation contained in these books. The authors *
+// * and publisher shall not be liable in any event for incidental or       *
+// * consequential damages in connection with, or arising out of, the       *
+// * furnishing, performance, or use of these programs.                     *
+// **************************************************************************
+// ATM.cs
+// Represents an automated teller machine.
+public class ATM
+{
+   private bool userAuthenticated; // whether user is authenticated
+   private int currentAccountNumber; // user's account number
+   private Screen screen; // ATM's screen
+   private Keypad keypad; // ATM's keypad
+   private CashDispenser cashDispenser; // ATM's cash dispenser
+   private DepositSlot depositSlot; // ATM's deposit slot
+   private BankDatabase bankDatabase; // account information database
+
+   // enumeration constants represent main menu options
+   private enum MenuOption 
+   {
+      BALANCE_INQUIRY = 1,
+      WITHDRAWAL,
+      DEPOSIT,
+      EXIT_ATM
+   } // end enum MenuOption
+
+   // parameterless constructor initializes instance variables
+   public ATM()
+   {
+      userAuthenticated = false; // user is not authenticated to start
+      currentAccountNumber = 0; // no current account number to start
+      screen = new Screen(); // create screen
+      keypad = new Keypad(); // create keypad
+      cashDispenser = new CashDispenser(); // create cash dispenser
+      depositSlot = new DepositSlot(); // create deposit slot
+      bankDatabase = new BankDatabase(); // create account info database
+   } // end constructor
+
+   // start ATM
+   public void Run()
+   {
+      // welcome and authenticate users; perform transactions
+      while ( true ) // infinite loop
+      {
+         // loop while user is not yet authenticated
+         while ( !userAuthenticated )
+         {
+            screen.DisplayMessageLine( "\nWelcome!" );
+            AuthenticateUser(); // authenticate user
+         } // end while
+
+         PerformTransactions(); // for authenticated user
+         userAuthenticated = false; // reset before next ATM session
+         currentAccountNumber = 0; // reset before next ATM session
+         screen.DisplayMessageLine( "\nThank you! Goodbye!");
+      } // end while
+   } // end method Run
+
+   // attempt to authenticate user against database
+   private void AuthenticateUser()
+   {
+      // prompt for account number and input it from user
+      screen.DisplayMessage( "\nPlease enter your account number: " );
+      int accountNumber = keypad.GetInput();
+
+      // prompt for PIN and input it from user
+      screen.DisplayMessage( "\nEnter your PIN: " );
+      int pin = keypad.GetInput();
+
+      // set userAuthenticated to boolean value returned by database
+      userAuthenticated = 
+         bankDatabase.AuthenticateUser( accountNumber, pin );
+
+      // check whether authentication succeeded
+      if  ( userAuthenticated )
+         currentAccountNumber = accountNumber; // save user's account #
+      else
+         screen.DisplayMessageLine(
+            "Invalid account number or PIN. Please try again.");
+   } // end method AuthenticateUser
+
+   // display the main menu and perform transactions
+   private void PerformTransactions()
+   {
+      Transaction currentTransaction; // transaction being processed
+      bool userExited = false; // user has not chosen to exit
+
+      // loop while user has not chosen exit option 
+      while ( !userExited )
+      {
+         // show main menu and get user selection
+         int mainMenuSelection = DisplayMainMenu();
+
+         // decide how to proceed based on user's menu selection
+         switch ( ( MenuOption ) mainMenuSelection )
+         {
+            // user chooses to perform one of three transaction types
+            case MenuOption.BALANCE_INQUIRY:
+            case MenuOption.WITHDRAWAL:
+            case MenuOption.DEPOSIT:
+               // initialize as new object of chosen type
+               currentTransaction = CreateTransaction(mainMenuSelection);
+               currentTransaction.Execute(); // execute transaction
+               break;
+            case MenuOption.EXIT_ATM: // user chose to terminate session
+               screen.DisplayMessageLine( "\nExiting the system..." );
+               userExited = true; // this ATM session should end
+               break;
+            default: // user did not enter an integer from 1-4
+               screen.DisplayMessageLine( 
+                  "\nYou did not enter a valid selection. Try again." );
+               break;
+         } // end switch
+      } // end while
+   } // end method PerformTransactions
+
+   // display the main menu and return an input selection
+   private int DisplayMainMenu()
+   {
+      screen.DisplayMessageLine( "\nMain menu:" );
+      screen.DisplayMessageLine( "1 - View my balance" );
+      screen.DisplayMessageLine( "2 - Withdraw cash" );
+      screen.DisplayMessageLine( "3 - Deposit funds" );
+      screen.DisplayMessageLine( "4 - Exit\n" );
+      screen.DisplayMessage( "Enter a choice: " );
+      return keypad.GetInput(); // return user's selection
+   } // end method DisplayMainMenu
+
+   // return object of specified Transaction derived class
+   private Transaction CreateTransaction( int type )
+   {
+      Transaction temp = null; // null Transaction reference
+
+      // determine which type of Transaction to create
+      switch ( ( MenuOption ) type )
+      {
+         // create new BalanceInquiry transaction
+         case MenuOption.BALANCE_INQUIRY:
+            temp = new BalanceInquiry( 
+               currentAccountNumber, screen, bankDatabase);
+            break;
+         case MenuOption.WITHDRAWAL: // create new Withdrawal transaction
+            temp = new Withdrawal(currentAccountNumber, screen,
+               bankDatabase, keypad, cashDispenser);
+            break;
+         case MenuOption.DEPOSIT: // create new Deposit transaction
+            temp = new Deposit(currentAccountNumber, screen,
+               bankDatabase, keypad, depositSlot);
+            break;
+      } // end switch
+
+      return temp;
+   } // end method CreateTransaction
+} // end class ATM
+
+// **************************************************************************
+// * (C) Copyright 1992-2006 by Deitel & Associates, Inc. and               *
+// * Pearson Education, Inc. All Rights Reserved.                           *
+// *                                                                        *
+// * DISCLAIMER: The authors and publisher of this book have used their     *
+// * best efforts in preparing the book. These efforts include the          *
+// * development, research, and testing of the theories and programs        *
+// * to determine their effectiveness. The authors and publisher make       *
+// * no warranty of any kind, expressed or implied, with regard to these    *
+// * programs or to the documentation contained in these books. The authors *
+// * and publisher shall not be liable in any event for incidental or       *
+// * consequential damages in connection with, or arising out of, the       *
+// * furnishing, performance, or use of these programs.                     *
+// **************************************************************************
+// ATMCaseStudy.cs
+// Application for testing the ATM case study.
+public class ATMCaseStudy
+{
+   // Main method is the application's entry point
+   public static void Main( string[] args )
+   {
+      ATM theATM = new ATM();
+      theATM.Run();
+   } // end method Main
+} // end class ATMCaseStudy
+
+// **************************************************************************
+// * (C) Copyright 1992-2006 by Deitel & Associates, Inc. and               *
+// * Pearson Education, Inc. All Rights Reserved.                           *
+// *                                                                        *
+// * DISCLAIMER: The authors and publisher of this book have used their     *
+// * best efforts in preparing the book. These efforts include the          *
+// * development, research, and testing of the theories and programs        *
+// * to determine their effectiveness. The authors and publisher make       *
+// * no warranty of any kind, expressed or implied, with regard to these    *
+// * programs or to the documentation contained in these books. The authors *
+// * and publisher shall not be liable in any event for incidental or       *
+// * consequential damages in connection with, or arising out of, the       *
+// * furnishing, performance, or use of these programs.                     *
+// **************************************************************************
+// BalanceInquiry.cs
+// Represents a balance inquiry ATM transaction
+public class BalanceInquiry : Transaction
+{
+   // BalanceInquiry constructor initializes base class variables
+   public BalanceInquiry( int userAccountNumber, 
+      Screen atmScreen, BankDatabase atmBankDatabase )
+      : base( userAccountNumber, atmScreen, atmBankDatabase ) {}
+
+   // performs transaction; overrides Transaction's abstract method
+   public override void Execute()
+   {
+      // get the available balance for the current user's Account
+      decimal availableBalance = 
+         Database.GetAvailableBalance( AccountNumber );
+
+      // get the total balance for the current user's Account
+      decimal totalBalance = Database.GetTotalBalance( AccountNumber );
+
+      // display the balance information on the screen
+      UserScreen.DisplayMessageLine( "\nBalance Information:" );
+      UserScreen.DisplayMessage( " - Available balance: " );
+      UserScreen.DisplayDollarAmount( availableBalance );
+      UserScreen.DisplayMessage( "\n - Total balance: " );
+      UserScreen.DisplayDollarAmount( totalBalance );
+      UserScreen.DisplayMessageLine( "" );
+   } // end method Execute
+} // end class BalanceInquiry
+
+// **************************************************************************
+// * (C) Copyright 1992-2006 by Deitel & Associates, Inc. and               *
+// * Pearson Education, Inc. All Rights Reserved.                           *
+// *                                                                        *
+// * DISCLAIMER: The authors and publisher of this book have used their     *
+// * best efforts in preparing the book. These efforts include the          *
+// * development, research, and testing of the theories and programs        *
+// * to determine their effectiveness. The authors and publisher make       *
+// * no warranty of any kind, expressed or implied, with regard to these    *
+// * programs or to the documentation contained in these books. The authors *
+// * and publisher shall not be liable in any event for incidental or       *
+// * consequential damages in connection with, or arising out of, the       *
+// * furnishing, performance, or use of these programs.                     *
+// **************************************************************************
+// BankDatabase.cs
+// Represents the bank account information database
+public class BankDatabase
+{
+   private Account[] accounts; // array of the bank//s Accounts
+
+   // parameterless BankDatabase constructor initializes accounts
+   public BankDatabase()
+   {
+      // create two Account objects for testing and 
+      // place them in the accounts array
+      accounts = new Account[2]; // create accounts array 
+      accounts[ 0 ] = new Account( 12345, 54321, 1000, 1200 );
+      accounts[ 1 ] = new Account( 98765, 56789, 200, 200 );
+   } // end constructor
+
+   // retrieve Account object containing specified account number
+   private Account GetAccount( int accountNumber )
+   {
+      // loop through accounts searching for matching account number
+      foreach ( Account currentAccount in accounts )
+      {
+         if ( currentAccount.AccountNumber == accountNumber )
+            return currentAccount;
+      } // end foreach  
+      
+      // account not found
+      return null;
+   } // end method GetAccount
+
+   // determine whether user-specified account number and PIN match 
+   // those of an account in the database
+   public bool AuthenticateUser( int userAccountNumber, int userPIN)
+   {
+      // attempt to retrieve the account with the account number
+      Account userAccount = GetAccount( userAccountNumber );
+
+      // if account exists, return result of Account function ValidatePIN
+      if ( userAccount != null )
+         return userAccount.ValidatePIN( userPIN );
+      else
+         return false; // account number not found, so return false
+   } // end method AuthenticateUser
+
+   // return available balance of Account with specified account number
+   public decimal GetAvailableBalance( int userAccountNumber )
+   {
+      Account userAccount = GetAccount( userAccountNumber );
+      return userAccount.AvailableBalance;
+   } // end method GetAvailableBalance
+
+   // return total balance of Account with specified account number
+   public decimal GetTotalBalance( int userAccountNumber )
+   {
+      Account userAccount = GetAccount(userAccountNumber);
+      return userAccount.TotalBalance;
+   } // end method GetTotalBalance
+
+   // credit an amount to Account with specified account number
+   public void Credit( int userAccountNumber, decimal amount )
+   {
+      Account userAccount = GetAccount( userAccountNumber );
+      userAccount.Credit( amount );
+   } // end method Credit
+
+   // debit an amount from Account with specified account number
+   public void Debit( int userAccountNumber, decimal amount )
+   {
+      Account userAccount = GetAccount( userAccountNumber );
+      userAccount.Debit( amount );
+   } // end method Debit
+} // end class BankDatabase
+
+
+// **************************************************************************
+// * (C) Copyright 1992-2006 by Deitel & Associates, Inc. and               *
+// * Pearson Education, Inc. All Rights Reserved.                           *
+// *                                                                        *
+// * DISCLAIMER: The authors and publisher of this book have used their     *
+// * best efforts in preparing the book. These efforts include the          *
+// * development, research, and testing of the theories and programs        *
+// * to determine their effectiveness. The authors and publisher make       *
+// * no warranty of any kind, expressed or implied, with regard to these    *
+// * programs or to the documentation contained in these books. The authors *
+// * and publisher shall not be liable in any event for incidental or       *
+// * consequential damages in connection with, or arising out of, the       *
+// * furnishing, performance, or use of these programs.                     *
+// **************************************************************************
+// CashDispenser.cs
+// Represents the cash dispenser of the ATM
+public class CashDispenser
+{
+   // the default initial number of bills in the case dispenser
+   private const int INITIAL_COUNT = 500;
+   private int billCount; // number of $20 bills remaining
+
+   // parameterless constructor initializes billCount to INITIAL_COUNT
+   public CashDispenser()
+   {
+      billCount = INITIAL_COUNT; // set billCount to INITIAL_COUNT
+   } // end constructor
+
+   // simulates dispensing of specified amount of cash
+   public void DispenseCash( decimal amount )
+   {
+      // number of $20 bills required
+      int billsRequired = ( ( int ) amount ) / 20;
+      billCount -= billsRequired;
+   } // end method DispenseCash
+
+   // indicates whether cash dispenser can dispense desired amount
+   public bool IsSufficientCashAvailable( decimal amount ) 
+   {
+      // number of $20 bills required
+      int billsRequired = ( ( int ) amount ) / 20;
+
+      // return whether there are enough bills available
+      return ( billCount >= billsRequired );
+   } // end method IsSufficientCashAvailable
+} // end class CashDispenser
+
+// **************************************************************************
+// * (C) Copyright 1992-2006 by Deitel & Associates, Inc. and               *
+// * Pearson Education, Inc. All Rights Reserved.                           *
+// *                                                                        *
+// * DISCLAIMER: The authors and publisher of this book have used their     *
+// * best efforts in preparing the book. These efforts include the          *
+// * development, research, and testing of the theories and programs        *
+// * to determine their effectiveness. The authors and publisher make       *
+// * no warranty of any kind, expressed or implied, with regard to these    *
+// * programs or to the documentation contained in these books. The authors *
+// * and publisher shall not be liable in any event for incidental or       *
+// * consequential damages in connection with, or arising out of, the       *
+// * furnishing, performance, or use of these programs.                     *
+// **************************************************************************
+// Deposit.cs
+// Represents a deposit ATM transaction.
+public class Deposit : Transaction
+{
+   private decimal amount; // amount to deposit
+   private Keypad keypad; // reference to Keypad
+   private DepositSlot depositSlot; // reference to deposit slot
+
+   // constant representing cancel option
+   private const int CANCELED = 0;
+
+   // Deposit constructor initializes class's instance variables
+   public Deposit( int userAccountNumber, Screen atmScreen, BankDatabase atmBankDatabase, 
+      Keypad atmKeypad, DepositSlot atmDepositSlot )
+      : base( userAccountNumber, atmScreen, atmBankDatabase )
+   {
+      // initialize references to keypad and deposit slot
+      keypad = atmKeypad;
+      depositSlot = atmDepositSlot;
+   } // end constructor
+
+   // perform transaction; overrides Transaction's abstract method
+   public override void Execute()
+   {
+      amount = PromptForDepositAmount(); // get deposit amount from user
+
+      // check whether user entered a deposit amount or canceled
+      if ( amount != CANCELED )
+      {
+         // request deposit envelope containing specified amount
+         UserScreen.DisplayMessage(
+            "\nPlease insert a deposit envelope containing " );
+         UserScreen.DisplayDollarAmount( amount );
+         UserScreen.DisplayMessageLine( " in the deposit slot." );
+
+         // retrieve deposit envelope
+         bool envelopeReceived = depositSlot.IsDepositEnvelopeReceived();
+
+         // check whether deposit envelope was received
+         if ( envelopeReceived )
+         {
+            UserScreen.DisplayMessageLine(
+               "\nYour envelope has been received.\n" +
+               "The money just deposited will not be available " +
+               "until we \nverify the amount of any " +
+               "enclosed cash, and any enclosed checks clear." );
+
+            // credit account to reflect the deposit
+            Database.Credit( AccountNumber, amount );
+         } // end inner if
+         else
+            UserScreen.DisplayMessageLine(
+               "\nYou did not insert an envelope, so the ATM has " +
+               "canceled your transaction." );
+      } // end outer if
+      else
+         UserScreen.DisplayMessageLine( "\nCanceling transaction...");
+   } // end method Execute
+
+   // prompt user to enter a deposit amount to credit
+   private decimal PromptForDepositAmount()
+   {
+      // display the prompt and receive input
+      UserScreen.DisplayMessage(
+         "\nPlease input a deposit amount in CENTS (or 0 to cancel): " );
+      int input = keypad.GetInput();
+
+      // check whether the user canceled or entered a valid amount
+      if ( input == CANCELED )
+         return CANCELED;
+      else
+         return ( decimal ) input / 100;
+   } // end method PromptForDepositAmount
+} // end class Deposit
+
+// **************************************************************************
+// * (C) Copyright 1992-2006 by Deitel & Associates, Inc. and               *
+// * Pearson Education, Inc. All Rights Reserved.                           *
+// *                                                                        *
+// * DISCLAIMER: The authors and publisher of this book have used their     *
+// * best efforts in preparing the book. These efforts include the          *
+// * development, research, and testing of the theories and programs        *
+// * to determine their effectiveness. The authors and publisher make       *
+// * no warranty of any kind, expressed or implied, with regard to these    *
+// * programs or to the documentation contained in these books. The authors *
+// * and publisher shall not be liable in any event for incidental or       *
+// * consequential damages in connection with, or arising out of, the       *
+// * furnishing, performance, or use of these programs.                     *
+// **************************************************************************
+// DepositSlot.cs
+// Represents the deposit slot of the ATM
+public class DepositSlot
+{
+   // indicates whether envelope was received (always returns true,
+   // because this is only a software simulation of a real deposit slot)
+   public bool IsDepositEnvelopeReceived()
+   {
+      return true; // deposit envelope was received
+   } // end method IsDepositEnvelopeReceived
+} // end class DepositSlot
+
+
+// **************************************************************************
+// * (C) Copyright 1992-2006 by Deitel & Associates, Inc. and               *
+// * Pearson Education, Inc. All Rights Reserved.                           *
+// *                                                                        *
+// * DISCLAIMER: The authors and publisher of this book have used their     *
+// * best efforts in preparing the book. These efforts include the          *
+// * development, research, and testing of the theories and programs        *
+// * to determine their effectiveness. The authors and publisher make       *
+// * no warranty of any kind, expressed or implied, with regard to these    *
+// * programs or to the documentation contained in these books. The authors *
+// * and publisher shall not be liable in any event for incidental or       *
+// * consequential damages in connection with, or arising out of, the       *
+// * furnishing, performance, or use of these programs.                     *
+// **************************************************************************
+// Keypad.cs
+// Represents the keypad of the ATM.
+using System;
+
+public class Keypad
+{
+   // return an integer value entered by user
+   public int GetInput()
+   {
+      return Convert.ToInt32( Console.ReadLine() );
+   } // end method GetInput
+} // end class Keypad
+
+// **************************************************************************
+// * (C) Copyright 1992-2006 by Deitel & Associates, Inc. and               *
+// * Pearson Education, Inc. All Rights Reserved.                           *
+// *                                                                        *
+// * DISCLAIMER: The authors and publisher of this book have used their     *
+// * best efforts in preparing the book. These efforts include the          *
+// * development, research, and testing of the theories and programs        *
+// * to determine their effectiveness. The authors and publisher make       *
+// * no warranty of any kind, expressed or implied, with regard to these    *
+// * programs or to the documentation contained in these books. The authors *
+// * and publisher shall not be liable in any event for incidental or       *
+// * consequential damages in connection with, or arising out of, the       *
+// * furnishing, performance, or use of these programs.                     *
+// **************************************************************************
+// Screen.cs
+// Represents the screen of the ATM
+using System;
+
+public class Screen
+{
+   // displays a message without a terminating carriage return
+   public void DisplayMessage( string message )
+   {
+      Console.Write( message );
+   } // end method DisplayMessage
+
+   // display a message with a terminating carriage return
+   public void DisplayMessageLine( string message )
+   {
+      Console.WriteLine( message );
+   } // end method DisplayMessageLine
+
+   // display a dollar amount
+   public void DisplayDollarAmount( decimal amount )
+   {
+      Console.Write( "{0:C}", amount );
+   } // end method DisplayDollarAmount
+} // end class Screen
+
+// **************************************************************************
+// * (C) Copyright 1992-2006 by Deitel & Associates, Inc. and               *
+// * Pearson Education, Inc. All Rights Reserved.                           *
+// *                                                                        *
+// * DISCLAIMER: The authors and publisher of this book have used their     *
+// * best efforts in preparing the book. These efforts include the          *
+// * development, research, and testing of the theories and programs        *
+// * to determine their effectiveness. The authors and publisher make       *
+// * no warranty of any kind, expressed or implied, with regard to these    *
+// * programs or to the documentation contained in these books. The authors *
+// * and publisher shall not be liable in any event for incidental or       *
+// * consequential damages in connection with, or arising out of, the       *
+// * furnishing, performance, or use of these programs.                     *
+// **************************************************************************
+// Transaction.cs
+// Abstract base class Transaction represents an ATM transaction.
+public abstract class Transaction
+{
+   private int accountNumber; // indicates account involved
+   private Screen userScreen; // ATM's screen
+   private BankDatabase database; // account info database
+
+   // constructor invoked by derived classes
+   public Transaction( int userAccount, Screen theScreen, BankDatabase theDatabase )
+   {
+      accountNumber = userAccount;
+      userScreen = theScreen;
+      database = theDatabase;
+   } // end constructor
+
+   // property that gets the account number
+   public int AccountNumber
+   {
+      get
+      {
+         return accountNumber;
+      } // end get
+   } // end property AccountNumber
+
+   // property that gets the screen
+   public Screen UserScreen
+   {
+      get
+      {
+         return userScreen;
+      } // end get
+   } // end property UserScreen
+
+   // property that gets the bank database
+   public BankDatabase Database
+   {
+      get
+      {
+         return database;
+      } // end get
+   } // end property Database
+
+   // perform the transaction (overridden by each derived class)
+   public abstract void Execute();
+} // end class Transaction
+
+
+// **************************************************************************
+// * (C) Copyright 1992-2006 by Deitel & Associates, Inc. and               *
+// * Pearson Education, Inc. All Rights Reserved.                           *
+// *                                                                        *
+// * DISCLAIMER: The authors and publisher of this book have used their     *
+// * best efforts in preparing the book. These efforts include the          *
+// * development, research, and testing of the theories and programs        *
+// * to determine their effectiveness. The authors and publisher make       *
+// * no warranty of any kind, expressed or implied, with regard to these    *
+// * programs or to the documentation contained in these books. The authors *
+// * and publisher shall not be liable in any event for incidental or       *
+// * consequential damages in connection with, or arising out of, the       *
+// * furnishing, performance, or use of these programs.                     *
+// **************************************************************************
+// Withdrawal.cs
+// class Withdrawal represents an ATM withdrawal transaction.
+public class Withdrawal : Transaction
+{
+   private decimal amount; // amount to withdraw
+   private Keypad keypad; // reference to Keypad
+   private CashDispenser cashDispenser; // reference to cash dispenser
+
+   // constant that corresponds to menu option to cancel
+   private const int CANCELED = 6;
+
+   // Withdrawal constructor
+   public Withdrawal( int userAccountNumber, Screen atmScreen, 
+      BankDatabase atmBankDatabase, Keypad atmKeypad, 
+      CashDispenser atmCashDispenser )
+      : base( userAccountNumber, atmScreen, atmBankDatabase )
+   {
+      // initialize references to keypad and cash dispenser
+      keypad = atmKeypad;
+      cashDispenser = atmCashDispenser;
+   } // end constructor
+
+   // perform transaction, overrides Transaction's abstract method
+   public override void Execute()
+   {
+      bool cashDispensed = false; // cash was not dispensed yet
+
+      // transaction was not canceled yet
+      bool transactionCanceled = false;
+
+      // loop until cash is dispensed or the user cancels
+      do
+      {
+         // obtain the chosen withdrawal amount from the user
+         int selection = DisplayMenuOfAmounts();
+
+         // check whether user chose a withdrawal amount or canceled
+         if ( selection != CANCELED )
+         {
+            // set amount to the selected dollar amount
+            amount = selection; 
+
+            // get available balance of account involved
+            decimal availableBalance = 
+               Database.GetAvailableBalance( AccountNumber );
+
+            // check whether the user has enough money in the account
+            if ( amount <= availableBalance )
+            {
+               // check whether the cash dispenser has enough money
+               if ( cashDispenser.IsSufficientCashAvailable( amount ) )
+               {
+                  // update the account involved to reflect withdrawal
+                  Database.Debit( AccountNumber, amount );
+
+                  cashDispenser.DispenseCash( amount ); // dispense cash
+                  cashDispensed = true; // cash was dispensed
+
+                  // instruct user to take cash
+                  UserScreen.DisplayMessageLine(
+                     "\nPlease take your cash from the cash dispenser.");
+               } // end innermost if
+               else // cash dispenser does not have enough cash
+                  UserScreen.DisplayMessageLine(
+                     "\nInsufficient cash available in the ATM." +
+                     "\n\nPlease choose a smaller amount." );
+            } // end middle if
+            else // not enough money available in user's account
+               UserScreen.DisplayMessageLine(
+                  "\nInsufficient cash available in your account." +
+                  "\n\nPlease choose a smaller amount." );
+         } // end outermost if
+         else
+         {
+            UserScreen.DisplayMessageLine( "\nCanceling transaction...");
+            transactionCanceled = true; // user canceled the transaction
+         } // end else
+      } while ( ( !cashDispensed ) && ( !transactionCanceled ) );
+   } // end method Execute
+
+   // display a menu of withdrawal amounts and the option to cancel;
+   // return the chosen amount or 0 if the user chooses to cancel
+   private int DisplayMenuOfAmounts()
+   {
+      int userChoice = 0; // variable to store return value
+
+      // array of amounts to correspond to menu numbers
+      int[] amounts = { 0, 20, 40, 60, 100, 200 };
+
+      // loop while no valid choice has been made
+      while ( userChoice == 0 )
+      {
+         // display the menu
+         UserScreen.DisplayMessageLine( "\nWithdrawal options:" );
+         UserScreen.DisplayMessageLine( "1 - $20" );
+         UserScreen.DisplayMessageLine( "2 - $40" );
+         UserScreen.DisplayMessageLine( "3 - $60" );
+         UserScreen.DisplayMessageLine( "4 - $100" );
+         UserScreen.DisplayMessageLine( "5 - $200" );
+         UserScreen.DisplayMessageLine( "6 - Cancel transaction" );
+         UserScreen.DisplayMessage( 
+            "\nChoose a withdrawal option (1-6): " );
+
+         // get user input through keypad
+         int input = keypad.GetInput();
+
+         // determine how to proceed based on the input value
+         switch ( input )
+         {
+            // if the user chose a withdrawal amount (i.e., option
+            // 1, 2, 3, 4, or 5), return the corresponding amount 
+            // from the amounts array
+            case 1: case 2: case 3: case 4: case 5:
+               userChoice = amounts[ input ]; // save user's choice
+               break;
+            case CANCELED: // the user chose to cancel
+               userChoice = CANCELED; // save user's choice
+               break;
+            default:
+               UserScreen.DisplayMessageLine(
+                  "\nInvalid selection. Try again.");
+               break;
+         } // end switch
+      } // end while
+
+      return userChoice;
+   } // end method DisplayMenuOfAmounts
+} // end class Withdrawal
+
+// **************************************************************************
+// * (C) Copyright 1992-2006 by Deitel & Associates, Inc. and               *
+// * Pearson Education, Inc. All Rights Reserved.                           *
+// *                                                                        *
+// * DISCLAIMER: The authors and publisher of this book have used their     *
+// * best efforts in preparing the book. These efforts include the          *
+// * development, research, and testing of the theories and programs        *
+// * to determine their effectiveness. The authors and publisher make       *
+// * no warranty of any kind, expressed or implied, with regard to these    *
+// * programs or to the documentation contained in these books. The authors *
+// * and publisher shall not be liable in any event for incidental or       *
+// * consequential damages in connection with, or arising out of, the       *
+// * furnishing, performance, or use of these programs.                     *
+// **************************************************************************

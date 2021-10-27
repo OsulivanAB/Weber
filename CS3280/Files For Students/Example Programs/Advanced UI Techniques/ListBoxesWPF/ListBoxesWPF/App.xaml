@@ -1,0 +1,39 @@
+﻿<Application x:Class="ListBoxesWPF.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+         
+    	<ResourceDictionary>
+    		<ResourceDictionary.MergedDictionaries>
+    			<ResourceDictionary Source="Logos/Logo-Birthday.xaml"/>
+    			<ResourceDictionary Source="Logos/Logo-Chocolate.xaml"/>
+    			<ResourceDictionary Source="Logos/Logo-Carrot.xaml"/>
+    			<ResourceDictionary Source="Logos/Logo-Burger.xaml"/>
+    			<ResourceDictionary Source="Logos/Logo-Crawfish.xaml"/>
+    			<ResourceDictionary Source="Logos/Logo-Waitress.xaml"/>
+    			<ResourceDictionary Source="Logos/Logo-Pepper.xaml"/>
+    			<ResourceDictionary Source="Logos/Logo-Mug.xaml"/>
+    			<ResourceDictionary Source="Logos/Logo-Avocado.xaml"/>
+    			<ResourceDictionary Source="Logos/Logo-Bananas.xaml"/>
+
+                <ResourceDictionary Source="Art/Stars.xaml"/>
+                <ResourceDictionary Source="Art/NoiseBackground.xaml"/>
+
+                <ResourceDictionary Source="Styles/Window-Black.xaml"/>
+                <ResourceDictionary Source="Styles/Window-Glass.xaml"/>
+
+                <ResourceDictionary Source="Styles/List-Simple.xaml"/>
+    			<ResourceDictionary Source="Styles/List-Columns.xaml"/>
+    			<ResourceDictionary Source="Styles/List-Modern.xaml"/>
+    			<ResourceDictionary Source="Styles/List-Map.xaml"/>
+                <ResourceDictionary Source="Styles/List-Grid.xaml"/>
+                <ResourceDictionary Source="Styles/List-Ratings.xaml"/>
+    			<ResourceDictionary Source="Styles/List-3D.xaml"/>
+                <ResourceDictionary Source="Styles/List-Float.xaml"/>
+                <ResourceDictionary Source="Styles/List-Scatter.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+    	</ResourceDictionary>
+         
+    </Application.Resources>
+</Application>

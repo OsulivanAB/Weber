@@ -1,0 +1,26 @@
+D:\School\Spring 2021\CS3280\Assignment 5\Assignment 5\bin\Debug\TheMathZoo.accdb
+D:\School\Spring 2021\CS3280\Assignment 5\Assignment 5\bin\Debug\Assignment 5.exe.config
+D:\School\Spring 2021\CS3280\Assignment 5\Assignment 5\bin\Debug\Assignment 5.exe
+D:\School\Spring 2021\CS3280\Assignment 5\Assignment 5\bin\Debug\Assignment 5.pdb
+D:\School\Spring 2021\CS3280\Assignment 5\Assignment 5\obj\Debug\FinalScoreWindow.g.cs
+D:\School\Spring 2021\CS3280\Assignment 5\Assignment 5\obj\Debug\GameWindow.g.cs
+D:\School\Spring 2021\CS3280\Assignment 5\Assignment 5\obj\Debug\MainWindow.g.cs
+D:\School\Spring 2021\CS3280\Assignment 5\Assignment 5\obj\Debug\Timer.g.cs
+D:\School\Spring 2021\CS3280\Assignment 5\Assignment 5\obj\Debug\ucScenarios.g.cs
+D:\School\Spring 2021\CS3280\Assignment 5\Assignment 5\obj\Debug\App.g.cs
+D:\School\Spring 2021\CS3280\Assignment 5\Assignment 5\obj\Debug\Assignment 5_Content.g.cs
+D:\School\Spring 2021\CS3280\Assignment 5\Assignment 5\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\School\Spring 2021\CS3280\Assignment 5\Assignment 5\obj\Debug\Assignment 5_MarkupCompile.cache
+D:\School\Spring 2021\CS3280\Assignment 5\Assignment 5\obj\Debug\Assignment 5_MarkupCompile.lref
+D:\School\Spring 2021\CS3280\Assignment 5\Assignment 5\obj\Debug\FinalScoreWindow.baml
+D:\School\Spring 2021\CS3280\Assignment 5\Assignment 5\obj\Debug\GameWindow.baml
+D:\School\Spring 2021\CS3280\Assignment 5\Assignment 5\obj\Debug\MainWindow.baml
+D:\School\Spring 2021\CS3280\Assignment 5\Assignment 5\obj\Debug\Timer.baml
+D:\School\Spring 2021\CS3280\Assignment 5\Assignment 5\obj\Debug\ucScenarios.baml
+D:\School\Spring 2021\CS3280\Assignment 5\Assignment 5\obj\Debug\Assignment 5.g.resources
+D:\School\Spring 2021\CS3280\Assignment 5\Assignment 5\obj\Debug\Assignment_5.Properties.Resources.resources
+D:\School\Spring 2021\CS3280\Assignment 5\Assignment 5\obj\Debug\Assignment 5.csproj.GenerateResource.cache
+D:\School\Spring 2021\CS3280\Assignment 5\Assignment 5\obj\Debug\Assignment 5.csproj.CoreCompileInputs.cache
+D:\School\Spring 2021\CS3280\Assignment 5\Assignment 5\obj\Debug\Assignment 5.exe
+D:\School\Spring 2021\CS3280\Assignment 5\Assignment 5\obj\Debug\Assignment 5.pdb
+D:\School\Spring 2021\CS3280\Assignment 5\Assignment 5\obj\Debug\Assignment 5.csprojAssemblyReference.cache

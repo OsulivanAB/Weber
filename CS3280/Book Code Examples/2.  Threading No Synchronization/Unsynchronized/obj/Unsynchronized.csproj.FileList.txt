@@ -1,0 +1,8 @@
+bin\Release\Unsynchronized.exe
+bin\Release\Unsynchronized.pdb
+obj\Release\Unsynchronized.exe
+obj\Release\Unsynchronized.pdb
+bin\Debug\Unsynchronized.exe
+bin\Debug\Unsynchronized.pdb
+obj\Debug\Unsynchronized.exe
+obj\Debug\Unsynchronized.pdb

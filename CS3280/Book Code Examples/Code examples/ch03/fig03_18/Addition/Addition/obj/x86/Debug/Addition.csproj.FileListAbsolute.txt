@@ -1,0 +1,5 @@
+C:\Users\Shawn\Desktop\C# WSU\_Spring Class 2017\Book Code Examples\code examples\ch03\fig03_18\Addition\Addition\bin\Debug\Addition.exe
+C:\Users\Shawn\Desktop\C# WSU\_Spring Class 2017\Book Code Examples\code examples\ch03\fig03_18\Addition\Addition\bin\Debug\Addition.pdb
+C:\Users\Shawn\Desktop\C# WSU\_Spring Class 2017\Book Code Examples\code examples\ch03\fig03_18\Addition\Addition\obj\x86\Debug\Addition.csprojResolveAssemblyReference.cache
+C:\Users\Shawn\Desktop\C# WSU\_Spring Class 2017\Book Code Examples\code examples\ch03\fig03_18\Addition\Addition\obj\x86\Debug\Addition.exe
+C:\Users\Shawn\Desktop\C# WSU\_Spring Class 2017\Book Code Examples\code examples\ch03\fig03_18\Addition\Addition\obj\x86\Debug\Addition.pdb

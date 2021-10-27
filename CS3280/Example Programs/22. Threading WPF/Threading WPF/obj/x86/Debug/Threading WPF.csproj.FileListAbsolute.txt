@@ -1,0 +1,27 @@
+c:\users\ro086b\documents\visual studio 2010\Projects\Threading WPF\Threading WPF\bin\Debug\Threading WPF.exe
+c:\users\ro086b\documents\visual studio 2010\Projects\Threading WPF\Threading WPF\bin\Debug\Threading WPF.pdb
+c:\users\ro086b\documents\visual studio 2010\Projects\Threading WPF\Threading WPF\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\ro086b\documents\visual studio 2010\Projects\Threading WPF\Threading WPF\obj\x86\Debug\MainWindow.baml
+c:\users\ro086b\documents\visual studio 2010\Projects\Threading WPF\Threading WPF\obj\x86\Debug\MainWindow.g.cs
+c:\users\ro086b\documents\visual studio 2010\Projects\Threading WPF\Threading WPF\obj\x86\Debug\App.g.cs
+c:\users\ro086b\documents\visual studio 2010\Projects\Threading WPF\Threading WPF\obj\x86\Debug\Threading WPF_MarkupCompile.cache
+c:\users\ro086b\documents\visual studio 2010\Projects\Threading WPF\Threading WPF\obj\x86\Debug\Threading WPF.g.resources
+c:\users\ro086b\documents\visual studio 2010\Projects\Threading WPF\Threading WPF\obj\x86\Debug\Threading_WPF.Properties.Resources.resources
+c:\users\ro086b\documents\visual studio 2010\Projects\Threading WPF\Threading WPF\obj\x86\Debug\GenerateResource.read.1.tlog
+c:\users\ro086b\documents\visual studio 2010\Projects\Threading WPF\Threading WPF\obj\x86\Debug\GenerateResource.write.1.tlog
+c:\users\ro086b\documents\visual studio 2010\Projects\Threading WPF\Threading WPF\obj\x86\Debug\Threading WPF.exe
+c:\users\ro086b\documents\visual studio 2010\Projects\Threading WPF\Threading WPF\obj\x86\Debug\Threading WPF.pdb
+C:\Users\ro086b.SW\Desktop\C# Class\2012\My Program Examples\Threading WPF\Threading WPF\obj\x86\Debug\Threading WPF.exe
+C:\Users\ro086b.SW\Desktop\C# Class\2012\My Program Examples\Threading WPF\Threading WPF\obj\x86\Debug\Threading WPF.pdb
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\_Spring 2016\My Program Examples\Threading WPF\Threading WPF\obj\x86\Debug\Threading WPF.exe
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\_Spring 2016\My Program Examples\Threading WPF\Threading WPF\obj\x86\Debug\Threading WPF.pdb
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\_Spring 2016\My Program Examples\Threading WPF\Threading WPF\bin\Debug\Threading WPF.exe
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\_Spring 2016\My Program Examples\Threading WPF\Threading WPF\bin\Debug\Threading WPF.pdb
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\_Spring 2016\My Program Examples\Threading WPF\Threading WPF\obj\x86\Debug\Threading WPF.csprojResolveAssemblyReference.cache
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\_Spring 2016\My Program Examples\Threading WPF\Threading WPF\obj\x86\Debug\MainWindow.baml
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\_Spring 2016\My Program Examples\Threading WPF\Threading WPF\obj\x86\Debug\MainWindow.g.cs
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\_Spring 2016\My Program Examples\Threading WPF\Threading WPF\obj\x86\Debug\App.g.cs
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\_Spring 2016\My Program Examples\Threading WPF\Threading WPF\obj\x86\Debug\Threading WPF_MarkupCompile.cache
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\_Spring 2016\My Program Examples\Threading WPF\Threading WPF\obj\x86\Debug\Threading WPF.g.resources
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\_Spring 2016\My Program Examples\Threading WPF\Threading WPF\obj\x86\Debug\Threading_WPF.Properties.Resources.resources
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\_Spring 2016\My Program Examples\Threading WPF\Threading WPF\obj\x86\Debug\Threading WPF.csproj.GenerateResource.Cache

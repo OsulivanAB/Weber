@@ -1,0 +1,24 @@
+C:\Users\Shawn\Documents\Visual Studio 2005\Projects\Chapter 3 Example Messagebox\Chapter 3 Example Messagebox\bin\Debug\Chapter 3 Example Messagebox.exe
+C:\Users\Shawn\Documents\Visual Studio 2005\Projects\Chapter 3 Example Messagebox\Chapter 3 Example Messagebox\bin\Debug\Chapter 3 Example Messagebox.pdb
+C:\Users\Shawn\Documents\Visual Studio 2005\Projects\Chapter 3 Example Messagebox\Chapter 3 Example Messagebox\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Shawn\Documents\Visual Studio 2005\Projects\Chapter 3 Example Messagebox\Chapter 3 Example Messagebox\obj\Debug\Chapter_3_Example_Messagebox.Form1.resources
+C:\Users\Shawn\Documents\Visual Studio 2005\Projects\Chapter 3 Example Messagebox\Chapter 3 Example Messagebox\obj\Debug\Chapter_3_Example_Messagebox.Properties.Resources.resources
+C:\Users\Shawn\Documents\Visual Studio 2005\Projects\Chapter 3 Example Messagebox\Chapter 3 Example Messagebox\obj\Debug\Chapter 3 Example Messagebox.csproj.GenerateResource.Cache
+C:\Users\Shawn\Documents\Visual Studio 2005\Projects\Chapter 3 Example Messagebox\Chapter 3 Example Messagebox\obj\Debug\Chapter 3 Example Messagebox.exe
+C:\Users\Shawn\Documents\Visual Studio 2005\Projects\Chapter 3 Example Messagebox\Chapter 3 Example Messagebox\obj\Debug\Chapter 3 Example Messagebox.pdb
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\Summer Class 2008\My Program Examples\Chapter 3 Example Messagebox\Chapter 3 Example Messagebox\obj\Debug\Chapter 3 Example Messagebox.exe
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\Summer Class 2008\My Program Examples\Chapter 3 Example Messagebox\Chapter 3 Example Messagebox\obj\Debug\Chapter 3 Example Messagebox.pdb
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\Summer Class 2008\My Program Examples\Chapter 3 Example Messagebox\Chapter 3 Example Messagebox\bin\Debug\Chapter 3 Example Messagebox.exe
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\Summer Class 2008\My Program Examples\Chapter 3 Example Messagebox\Chapter 3 Example Messagebox\bin\Debug\Chapter 3 Example Messagebox.pdb
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\Summer Class 2008\My Program Examples\Chapter 3 Example Messagebox\Chapter 3 Example Messagebox\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\Summer Class 2008\My Program Examples\Chapter 3 Example Messagebox\Chapter 3 Example Messagebox\obj\Debug\Chapter_3_Example_Messagebox.Form1.resources
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\Summer Class 2008\My Program Examples\Chapter 3 Example Messagebox\Chapter 3 Example Messagebox\obj\Debug\Chapter_3_Example_Messagebox.Properties.Resources.resources
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\Summer Class 2008\My Program Examples\Chapter 3 Example Messagebox\Chapter 3 Example Messagebox\obj\Debug\Chapter 3 Example Messagebox.csproj.GenerateResource.Cache
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\Summer Class 2009\My Program Examples\Chapter 3 Example Messagebox\Chapter 3 Example Messagebox\obj\Debug\Chapter 3 Example Messagebox.exe
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\Summer Class 2009\My Program Examples\Chapter 3 Example Messagebox\Chapter 3 Example Messagebox\obj\Debug\Chapter 3 Example Messagebox.pdb
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\Summer Class 2009\My Program Examples\Chapter 3 Example Messagebox\Chapter 3 Example Messagebox\bin\Debug\Chapter 3 Example Messagebox.exe
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\Summer Class 2009\My Program Examples\Chapter 3 Example Messagebox\Chapter 3 Example Messagebox\bin\Debug\Chapter 3 Example Messagebox.pdb
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\Summer Class 2009\My Program Examples\Chapter 3 Example Messagebox\Chapter 3 Example Messagebox\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\Summer Class 2009\My Program Examples\Chapter 3 Example Messagebox\Chapter 3 Example Messagebox\obj\Debug\Chapter_3_Example_Messagebox.Form1.resources
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\Summer Class 2009\My Program Examples\Chapter 3 Example Messagebox\Chapter 3 Example Messagebox\obj\Debug\Chapter_3_Example_Messagebox.Properties.Resources.resources
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\Summer Class 2009\My Program Examples\Chapter 3 Example Messagebox\Chapter 3 Example Messagebox\obj\Debug\Chapter 3 Example Messagebox.csproj.GenerateResource.Cache

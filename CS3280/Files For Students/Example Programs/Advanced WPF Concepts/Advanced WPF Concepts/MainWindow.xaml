@@ -1,0 +1,198 @@
+﻿<Window x:Class="Advanced_WPF_Concepts.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="700" Width="900" Name="WindowBinding" Loaded="WindowBinding_Loaded">
+
+    <!--Some helpful links on data binding:
+        http://msdn.microsoft.com/en-us/library/ms750612.aspx
+        http://msdn.microsoft.com/en-us/magazine/cc163299.aspx -->
+
+    <!--Window resources are things like styles or DataTemplates that can be used in this window-->
+    <Window.Resources>
+
+        <!--A DataTemplate is used to create a template for how data should be displayed.  Here we are going to
+            create a DataTemplate that will be used by the ListBox.  This template tells the ListBox how each
+            item should be displayed-->
+        <DataTemplate x:Key="MyListBoxDataTemplate">
+            <Grid>
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+
+                <TextBlock Grid.Column="0" Grid.Row="0" Text="{Binding Path=sName}" FontSize="16" FontWeight="Bold" Foreground="Red" />
+
+                <StackPanel Orientation="Horizontal" Grid.Column="0" Grid.Row="1">
+                    <TextBlock Text="Job Title: " FontSize="13" Foreground="Black" Margin="10,0,0,0"/>
+                    <TextBlock Text="{Binding Path=sJobTitle}" FontSize="13" Foreground="Blue" Margin="2,0,0,0"/>
+                    <TextBlock Text="Job Level: " FontSize="13" Foreground="Black" Margin="10,0,0,0"/>
+                    <TextBlock Text="{Binding Path=sJobLevel}" FontSize="13" Foreground="Blue" Margin="2,0,0,0" />
+                    <TextBlock Text="# of Years with company: " FontSize="13" Foreground="Black" Margin="10,0,0,0"/>
+                    <TextBlock Text="{Binding Path=sNumberOfYearsWithCompany}" FontSize="13" Foreground="Blue" Margin="2,0,0,0"/>
+                </StackPanel>
+            </Grid>
+        </DataTemplate>
+
+    </Window.Resources>
+
+    <Canvas>
+        <TabControl Canvas.Left="12" Canvas.Top="12" Height="637" Name="tabControl1" Width="854">
+            
+            <TabItem Header="Simple Binding" Name="tabItem1">
+                <Canvas>
+                    <StackPanel Canvas.Left="23" Canvas.Top="20">
+                        <TextBlock Width="248" Height="24" Text="Colors:" TextWrapping="Wrap"/>
+                        <ListBox x:Name="lbColor" Width="270" Height="140" FontSize="16">
+                            <ListBoxItem Content="Blue"/>
+                            <ListBoxItem Content="Green"/>
+                            <ListBoxItem Content="Yellow"/>
+                            <ListBoxItem Content="Red"/>
+                            <ListBoxItem Content="Purple"/>
+                            <ListBoxItem Content="Orange"/>
+                        </ListBox>
+                        <TextBlock Width="248" Height="24" FontSize="16" Text="You selected color:" />
+                        <TextBlock Width="248" Height="24" FontSize="16">
+                            <!--Here we have a TextBlock and it's Text is bound to the SelectedItem.Content in element lbColor-->
+                            <TextBlock.Text>
+                                <Binding ElementName="lbColor" Path="SelectedItem.Content"/>
+                            </TextBlock.Text>
+                        </TextBlock>
+
+                        <!--Here we have another TextBlock bound just as above, but this is a shorthand notation for the binding-->
+                        <TextBlock FontSize="16" Width="248" Height="24" Text="{Binding ElementName=lbColor, Path=SelectedItem.Content}" />
+
+                        <!--Here we have another TextBlock where the text is bound as above, but now this TextBlock's Background
+                                is also bound to the SelectedItem.Content.  This makes the background change color.
+                                Also notice that the Mode for the Binding is set to OneWay, this is the default binding mode.
+                                The Mode attribute defines the binding mode that will determine how data flows between the source and the target.
+                                When using OneWay binding the data flows from the source to the target each time a change is made on the source.
+                            
+                                There are three other binding modes available: OneTime, OneWayToSource, and TwoWay.
+                                Like OneWay binding, OneTime binding sends data from the source to the target; however, it does this only when 
+                                the application is started or when the DataContext changes and, as a result, does not listen for change 
+                                notifications in the source. Unlike OneWay and OneTime binding, OneWayToSource binding sends data from the target 
+                                to the source. Finally, TwoWay binding sends the source data to the target, and if there are changes in the target 
+                                property's value, those will be sent back to the source.-->
+                        <TextBlock FontSize="16" Width="248" Height="24" x:Name="tbSelectedColor" 
+                                   Text="{Binding ElementName=lbColor, Path=SelectedItem.Content, Mode=OneWay}" 
+                                   Background="{Binding ElementName=lbColor, Path=SelectedItem.Content, Mode=OneWay}"/>
+
+                        <!--Here is an example of two way binding.  The Text of the TextBox has a TwoWay binding to the 
+                                ListBox's SelectedItem.Content.  So if you type a new color, the background will change color
+                                and so will the SelectedItem.Content in the ListBox.
+                            
+                                We have also implemented a new property here called UpdateSourceTrigger.  The default value is LostFocus, so if this
+                                is set we would have to tab in order to get the data to update.  If you set the UpdateSourceTrigger to Explicit, 
+                                the source will not be updated unless the BindingExpression.UpdateSource method is called from code.  The last
+                                value is the PropertyChanged value which indicates that the target will update the source every time the target 
+                                control's bound property changes.-->
+                        <TextBox Width="264" Height="36" FontSize="16"
+                                     Text="{Binding ElementName=lbColor, Path=SelectedItem.Content, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" x:Name="txtSelectedColor" 
+                                     Background="{Binding ElementName=lbColor, Path=SelectedItem.Content, Mode=OneWay}"/>
+
+                    </StackPanel>
+
+                </Canvas>
+            </TabItem>
+
+            <TabItem Header="Binding Collections" Name="tabItem2">
+                <Canvas>
+                    <ListBox Canvas.Left="20" Canvas.Top="66" Height="69" Name="listBoxIncorrect" Width="332" />
+                    <TextBlock Canvas.Left="20" Canvas.Top="20" Text="This ListBox has it's ItemSource bound to the collection.  Since we have not told it how to display the data it calls the ToString method on each object." Height="40" Name="label1" Width="471" TextWrapping="Wrap" FontSize="14" />
+
+                    <TextBlock Canvas.Left="20" Canvas.Top="194" FontSize="14" Height="40" Name="textBlock1" Text="This ListBox has it's ItemSource bound to the collection.  This ListBox is using a DataTemplate which tells the ListBox how to display each item." TextWrapping="Wrap" Width="471" />
+                    <!--Notice the ItemTemplate property.  It is set to a DataTemplate called MyListBoxDataTemplate.  This tells
+                        the ListBox how each item should be displayed.-->
+                    <ListBox Canvas.Left="20" Canvas.Top="241" Height="213" ItemTemplate="{StaticResource MyListBoxDataTemplate}" Name="listBoxCorrect" Width="379" />
+
+                </Canvas>
+            </TabItem>
+
+            <TabItem Header="DataGrid" Name="tabItem3">
+                <Canvas>
+
+                    <TextBlock Canvas.Left="20" Canvas.Top="17" FontSize="14" Height="21" Name="textBlock2" Text="This DataGrid is bound to the collection and its AutoGenerateColumns is set to true." TextWrapping="Wrap" Width="531" />
+                    <!--This DataGrid is bound to the collection and has its AutoGenerateColumns set to True-->
+                    <DataGrid AutoGenerateColumns="True" Canvas.Left="20" Canvas.Top="44" Height="204" Name="dgDefaultDataGrid" Width="362" />
+
+                    <!--This DataGrid is bound to the collection and has its AutoGenerateColumns set to False.  Since it is false
+                        we have to create the columns by hand using DataGridTextColumn.  Notice each column is bound to the properties
+                        in the class.-->
+                    <DataGrid AutoGenerateColumns="False" Canvas.Left="20" Canvas.Top="337" Height="204" Name="dgCustomColumns" Width="298" >
+                        <DataGrid.Columns>
+                            <DataGridTextColumn Header="Name" Binding="{Binding Path=sName}"></DataGridTextColumn>
+                            <DataGridTextColumn Header="Job Title" Binding="{Binding Path=sJobTitle}"></DataGridTextColumn>
+                            <DataGridTextColumn Header="Job Level" Binding="{Binding Path=sJobLevel}"></DataGridTextColumn>
+                            <DataGridTextColumn Header="Years with company" Binding="{Binding Path=sNumberOfYearsWithCompany}"></DataGridTextColumn>
+                        </DataGrid.Columns>
+                    </DataGrid>
+                    <TextBlock Canvas.Left="20" Canvas.Top="287" FontSize="14" Height="44" Name="textBlock5" Text="This DataGrid is bound to the collection and its AutoGenerateColumns is set to false.  Custom DataGridTextColumn are added manualy" TextWrapping="Wrap" Width="453" />
+                    <Button Canvas.Left="469" Canvas.Top="94" Content="Button" Height="23" Name="button1" Width="75" Click="button1_Click" />
+                </Canvas>
+            </TabItem>
+
+            <TabItem Header="DataGrid Details View" Name="tabItem4">
+                <Canvas>
+
+                    <!--This DataGrid is bound to the collection lstPeople3.-->
+                    <DataGrid AutoGenerateColumns="False" Canvas.Left="49" Canvas.Top="67" Height="204" Name="dgRowDetailsTemplate" Width="481">
+                        <DataGrid.Columns>
+                            <DataGridTextColumn Binding="{Binding Path=sName}" Header="Name" Width="125" />
+                            <DataGridTextColumn Binding="{Binding Path=sJobTitle}" Header="Job Title" Width="125" />
+                            <DataGridTextColumn Binding="{Binding Path=sJobLevel}" Header="Job Level" />
+                            <DataGridTextColumn Binding="{Binding Path=sNumberOfYearsWithCompany}" Header="Years with company" />
+                        </DataGrid.Columns>
+                        
+                        <!--Here we are defining what the details of each row should look like.  We do this by using a DataTemplate.-->
+                        <DataGrid.RowDetailsTemplate>
+                            <DataTemplate>
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="30" />
+                                        <ColumnDefinition Width="Auto" />
+                                    </Grid.ColumnDefinitions>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="Auto" />
+                                    </Grid.RowDefinitions>
+                                    
+                                    <!--We are using a DataGrid to show the details but this could have been other controls like a ListBox.
+                                        Notice that this DataGrid is bound to the collection lstCompanies which it accesses via the property Companies-->
+                                    <DataGrid AutoGenerateColumns="False" Grid.Column="1" ItemsSource="{Binding Companies}">
+                                        <DataGrid.Columns>
+                                            <DataGridTextColumn Binding="{Binding Path=sCompanyName}" Header="Company Name" Width="100" />
+                                            <DataGridTextColumn Binding="{Binding Path=sContact}" Header="Contact" Width="100" />
+                                            <DataGridTextColumn Binding="{Binding Path=sPhone}" Header="Phone" Width="100" />
+                                        </DataGrid.Columns>
+                                    </DataGrid>
+                                </Grid>
+                            </DataTemplate>
+                        </DataGrid.RowDetailsTemplate>
+                    </DataGrid>
+                    <TextBlock Canvas.Left="49" Canvas.Top="28" FontSize="14" Height="21" Name="textBlock4" Text="This DataGrid shows the RowDetailsTemplate." TextWrapping="Wrap" Width="531" />
+                </Canvas>
+            </TabItem>
+
+            <TabItem Header="DataGrid with INotifyPropertyChanged" Name="tabItem5">
+                <Canvas>
+                    <!--This DataGrid is bound to a collection in which its classes implement the INotifyPropertyChanged
+                        interface.  This allows data to be changed in the DataGrid or in code.-->
+                    <DataGrid AutoGenerateColumns="False" Canvas.Left="23" Canvas.Top="27" Height="204" Name="dgINotify" Width="680" >
+                        <DataGrid.Columns>
+                            <DataGridTextColumn Width="125" Header="Name" Binding="{Binding Path=Name}"></DataGridTextColumn>
+                            <DataGridTextColumn Width="125" Header="Job Title" Binding="{Binding Path=JobTitle}"></DataGridTextColumn>
+                            <DataGridTextColumn Header="Job Level" Binding="{Binding Path=JobLevel}"></DataGridTextColumn>
+                            <DataGridTextColumn Header="Years with company" Binding="{Binding Path=NumberOfYearsWithCompany}"></DataGridTextColumn>
+                        </DataGrid.Columns>
+                    </DataGrid>
+                    <Button Canvas.Left="26" Canvas.Top="381" Content="Update DataGrid with new data." Height="64" Name="cmdUpdateData" Width="242" FontSize="16" Click="cmdUpdateData_Click" />
+                    <TextBlock Canvas.Left="26" Canvas.Top="298" FontSize="14" Height="63" Name="textBlock3" Text="This button will update data in the DataGrid.  But you could also change some data in the DataGrid, then set a breakpoint behind this button and prove that the class data is updated." TextWrapping="Wrap" Width="383" />
+                </Canvas>
+            </TabItem>
+
+        </TabControl>
+    </Canvas>
+</Window>

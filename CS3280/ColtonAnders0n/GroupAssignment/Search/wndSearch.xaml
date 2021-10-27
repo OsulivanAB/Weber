@@ -1,0 +1,162 @@
+﻿<Window x:Class="GroupAssignment.Search.wndSearch"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GroupAssignment.Search"
+        mc:Ignorable="d"
+        Icon="/GroupAssignment;component/rabbit_icon.ico"
+        Title="Search for Invoice" Height="450" Width="900" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
+    <Grid>
+        
+        <!-- Toolbar at the top -->
+        <ToolBarTray VerticalAlignment="Top" HorizontalAlignment="Stretch">
+            <ToolBar Name="FormAccessToolBar" Background="#FFCC00" Margin="7,0,0,0">
+                <TextBox x:Name="tbInvoiceID"
+                         Width="90"
+                         Text="Invoice ID"
+                         Foreground="Silver"
+                         Tag="Invoice ID"
+                         GotKeyboardFocus="control_GotKeyboardFocus"
+                         LostKeyboardFocus="control_LostKeyboardFocus"
+                         PreviewKeyDown="control_PreviewKeyDown" />
+                <Separator Background="#FF990000" Margin="7,0,7,0" />
+                <TextBox x:Name="tbFirstName"
+                         Text="First Name"
+                         Width="100"
+                         Foreground="Silver"
+                         Tag="First Name"
+                         GotKeyboardFocus="control_GotKeyboardFocus"
+                         LostKeyboardFocus="control_LostKeyboardFocus"
+                         PreviewKeyDown="control_PreviewKeyDown" />
+                <Separator Background="#FF990000" Margin="7,0,7,0" />
+                <TextBox x:Name="tbLastName"
+                         Text="Last Name"
+                         Width="100"
+                         Foreground="Silver"
+                         Tag="Last Name"
+                         GotKeyboardFocus="control_GotKeyboardFocus"
+                         LostKeyboardFocus="control_LostKeyboardFocus"
+                         PreviewKeyDown="control_PreviewKeyDown" />
+                <Separator Background="#FF990000" Margin="7,0,7,0" />
+                <DatePicker x:Name="dpDate"
+                            Width="130"
+                            Foreground="Silver"
+                            Tag="Select a date"
+                            GotKeyboardFocus="control_GotKeyboardFocus"
+                            LostKeyboardFocus="control_LostKeyboardFocus"
+                            SelectedDateChanged="control_SelectionChanged"
+                            PreviewKeyDown="control_PreviewKeyDown"
+                            DisplayDateStart="2021-03-01" />
+                <Separator Background="#FF990000" Margin="7,0,7,0" />
+                <ComboBox x:Name="cbPayment"
+                          Text="Payment"
+                          IsEditable="True"
+                          IsReadOnly="True"
+                          Width="100"
+                          Foreground="Silver"
+                          Tag="Payment"
+                          GotKeyboardFocus="control_GotKeyboardFocus"
+                          LostKeyboardFocus="control_LostKeyboardFocus"
+                          PreviewKeyDown="control_PreviewKeyDown"
+                          SelectionChanged="control_SelectionChanged">
+                    <ComboBoxItem Content="Cash" />
+                    <ComboBoxItem Content="Card" />
+                    <ComboBoxItem Content="Check" />
+                </ComboBox>
+                <Separator Background="#FF990000" Margin="7,0,7,0" />
+                <ComboBox x:Name="cbOnline"
+                          Text="Online?"
+                          IsEditable="True"                         
+                          Width="100"
+                          Foreground="Silver"
+                          Tag="Online?"
+                          GotKeyboardFocus="control_GotKeyboardFocus"
+                          LostKeyboardFocus="control_LostKeyboardFocus"
+                          SelectionChanged="control_SelectionChanged"
+                          PreviewKeyDown="control_PreviewKeyDown" >
+                    <ComboBoxItem Content="Online Only" />
+                    <ComboBoxItem Content="In-Store Only" />
+                </ComboBox>
+                <Separator Background="#FF990000" Margin="7,0,7,0" />
+                <ComboBox x:Name="cbStatus"
+                          Text="Status"
+                          IsEditable="True"
+                          IsReadOnly="True"
+                          Width="100"
+                          Foreground="Silver"
+                          Tag="Status"
+                          GotKeyboardFocus="control_GotKeyboardFocus"
+                          LostKeyboardFocus="control_LostKeyboardFocus"
+                          SelectionChanged="control_SelectionChanged"
+                          Margin="0,0,7,0"
+                          PreviewKeyDown="control_PreviewKeyDown" >
+                    <ComboBoxItem Content="Paid" />
+                    <ComboBoxItem Content="Unpaid" />
+                </ComboBox>
+
+            </ToolBar>
+        </ToolBarTray>
+        <!-- Data grid to hold the Invoice Data -->
+        <DataGrid x:Name="myDataGrid"
+                  HorizontalAlignment="Stretch"
+                  Margin="10,40,10,40"
+                  VerticalAlignment="Stretch"
+                  AutoGenerateColumns="False"
+                  IsReadOnly="True"
+                  SelectionMode="Single">
+            <DataGrid.Columns>
+                <DataGridTextColumn Binding="{Binding Path=invoice}" Header="Invoice ID" Width="2*" />
+                <DataGridTextColumn Binding="{Binding Path=firstName}" Header="First Name" Width="3*" />
+                <DataGridTextColumn Binding="{Binding Path=lastName}" Header="Last Name" Width="3*" />
+                <DataGridTextColumn Binding="{Binding Path=invoiceDate}" Header="Invoice Date" Width="3*" />
+                <DataGridCheckBoxColumn Binding="{Binding Path=IsOnline}" Header="Online" Width="*" />
+                <DataGridTextColumn Binding="{Binding Path=totalBalance, StringFormat=C}" Header="Balance" Width="2*" />
+                <DataGridTextColumn Binding="{Binding Path=PaymentMethod}" Header="Payment" Width="2*" />
+                <DataGridTextColumn Binding="{Binding Path=status}" Header="Status" Width="2*" />
+            </DataGrid.Columns>
+            
+            <!-- This is the section that will display when you click on a row -->
+            <DataGrid.RowDetailsTemplate>
+                <DataTemplate>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="10*"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/> 
+                        </Grid.RowDefinitions>
+                        <DataGrid
+                            AutoGenerateColumns="False"
+                            Grid.Column="1"
+                            IsReadOnly="True"
+                            ItemsSource="{Binding items}">
+                            <DataGrid.Columns>
+                                <DataGridTextColumn Binding="{Binding Path=SProductID}" Header="Product ID" />
+                                <DataGridTextColumn Binding="{Binding Path=SProductName}" Header="Product Name" />
+                                <DataGridTextColumn Binding="{Binding Path=DProductPrice, StringFormat=C}" Header="Balance" />
+                            </DataGrid.Columns>
+                        </DataGrid>
+                    </Grid>
+                </DataTemplate>
+            </DataGrid.RowDetailsTemplate>
+        </DataGrid>
+
+        <Button x:Name="btnSelectInvoice" Content="Select Invoice" HorizontalAlignment="Left" Height="23" Margin="559,388,0,0" VerticalAlignment="Top" Width="105" Click="btnSelectInvoice_Click" FontSize="10"/>
+        <Button x:Name="btn_Cancel" Content="Cancel" HorizontalAlignment="Left" Height="23" Margin="779,388,0,0" VerticalAlignment="Top" Width="105" Click="btnCancel" FontSize="10"/>
+        <Button x:Name="btnClear_Selection" Content="Clear_Selection" HorizontalAlignment="Left" Height="23" Margin="669,388,0,0" VerticalAlignment="Top" Width="105" Click="btnClearSelection_Click" FontSize="10"/>
+        <!--
+        <StackPanel HorizontalAlignment="Left" VerticalAlignment="Top" Orientation="Horizontal" Margin="9,0,0,0">
+            <Label x:Name="lblInvoiceID_Watermark" Content="Invoice ID" Foreground="Silver" Width="90" Margin="0,0,6,0" HorizontalContentAlignment="Left" />
+            <Label x:Name="lblFirstName_Watermark" Content="First Name" Foreground="Silver" Width="100" Margin="0,0,6,0" HorizontalContentAlignment="Left" />
+            <Label x:Name="lblLastName_Watermark" Content="Last Name" Foreground="Silver" Width="100" Margin="0,0,6,0" HorizontalContentAlignment="Left" />
+            <Label x:Name="lblDate_Watermark" Content="" Foreground="Silver" Width="130" Margin="0,0,6,0" HorizontalContentAlignment="Right" />
+            <Label x:Name="lblPayment_Watermark" Content="Payment" Foreground="Silver" Width="100" Margin="0,0,6,0" HorizontalContentAlignment="Left" />
+            <Label x:Name="lblOnline_Watermark" Content="Online?" Foreground="Silver" Width="100" Margin="0,0,6,0" HorizontalContentAlignment="Left" />
+            <Label x:Name="lblStatus_Watermark" Content="Status" Foreground="Silver" Width="100" Margin="0,0,6,0" HorizontalContentAlignment="Left" />
+        </StackPanel>
+        -->
+    </Grid>
+</Window>

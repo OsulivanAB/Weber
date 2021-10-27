@@ -1,0 +1,11 @@
+﻿<Window x:Class="WPF_Math_Game_Outline.wndMathMenu"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="wndMathMenu" Height="393" Width="486">
+    <Grid>
+        <Label Content="Math Main Menu" Height="45" HorizontalAlignment="Left" Margin="126,26,0,0" Name="label1" VerticalAlignment="Top" FontSize="20" Width="175" FontWeight="Bold" />
+        <Button Content="Play Game" Height="45" HorizontalAlignment="Left" Margin="12,134,0,0" Name="cmdPlayGame" VerticalAlignment="Top" Width="122" FontSize="18" Click="cmdPlayGame_Click" />
+        <Button Content="High Scores" FontSize="18" Height="45" HorizontalAlignment="Left" Margin="158,134,0,0" Name="cmdHighScores" VerticalAlignment="Top" Width="122" Click="cmdHighScores_Click" />
+        <Button Content="Enter User Data" FontSize="18" Height="45" HorizontalAlignment="Left" Margin="305,134,0,0" Name="cmdEnterUserData" VerticalAlignment="Top" Width="139" Click="cmdEnterUserData_Click" />
+    </Grid>
+</Window>

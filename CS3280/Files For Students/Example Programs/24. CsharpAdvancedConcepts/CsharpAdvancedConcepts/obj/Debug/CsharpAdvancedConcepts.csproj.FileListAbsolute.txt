@@ -1,0 +1,31 @@
+C:\Users\Shawn\Documents\Visual Studio 2008\Projects\CsharpAdvancedConcepts\CsharpAdvancedConcepts\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Shawn\Documents\Visual Studio 2008\Projects\CsharpAdvancedConcepts\CsharpAdvancedConcepts\obj\Debug\CsharpAdvancedConcepts.Properties.Resources.resources
+C:\Users\Shawn\Documents\Visual Studio 2008\Projects\CsharpAdvancedConcepts\CsharpAdvancedConcepts\obj\Debug\CsharpAdvancedConcepts.csproj.GenerateResource.Cache
+C:\Users\Shawn\Documents\Visual Studio 2008\Projects\CsharpAdvancedConcepts\CsharpAdvancedConcepts\bin\Debug\CsharpAdvancedConcepts.exe
+C:\Users\Shawn\Documents\Visual Studio 2008\Projects\CsharpAdvancedConcepts\CsharpAdvancedConcepts\bin\Debug\CsharpAdvancedConcepts.pdb
+C:\Users\Shawn\Documents\Visual Studio 2008\Projects\CsharpAdvancedConcepts\CsharpAdvancedConcepts\obj\Debug\CsharpAdvancedConcepts.exe
+C:\Users\Shawn\Documents\Visual Studio 2008\Projects\CsharpAdvancedConcepts\CsharpAdvancedConcepts\obj\Debug\CsharpAdvancedConcepts.pdb
+C:\Users\Shawn\Documents\Visual Studio 2008\Projects\CsharpAdvancedConcepts\CsharpAdvancedConcepts\obj\Debug\CsharpAdvancedConcepts.Form1.resources
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\Summer Class 2009\My Program Examples\CsharpAdvancedConcepts\CsharpAdvancedConcepts\obj\Debug\CsharpAdvancedConcepts.exe
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\Summer Class 2009\My Program Examples\CsharpAdvancedConcepts\CsharpAdvancedConcepts\obj\Debug\CsharpAdvancedConcepts.pdb
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\Summer Class 2010\My Program Examples\CsharpAdvancedConcepts\CsharpAdvancedConcepts\obj\Debug\CsharpAdvancedConcepts.exe
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\Summer Class 2010\My Program Examples\CsharpAdvancedConcepts\CsharpAdvancedConcepts\obj\Debug\CsharpAdvancedConcepts.pdb
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\Summer Class 2010\My Program Examples\CsharpAdvancedConcepts\CsharpAdvancedConcepts\bin\Debug\CsharpAdvancedConcepts.exe
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\Summer Class 2010\My Program Examples\CsharpAdvancedConcepts\CsharpAdvancedConcepts\bin\Debug\CsharpAdvancedConcepts.pdb
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\Summer Class 2010\My Program Examples\CsharpAdvancedConcepts\CsharpAdvancedConcepts\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\Summer Class 2010\My Program Examples\CsharpAdvancedConcepts\CsharpAdvancedConcepts\obj\Debug\CsharpAdvancedConcepts.Form1.resources
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\Summer Class 2010\My Program Examples\CsharpAdvancedConcepts\CsharpAdvancedConcepts\obj\Debug\CsharpAdvancedConcepts.Properties.Resources.resources
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\Summer Class 2010\My Program Examples\CsharpAdvancedConcepts\CsharpAdvancedConcepts\obj\Debug\CsharpAdvancedConcepts.csproj.GenerateResource.Cache
+C:\Users\ro086b.SW\Desktop\C# Class\2011\My Program Examples\CsharpAdvancedConcepts\CsharpAdvancedConcepts\obj\Debug\CsharpAdvancedConcepts.exe
+C:\Users\ro086b.SW\Desktop\C# Class\2011\My Program Examples\CsharpAdvancedConcepts\CsharpAdvancedConcepts\obj\Debug\CsharpAdvancedConcepts.pdb
+C:\Users\ro086b.SW\Desktop\C# Class\2011\My Program Examples\CsharpAdvancedConcepts\CsharpAdvancedConcepts\bin\Debug\CsharpAdvancedConcepts.exe
+C:\Users\ro086b.SW\Desktop\C# Class\2011\My Program Examples\CsharpAdvancedConcepts\CsharpAdvancedConcepts\bin\Debug\CsharpAdvancedConcepts.pdb
+C:\Users\ro086b.SW\Desktop\C# Class\2011\My Program Examples\CsharpAdvancedConcepts\CsharpAdvancedConcepts\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\ro086b.SW\Desktop\C# Class\2011\My Program Examples\CsharpAdvancedConcepts\CsharpAdvancedConcepts\obj\Debug\CsharpAdvancedConcepts.Form1.resources
+C:\Users\ro086b.SW\Desktop\C# Class\2011\My Program Examples\CsharpAdvancedConcepts\CsharpAdvancedConcepts\obj\Debug\CsharpAdvancedConcepts.Properties.Resources.resources
+C:\Users\ro086b.SW\Desktop\C# Class\2011\My Program Examples\CsharpAdvancedConcepts\CsharpAdvancedConcepts\obj\Debug\ResGen.read.1.tlog
+C:\Users\ro086b.SW\Desktop\C# Class\2011\My Program Examples\CsharpAdvancedConcepts\CsharpAdvancedConcepts\obj\Debug\ResGen.write.1.tlog
+C:\Users\ro086b.SW\Desktop\C# Class\2012\My Program Examples\CsharpAdvancedConcepts\CsharpAdvancedConcepts\obj\Debug\CsharpAdvancedConcepts.exe
+C:\Users\ro086b.SW\Desktop\C# Class\2012\My Program Examples\CsharpAdvancedConcepts\CsharpAdvancedConcepts\obj\Debug\CsharpAdvancedConcepts.pdb
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\Summer Class 2013\My Program Examples\CsharpAdvancedConcepts\CsharpAdvancedConcepts\obj\Debug\CsharpAdvancedConcepts.exe
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\Summer Class 2013\My Program Examples\CsharpAdvancedConcepts\CsharpAdvancedConcepts\obj\Debug\CsharpAdvancedConcepts.pdb

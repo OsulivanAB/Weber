@@ -1,0 +1,12 @@
+C:\Users\Shawn\Desktop\C# WSU\_Spring Class 2017\Code Examples\Book code examples\ch24\Fig24_16-17\RoutedEvents\RoutedEvents\bin\Debug\RoutedEvents.exe
+C:\Users\Shawn\Desktop\C# WSU\_Spring Class 2017\Code Examples\Book code examples\ch24\Fig24_16-17\RoutedEvents\RoutedEvents\bin\Debug\RoutedEvents.pdb
+C:\Users\Shawn\Desktop\C# WSU\_Spring Class 2017\Code Examples\Book code examples\ch24\Fig24_16-17\RoutedEvents\RoutedEvents\obj\x86\Debug\RoutedEvents.csprojResolveAssemblyReference.cache
+C:\Users\Shawn\Desktop\C# WSU\_Spring Class 2017\Code Examples\Book code examples\ch24\Fig24_16-17\RoutedEvents\RoutedEvents\obj\x86\Debug\MainWindow.baml
+C:\Users\Shawn\Desktop\C# WSU\_Spring Class 2017\Code Examples\Book code examples\ch24\Fig24_16-17\RoutedEvents\RoutedEvents\obj\x86\Debug\MainWindow.g.cs
+C:\Users\Shawn\Desktop\C# WSU\_Spring Class 2017\Code Examples\Book code examples\ch24\Fig24_16-17\RoutedEvents\RoutedEvents\obj\x86\Debug\App.g.cs
+C:\Users\Shawn\Desktop\C# WSU\_Spring Class 2017\Code Examples\Book code examples\ch24\Fig24_16-17\RoutedEvents\RoutedEvents\obj\x86\Debug\RoutedEvents_MarkupCompile.cache
+C:\Users\Shawn\Desktop\C# WSU\_Spring Class 2017\Code Examples\Book code examples\ch24\Fig24_16-17\RoutedEvents\RoutedEvents\obj\x86\Debug\RoutedEvents.g.resources
+C:\Users\Shawn\Desktop\C# WSU\_Spring Class 2017\Code Examples\Book code examples\ch24\Fig24_16-17\RoutedEvents\RoutedEvents\obj\x86\Debug\RoutedEvents.Properties.Resources.resources
+C:\Users\Shawn\Desktop\C# WSU\_Spring Class 2017\Code Examples\Book code examples\ch24\Fig24_16-17\RoutedEvents\RoutedEvents\obj\x86\Debug\RoutedEvents.csproj.GenerateResource.Cache
+C:\Users\Shawn\Desktop\C# WSU\_Spring Class 2017\Code Examples\Book code examples\ch24\Fig24_16-17\RoutedEvents\RoutedEvents\obj\x86\Debug\RoutedEvents.exe
+C:\Users\Shawn\Desktop\C# WSU\_Spring Class 2017\Code Examples\Book code examples\ch24\Fig24_16-17\RoutedEvents\RoutedEvents\obj\x86\Debug\RoutedEvents.pdb

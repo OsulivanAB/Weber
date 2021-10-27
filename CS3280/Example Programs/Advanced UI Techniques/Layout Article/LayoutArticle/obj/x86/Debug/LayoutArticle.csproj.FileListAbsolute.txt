@@ -1,0 +1,56 @@
+C:\My VS.Net Projects\Test\LayoutArticle\LayoutArticle\bin\Debug\LayoutArticle.exe
+C:\My VS.Net Projects\Test\LayoutArticle\LayoutArticle\bin\Debug\LayoutArticle.pdb
+C:\My VS.Net Projects\Test\LayoutArticle\LayoutArticle\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\My VS.Net Projects\Test\LayoutArticle\LayoutArticle\obj\x86\Debug\MainWindow.baml
+C:\My VS.Net Projects\Test\LayoutArticle\LayoutArticle\obj\x86\Debug\NaiveLayout.baml
+C:\My VS.Net Projects\Test\LayoutArticle\LayoutArticle\obj\x86\Debug\MainWindow.g.cs
+C:\My VS.Net Projects\Test\LayoutArticle\LayoutArticle\obj\x86\Debug\NaiveLayout.g.cs
+C:\My VS.Net Projects\Test\LayoutArticle\LayoutArticle\obj\x86\Debug\App.g.cs
+C:\My VS.Net Projects\Test\LayoutArticle\LayoutArticle\obj\x86\Debug\LayoutArticle_MarkupCompile.cache
+C:\My VS.Net Projects\Test\LayoutArticle\LayoutArticle\obj\x86\Debug\LayoutArticle.g.resources
+C:\My VS.Net Projects\Test\LayoutArticle\LayoutArticle\obj\x86\Debug\LayoutArticle.Properties.Resources.resources
+C:\My VS.Net Projects\Test\LayoutArticle\LayoutArticle\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\My VS.Net Projects\Test\LayoutArticle\LayoutArticle\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\My VS.Net Projects\Test\LayoutArticle\LayoutArticle\obj\x86\Debug\LayoutArticle.exe
+C:\My VS.Net Projects\Test\LayoutArticle\LayoutArticle\obj\x86\Debug\LayoutArticle.pdb
+C:\My VS.Net Projects\Test\LayoutArticle\LayoutArticle\obj\x86\Debug\SlightlyBetter.baml
+C:\My VS.Net Projects\Test\LayoutArticle\LayoutArticle\obj\x86\Debug\SlightlyBetter.g.cs
+C:\My VS.Net Projects\Test\LayoutArticle\LayoutArticle\obj\x86\Debug\StackedApproach.baml
+C:\My VS.Net Projects\Test\LayoutArticle\LayoutArticle\obj\x86\Debug\StackedApproach.g.cs
+C:\My VS.Net Projects\Test\LayoutArticle\LayoutArticle\obj\x86\Debug\CustomerView.g.cs
+C:\My VS.Net Projects\Test\LayoutArticle\LayoutArticle\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+C:\My VS.Net Projects\Test\LayoutArticle\LayoutArticle\obj\x86\Debug\LayoutArticle_MarkupCompile.lref
+C:\My VS.Net Projects\Test\LayoutArticle\LayoutArticle\obj\x86\Debug\CustomerView.baml
+C:\My VS.Net Projects\Test\LayoutArticle\LayoutArticle\obj\x86\Debug\App.baml
+C:\My VS.Net Projects\Test\LayoutArticle\LayoutArticle\obj\x86\Debug\Styles\StandardDataEditLayout.baml
+C:\My VS.Net Projects\Test\LayoutArticle\LayoutArticle\obj\x86\Debug\Styles\BlackDataEditLayout.baml
+C:\My VS.Net Projects\Test\LayoutArticle\LayoutArticle\obj\x86\Debug\Styles\RibbonBlack.baml
+C:\My VS.Net Projects\Test\LayoutArticle\LayoutArticle\obj\x86\Debug\Styles\Visuals.baml
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\_Spring Class 2014\My Program Examples\Advanced UI Techniques\Layout Article\LayoutArticle\obj\x86\Debug\LayoutArticle.exe
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\_Spring Class 2014\My Program Examples\Advanced UI Techniques\Layout Article\LayoutArticle\obj\x86\Debug\LayoutArticle.pdb
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\_Spring Class 2014\My Program Examples\Advanced UI Techniques\Layout Article\LayoutArticle\bin\Debug\LayoutArticle.exe
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\_Spring Class 2014\My Program Examples\Advanced UI Techniques\Layout Article\LayoutArticle\bin\Debug\LayoutArticle.pdb
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\_Spring Class 2014\My Program Examples\Advanced UI Techniques\Layout Article\LayoutArticle\obj\x86\Debug\MainWindow.baml
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\_Spring Class 2014\My Program Examples\Advanced UI Techniques\Layout Article\LayoutArticle\obj\x86\Debug\NaiveLayout.baml
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\_Spring Class 2014\My Program Examples\Advanced UI Techniques\Layout Article\LayoutArticle\obj\x86\Debug\SlightlyBetter.baml
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\_Spring Class 2014\My Program Examples\Advanced UI Techniques\Layout Article\LayoutArticle\obj\x86\Debug\StackedApproach.baml
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\_Spring Class 2014\My Program Examples\Advanced UI Techniques\Layout Article\LayoutArticle\obj\x86\Debug\Styles\Visuals.baml
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\_Spring Class 2014\My Program Examples\Advanced UI Techniques\Layout Article\LayoutArticle\obj\x86\Debug\App.baml
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\_Spring Class 2014\My Program Examples\Advanced UI Techniques\Layout Article\LayoutArticle\obj\x86\Debug\CustomerView.g.cs
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\_Spring Class 2014\My Program Examples\Advanced UI Techniques\Layout Article\LayoutArticle\obj\x86\Debug\MainWindow.g.cs
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\_Spring Class 2014\My Program Examples\Advanced UI Techniques\Layout Article\LayoutArticle\obj\x86\Debug\NaiveLayout.g.cs
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\_Spring Class 2014\My Program Examples\Advanced UI Techniques\Layout Article\LayoutArticle\obj\x86\Debug\SlightlyBetter.g.cs
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\_Spring Class 2014\My Program Examples\Advanced UI Techniques\Layout Article\LayoutArticle\obj\x86\Debug\StackedApproach.g.cs
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\_Spring Class 2014\My Program Examples\Advanced UI Techniques\Layout Article\LayoutArticle\obj\x86\Debug\App.g.cs
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\_Spring Class 2014\My Program Examples\Advanced UI Techniques\Layout Article\LayoutArticle\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\_Spring Class 2014\My Program Examples\Advanced UI Techniques\Layout Article\LayoutArticle\obj\x86\Debug\LayoutArticle_MarkupCompile.cache
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\_Spring Class 2014\My Program Examples\Advanced UI Techniques\Layout Article\LayoutArticle\obj\x86\Debug\LayoutArticle_MarkupCompile.lref
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\_Spring Class 2014\My Program Examples\Advanced UI Techniques\Layout Article\LayoutArticle\obj\x86\Debug\CustomerView.baml
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\_Spring Class 2014\My Program Examples\Advanced UI Techniques\Layout Article\LayoutArticle\obj\x86\Debug\Styles\BlackDataEditLayout.baml
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\_Spring Class 2014\My Program Examples\Advanced UI Techniques\Layout Article\LayoutArticle\obj\x86\Debug\Styles\RibbonBlack.baml
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\_Spring Class 2014\My Program Examples\Advanced UI Techniques\Layout Article\LayoutArticle\obj\x86\Debug\Styles\StandardDataEditLayout.baml
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\_Spring Class 2014\My Program Examples\Advanced UI Techniques\Layout Article\LayoutArticle\obj\x86\Debug\LayoutArticle.g.resources
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\_Spring Class 2014\My Program Examples\Advanced UI Techniques\Layout Article\LayoutArticle\obj\x86\Debug\LayoutArticle.Properties.Resources.resources
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\_Spring Class 2014\My Program Examples\Advanced UI Techniques\Layout Article\LayoutArticle\obj\x86\Debug\LayoutArticle.csproj.GenerateResource.Cache
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\_Summer Class 2014\My Program Examples\Advanced UI Techniques\Layout Article\LayoutArticle\obj\x86\Debug\LayoutArticle.exe
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\_Summer Class 2014\My Program Examples\Advanced UI Techniques\Layout Article\LayoutArticle\obj\x86\Debug\LayoutArticle.pdb

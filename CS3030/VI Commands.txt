@@ -1,0 +1,33 @@
+chmod 700 [script name]			Compile script
+
+
+
+Change Highlight Color			hi comment ctermfg=blue
+
+
+Files
+mkdr [Directory name]			Creates a directory
+rm -rf [Directory name]			Force Deletes a directory, even if it has contents in it
+
+vi
+:q!	Quit without saving
+:wq	Quit and save
+
+
+
+Text Editing:
+
+o	Insert Line below
+O	Insert Line above
+v	Highlight mode
+y	copy
+p	paste
+dw	delete word
+d$	delete to end of line
+
+
+System variables:
+$USER	user name
+
+PATH=/var/classes/cs3030/bin/:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin ./cucumber
+LS-AL

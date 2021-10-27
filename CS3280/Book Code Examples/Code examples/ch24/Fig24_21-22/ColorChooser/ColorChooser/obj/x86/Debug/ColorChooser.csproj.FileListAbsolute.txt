@@ -1,0 +1,12 @@
+C:\Users\Shawn\Desktop\C# WSU\_Spring Class 2017\Code Examples\Book code examples\ch24\Fig24_21-22\ColorChooser\ColorChooser\bin\Debug\ColorChooser.exe
+C:\Users\Shawn\Desktop\C# WSU\_Spring Class 2017\Code Examples\Book code examples\ch24\Fig24_21-22\ColorChooser\ColorChooser\bin\Debug\ColorChooser.pdb
+C:\Users\Shawn\Desktop\C# WSU\_Spring Class 2017\Code Examples\Book code examples\ch24\Fig24_21-22\ColorChooser\ColorChooser\obj\x86\Debug\ColorChooser.csprojResolveAssemblyReference.cache
+C:\Users\Shawn\Desktop\C# WSU\_Spring Class 2017\Code Examples\Book code examples\ch24\Fig24_21-22\ColorChooser\ColorChooser\obj\x86\Debug\MainWindow.baml
+C:\Users\Shawn\Desktop\C# WSU\_Spring Class 2017\Code Examples\Book code examples\ch24\Fig24_21-22\ColorChooser\ColorChooser\obj\x86\Debug\MainWindow.g.cs
+C:\Users\Shawn\Desktop\C# WSU\_Spring Class 2017\Code Examples\Book code examples\ch24\Fig24_21-22\ColorChooser\ColorChooser\obj\x86\Debug\App.g.cs
+C:\Users\Shawn\Desktop\C# WSU\_Spring Class 2017\Code Examples\Book code examples\ch24\Fig24_21-22\ColorChooser\ColorChooser\obj\x86\Debug\ColorChooser_MarkupCompile.cache
+C:\Users\Shawn\Desktop\C# WSU\_Spring Class 2017\Code Examples\Book code examples\ch24\Fig24_21-22\ColorChooser\ColorChooser\obj\x86\Debug\ColorChooser.g.resources
+C:\Users\Shawn\Desktop\C# WSU\_Spring Class 2017\Code Examples\Book code examples\ch24\Fig24_21-22\ColorChooser\ColorChooser\obj\x86\Debug\ColorChooser.Properties.Resources.resources
+C:\Users\Shawn\Desktop\C# WSU\_Spring Class 2017\Code Examples\Book code examples\ch24\Fig24_21-22\ColorChooser\ColorChooser\obj\x86\Debug\ColorChooser.csproj.GenerateResource.Cache
+C:\Users\Shawn\Desktop\C# WSU\_Spring Class 2017\Code Examples\Book code examples\ch24\Fig24_21-22\ColorChooser\ColorChooser\obj\x86\Debug\ColorChooser.exe
+C:\Users\Shawn\Desktop\C# WSU\_Spring Class 2017\Code Examples\Book code examples\ch24\Fig24_21-22\ColorChooser\ColorChooser\obj\x86\Debug\ColorChooser.pdb

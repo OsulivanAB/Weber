@@ -1,0 +1,15 @@
+D:\School\Spring 2021\CS3280\Assignment 4\Assignment 4\bin\Debug\Assignment 4.exe.config
+D:\School\Spring 2021\CS3280\Assignment 4\Assignment 4\bin\Debug\Assignment 4.exe
+D:\School\Spring 2021\CS3280\Assignment 4\Assignment 4\bin\Debug\Assignment 4.pdb
+D:\School\Spring 2021\CS3280\Assignment 4\Assignment 4\obj\Debug\Assignment 4.csprojAssemblyReference.cache
+D:\School\Spring 2021\CS3280\Assignment 4\Assignment 4\obj\Debug\MainWindow.g.cs
+D:\School\Spring 2021\CS3280\Assignment 4\Assignment 4\obj\Debug\App.g.cs
+D:\School\Spring 2021\CS3280\Assignment 4\Assignment 4\obj\Debug\Assignment 4_MarkupCompile.cache
+D:\School\Spring 2021\CS3280\Assignment 4\Assignment 4\obj\Debug\Assignment 4_MarkupCompile.lref
+D:\School\Spring 2021\CS3280\Assignment 4\Assignment 4\obj\Debug\MainWindow.baml
+D:\School\Spring 2021\CS3280\Assignment 4\Assignment 4\obj\Debug\Assignment 4.g.resources
+D:\School\Spring 2021\CS3280\Assignment 4\Assignment 4\obj\Debug\Assignment_4.Properties.Resources.resources
+D:\School\Spring 2021\CS3280\Assignment 4\Assignment 4\obj\Debug\Assignment 4.csproj.GenerateResource.cache
+D:\School\Spring 2021\CS3280\Assignment 4\Assignment 4\obj\Debug\Assignment 4.csproj.CoreCompileInputs.cache
+D:\School\Spring 2021\CS3280\Assignment 4\Assignment 4\obj\Debug\Assignment 4.exe
+D:\School\Spring 2021\CS3280\Assignment 4\Assignment 4\obj\Debug\Assignment 4.pdb

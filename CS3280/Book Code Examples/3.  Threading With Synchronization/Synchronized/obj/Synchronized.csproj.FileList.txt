@@ -1,0 +1,8 @@
+bin\Release\Synchronized.exe
+bin\Release\Synchronized.pdb
+obj\Release\Synchronized.exe
+obj\Release\Synchronized.pdb
+bin\Debug\Synchronized.exe
+bin\Debug\Synchronized.pdb
+obj\Debug\Synchronized.exe
+obj\Debug\Synchronized.pdb

@@ -1,0 +1,12 @@
+C:\Users\Shawn\Desktop\C# WSU\_Spring Class 2017\Code Examples\Book code examples\ch24\Fig24_07\XAMLIntroduction\XAMLIntroduction\bin\Debug\XAMLIntroduction.exe
+C:\Users\Shawn\Desktop\C# WSU\_Spring Class 2017\Code Examples\Book code examples\ch24\Fig24_07\XAMLIntroduction\XAMLIntroduction\bin\Debug\XAMLIntroduction.pdb
+C:\Users\Shawn\Desktop\C# WSU\_Spring Class 2017\Code Examples\Book code examples\ch24\Fig24_07\XAMLIntroduction\XAMLIntroduction\obj\x86\Debug\XAMLIntroduction.csprojResolveAssemblyReference.cache
+C:\Users\Shawn\Desktop\C# WSU\_Spring Class 2017\Code Examples\Book code examples\ch24\Fig24_07\XAMLIntroduction\XAMLIntroduction\obj\x86\Debug\MainWindow.baml
+C:\Users\Shawn\Desktop\C# WSU\_Spring Class 2017\Code Examples\Book code examples\ch24\Fig24_07\XAMLIntroduction\XAMLIntroduction\obj\x86\Debug\MainWindow.g.cs
+C:\Users\Shawn\Desktop\C# WSU\_Spring Class 2017\Code Examples\Book code examples\ch24\Fig24_07\XAMLIntroduction\XAMLIntroduction\obj\x86\Debug\App.g.cs
+C:\Users\Shawn\Desktop\C# WSU\_Spring Class 2017\Code Examples\Book code examples\ch24\Fig24_07\XAMLIntroduction\XAMLIntroduction\obj\x86\Debug\XAMLIntroduction_MarkupCompile.cache
+C:\Users\Shawn\Desktop\C# WSU\_Spring Class 2017\Code Examples\Book code examples\ch24\Fig24_07\XAMLIntroduction\XAMLIntroduction\obj\x86\Debug\XAMLIntroduction.g.resources
+C:\Users\Shawn\Desktop\C# WSU\_Spring Class 2017\Code Examples\Book code examples\ch24\Fig24_07\XAMLIntroduction\XAMLIntroduction\obj\x86\Debug\XAMLIntroduction.Properties.Resources.resources
+C:\Users\Shawn\Desktop\C# WSU\_Spring Class 2017\Code Examples\Book code examples\ch24\Fig24_07\XAMLIntroduction\XAMLIntroduction\obj\x86\Debug\XAMLIntroduction.csproj.GenerateResource.Cache
+C:\Users\Shawn\Desktop\C# WSU\_Spring Class 2017\Code Examples\Book code examples\ch24\Fig24_07\XAMLIntroduction\XAMLIntroduction\obj\x86\Debug\XAMLIntroduction.exe
+C:\Users\Shawn\Desktop\C# WSU\_Spring Class 2017\Code Examples\Book code examples\ch24\Fig24_07\XAMLIntroduction\XAMLIntroduction\obj\x86\Debug\XAMLIntroduction.pdb

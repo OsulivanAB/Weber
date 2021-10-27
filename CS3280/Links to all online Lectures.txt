@@ -1,0 +1,55 @@
+Introduction
+----------------------------------------
+Class introduction - https://youtu.be/AA4CJuZ5Bhk
+Midterm Review - https://youtu.be/dI72fGn6vPA
+Final Review - https://youtu.be/uVvCazqmPnw
+
+
+Lectures
+----------------------------------------
+Chapter 1 - https://youtu.be/bv8v6bNNX0A
+Chapter 2 - https://youtu.be/Omro90bLWm0
+Chapter 3 - https://youtu.be/yv9Cxjx7Qks
+Chapter 4 - https://youtu.be/cXO9ihoCnnk
+Chapter 5 - https://youtu.be/2MkSseBGwd8
+Chapter 6 - https://youtu.be/zA1SrpQ_4Oo
+Chapter 7 - https://youtu.be/PYSe4gL6T84
+Chapter 24 - https://youtu.be/dNQnPA93wxg
+Chapter 8 - Arrays - https://youtu.be/M5_jbOMK8o0
+Chapter 16 - Strings - https://youtu.be/nyvOm_pUkVU
+Chapter 22 - Generics - https://youtu.be/JBe60ERyEQo
+Chapter 23 – Collections - https://youtu.be/KVNz6fKk-9w
+Chapter 10 – Classes and Objects - https://youtu.be/hsBcxwJopyk
+Online Class Introduction - https://youtu.be/QgD86m9OkCo
+Design Tic-Tac-Toe - https://youtu.be/aNvp0qNSPik
+Chapter 11 – Inheritance - https://youtu.be/f3WgaEFOvQs
+Chapter 12 – Polymorphism - https://youtu.be/UEwGpqoxRLk
+Chapter 13 - Exception Handling - https://youtu.be/9Hr0iM5Z8Lk
+Classes/Objects/Passing Data around - https://youtu.be/HZtV_KoSSfc
+Chapter 14 - GUI concepts Part 1 - https://youtu.be/Od0szt4VLvY
+Chapter 15 - GUI concepts Part 2 - https://youtu.be/0NNA7Pau3xU
+Database - https://youtu.be/Nn5m3b6ecXU
+Multithreading - https://youtu.be/vAC6waWc5Ic
+Chapter 17 - Files and Streams - https://youtu.be/VxYOOjSVnAw
+LINQ - https://youtu.be/brvr6mzCwBo
+Advanced WPF Concepts - https://youtu.be/v6EV_BIs2cU
+Microsoft Expression Blend - https://youtu.be/Chrk6dyf7NM
+UI Techniques - https://youtu.be/sb68Tu9Jflc
+UWP, ASP.NET, Silverlight, WCF, LabVIEW - https://youtu.be/GCpdVOFmVgs
+
+
+Suplemental Videos 
+------------------
+Exception Handling – https://youtu.be/LuSB-BXlLLg
+Basic WPF – https://youtu.be/gquKHIoJBbE
+List/DataGrid/Binding/Passing Data Around - https://youtu.be/2QQhRDhV9k8
+Database – https://youtu.be/6Kp-bOd1TW4
+.Net Framework and .NET Core - https://youtu.be/2izcNpdp_zk
+
+
+.NET Framework and .NET Core websites
+----------------------------------------
+https://en.wikipedia.org/wiki/.NET_Framework_version_history#.NET_Framework_4.8
+https://upload.wikimedia.org/wikipedia/commons/d/d3/DotNet.svg
+https://dotnet.microsoft.com/learn/dotnet/what-is-dotnet-framework
+https://devblogs.microsoft.com/dotnet/introducing-net-5/

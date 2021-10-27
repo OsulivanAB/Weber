@@ -1,0 +1,20 @@
+﻿<UserControl x:Class="LayoutArticle.StackedApproach"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             >
+    <StackPanel Width="200" Margin="10">
+        <TextBlock>First Name:</TextBlock>
+        <TextBox Text="{Binding FirstName}" />
+        <TextBlock>Last Name:</TextBlock>
+        <TextBox Text="{Binding LastName}" />
+        <TextBlock>Company:</TextBlock>
+        <TextBox Text="{Binding Company}" />
+        <TextBlock>Position:</TextBlock>
+        <TextBox Text="{Binding Position}" />
+
+        <TextBlock Margin="0,25,0,0">Phone:</TextBlock>
+        <TextBox Text="{Binding Phone}" />
+        <TextBlock>Email:</TextBlock>
+        <TextBox Text="{Binding Email}" />
+    </StackPanel>
+</UserControl>

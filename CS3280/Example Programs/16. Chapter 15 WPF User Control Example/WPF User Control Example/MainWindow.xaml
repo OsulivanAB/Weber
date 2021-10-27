@@ -1,0 +1,11 @@
+﻿<Window x:Class="WPF_User_Control_Example.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:MyControl="clr-namespace:WPF_User_Control_Example"
+        Title="MainWindow" Height="400" Width="400">
+    <!--I referenced the current projects namespace and called it "MyControl" so that I can use the user control below.-->
+    <Grid>
+        <MyControl:UserControl1  />
+        <!--Note the above line.  It uses the namespace alias "MyControl" to get access to the UserControl1.-->
+    </Grid>
+</Window>

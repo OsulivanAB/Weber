@@ -1,0 +1,178 @@
+﻿<Window x:Class="GroupAssignment.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GroupAssignment"
+        mc:Ignorable="d"
+        Icon="/GroupAssignment;component/rabbit_icon.ico"
+        Title="Magic Store Inventory System" Height="600" Width="1150" Background="#FFCDCDCD" WindowStartupLocation="CenterScreen">
+    <Grid>
+
+        <!--Define the number of columns for the main grid-->
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="70*"/>
+            <ColumnDefinition Width="30*"/>
+        </Grid.ColumnDefinitions>
+
+
+        <!--Navigation ToolBar-->
+        <ToolBarTray VerticalAlignment="Top" Grid.ColumnSpan="4">
+            <ToolBar Name="FormAccessToolBar" Background="#FFCC00">
+                <Button Content="Search" Name="btnSearch" Click="openSearchForm" FontSize="14"/>
+                <Separator Background="#FF990000"/>
+                <Button Content="Add Items" Name="btnAddItem" Click="openDefTable" FontSize="14"/>
+                <Separator Background="#FF990000"/>
+            </ToolBar>
+        </ToolBarTray>
+
+
+        <!--Title for the DataGrid-->
+        <Label x:Name="label" Content="Invoice:" HorizontalAlignment="Left" Margin="28,56,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.2,-0.361" FontSize="16" Grid.Column="0" FontWeight="Bold" Grid.ColumnSpan="2"/>
+
+        <!--Show invoice data to the user-->
+        <DataGrid x:Name="invoiceGrid"
+                  HorizontalAlignment="Stretch"
+                  Height="350"
+                  VerticalAlignment="Stretch"
+                  Width="745"
+                  IsReadOnly="True"
+                  SelectionMode="Single"
+                  Grid.Column="0">
+
+            <!-- This is the section that will display when you click on a row -->
+            <DataGrid.RowDetailsTemplate>
+                <DataTemplate>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="10*"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                        </Grid.RowDefinitions>
+                        <DataGrid
+                            AutoGenerateColumns="False"
+                            Grid.Column="1"
+                            IsReadOnly="True"
+                            ItemsSource="{Binding items}">
+                            <DataGrid.Columns>
+                                <DataGridTextColumn Binding="{Binding Path=SProductID}" Header="Product ID" />
+                                <DataGridTextColumn Binding="{Binding Path=SProductName}" Header="Product Name" />
+                                <DataGridTextColumn Binding="{Binding Path=DProductPrice, StringFormat=C}" Header="Balance" />
+                            </DataGrid.Columns>
+                        </DataGrid>
+                    </Grid>
+                </DataTemplate>
+            </DataGrid.RowDetailsTemplate>
+
+        </DataGrid>
+
+
+        <!--User input controls-->
+        <Grid Grid.Column="2" Margin="0,35,0,0" Grid.ColumnSpan="2">
+
+            <!--Define the number of rows and columns for the main grid-->
+            <Grid.RowDefinitions>
+                <RowDefinition Height="15*"/>
+                <RowDefinition Height="10*"/>
+                <RowDefinition Height="45*"/>
+                <RowDefinition Height="10*"/>
+                <RowDefinition Height="10*"/>
+                <RowDefinition Height="10*"/>
+                <RowDefinition Height="10*"/>
+                <RowDefinition Height="10*"/>
+                <RowDefinition Height="10*"/>
+                <RowDefinition Height="10*"/>
+                <RowDefinition Height="15*"/>
+                <RowDefinition Height="15*"/>
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="50*"/>
+                <ColumnDefinition Width="50*"/>
+            </Grid.ColumnDefinitions>
+
+
+            <!--Editing title-->
+            <Label x:Name="lblInputMode" Content="Edit Mode" HorizontalAlignment="Center" Margin="0,0,10,0" VerticalAlignment="Top" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="2" FontSize="16" FontWeight="Bold"/>
+
+            <!--Invoice ID-->
+            <Label x:Name="lblInvoice" Content="Invoice ID:" HorizontalAlignment="Right" Margin="0,0,10,0" VerticalAlignment="Top" Grid.Column="0" Grid.Row="1"/>
+            <TextBox x:Name="textBoxInvoiceID" HorizontalAlignment="Left" Height="23" Margin="0,0,0,0" TextWrapping="Wrap" Text="1234" VerticalAlignment="Top" Width="120" Grid.Column="1" Grid.Row="1" IsReadOnly="True" Background="#FFE5E5E5"/>
+
+
+            <!--Item Input-->
+            <GroupBox x:Name="groupBoxItems" Header="Item Info" HorizontalAlignment="Center" Height="125" Margin="0,0,0,0" Grid.Row="2" Grid.ColumnSpan="2" VerticalAlignment="Top" Width="275">
+                <Grid HorizontalAlignment="Center" Height="100" Margin="0,0,0,0" VerticalAlignment="Center" Width="250">
+
+                    <!--Define the number of rows and columns for the main grid-->
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="10*"/>
+                        <RowDefinition Height="10*"/>
+                        <RowDefinition Height="10*"/>
+                    </Grid.RowDefinitions>
+
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="50*"/>
+                        <ColumnDefinition Width="50*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <!--Item Info-->
+                    <Label x:Name="lblItemName" Content="Item:" HorizontalAlignment="Right" Margin="0,0,10,0" VerticalAlignment="Top" Grid.Column="0" Grid.Row="0"/>
+                    <ComboBox x:Name="comboBoxItem" HorizontalAlignment="Left" Margin="0,0,0,0" VerticalAlignment="Top" Width="120" Grid.Column="1" Grid.Row="0" FontFamily="Segoe UI" SelectionChanged="comboBox_SelectionChanged"/>
+
+                    <!--Item Quantity-->
+                    <Label x:Name="lblQuantity" Content="Quantity:" HorizontalAlignment="Right" Margin="0,0,10,0" VerticalAlignment="Top" Grid.Column="0" Grid.Row="1"/>
+                    <TextBox x:Name="textBoxQuantity" HorizontalAlignment="Left" Height="23" Margin="0,0,0,0" TextWrapping="Wrap" Text="5" VerticalAlignment="Top" Width="120" Grid.Column="1" Grid.Row="1" FontFamily="Segoe UI" MaxLength="5" TextChanged="textBox_TextChanged"/>
+
+                    <!--Item buttons-->
+                    <Button x:Name="btnAddItems" Content="Add" HorizontalAlignment="Left" Margin="0,0,0,0" VerticalAlignment="Top" Width="50" Grid.Column="1" Grid.Row="2" Click="btnAddItems_Click"/>
+                    <Button x:Name="btnDropItems" Content="Drop" HorizontalAlignment="Right" Margin="0,0,5,0" VerticalAlignment="Top" Width="50" Grid.Column="1" Grid.Row="2" Click="btnDropItems_Click"/>
+
+                </Grid>
+            </GroupBox>
+
+
+            <!--First Name-->
+            <Label x:Name="lblFirstName" Content="Buyers First Name:" HorizontalAlignment="Right" Margin="0,0,10,0" VerticalAlignment="Top"  Grid.Column="0" Grid.Row="3" FontSize="14"/>
+            <TextBox x:Name="textBoxFirstName" HorizontalAlignment="Left" Height="23" Margin="0,0,0,0" TextWrapping="Wrap" Text="Bobby" VerticalAlignment="Top" Width="120" Grid.Column="1" Grid.Row="3" MaxLength="15" TextChanged="textBox_TextChanged"/>
+
+            <!--Last Name-->
+            <Label x:Name="lblLastName" Content="Buyers Last Name:" HorizontalAlignment="Right" Margin="0,0,10,0" VerticalAlignment="Top"  Grid.Column="0" Grid.Row="4"/>
+            <TextBox x:Name="textBoxLastName" HorizontalAlignment="Left" Height="23" Margin="0,0,0,0" TextWrapping="Wrap" Text="Joe" VerticalAlignment="Top" Width="120" Grid.Column="1" Grid.Row="4" MaxLength="15" TextChanged="textBox_TextChanged"/>
+
+            <!--Date-->
+            <Label x:Name="lblDate" Content="Date:" HorizontalAlignment="Right" Margin="0,0,10,0" VerticalAlignment="Top" Grid.Column="0" Grid.Row="5"/>
+            <DatePicker x:Name="calendarDate" HorizontalAlignment="Left" Margin="0,0,0,0" VerticalAlignment="Top" Grid.Column="1" Grid.Row="5" SelectedDateFormat="Long"/>
+
+            <!--Total Cost-->
+            <Label x:Name="lblTotal" Content="Total Cost:" HorizontalAlignment="Right" Margin="0,0,10,0" VerticalAlignment="Top" Grid.Column="0" Grid.Row="6"/>
+            <TextBox x:Name="textBoxTotal" HorizontalAlignment="Left" Height="23" Margin="0,0,0,0" TextWrapping="Wrap" Text="120.56$" VerticalAlignment="Top" Width="120" Grid.Column="1" Grid.Row="6" IsReadOnly="True" Background="#FFECECEC"/>
+
+            <!--Order Status-->
+            <Label x:Name="lblStatus" Content="Status:" HorizontalAlignment="Right" Margin="0,0,10,0" VerticalAlignment="Top" Grid.Column="0" Grid.Row="7"/>
+            <ComboBox x:Name="comboBoxStatus" HorizontalAlignment="Left" Margin="0,0,0,0" VerticalAlignment="Top" Width="120" Grid.Column="1" Grid.Row="7" SelectionChanged="comboBox_SelectionChanged"/>
+
+            <!--Online Status-->
+            <CheckBox x:Name="checkBoxOnline" Content="Online Order" Margin="0,0,70,12" VerticalAlignment="Bottom" Grid.Column="1" Grid.Row="8" Checked="checkBoxOnline_Checked"/>
+
+
+            <!--Payment Type-->
+            <Label x:Name="lblPaymentType" Content="Payment Type:" HorizontalAlignment="Right" Margin="0,0,10,0" VerticalAlignment="Top" Grid.Column="0" Grid.Row="9"/>
+            <ComboBox x:Name="comboBoxPayment" HorizontalAlignment="Left" Margin="0,0,0,0" VerticalAlignment="Top" Width="120" Grid.Column="1" Grid.Row="9" SelectionChanged="comboBox_SelectionChanged"/>
+
+            <!--Buttons-->
+            <Button x:Name="btnMode" Content="Add Mode" HorizontalAlignment="Right" Margin="0,0,10,0" VerticalAlignment="Center" Width="100" Grid.Column="0" Grid.Row="10" Click="btnMode_Click"/>
+            <Button x:Name="btnApply" Content="Save Changes" HorizontalAlignment="Left" Margin="10,0,0,0" VerticalAlignment="Center" Width="100" Grid.Column="1" Grid.Row="10" Click="btnApply_Click"/>
+            <Button x:Name="btnDelete" Content="Delete Invoice" HorizontalAlignment="Center" Margin="10,0,0,0" VerticalAlignment="Center" Width="auto" Grid.ColumnSpan="2" Grid.Row="11" Click="btnDelete_Click"/>
+
+        </Grid>
+
+
+
+
+
+    </Grid>
+</Window>

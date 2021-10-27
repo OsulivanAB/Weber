@@ -1,0 +1,25 @@
+﻿<Window x:Class="Testing_Databases.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Testing_Databases"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" Loaded="Window_Loaded">
+    <Window.Resources>
+        <local:MagicalDatabaseDataSet x:Key="magicalDatabaseDataSet"/>
+        <CollectionViewSource x:Key="tblProductViewSource" Source="{Binding tblProduct, Source={StaticResource magicalDatabaseDataSet}}"/>
+    </Window.Resources>
+    <Grid DataContext="{StaticResource tblProductViewSource}">
+        <DataGrid x:Name="tblProductDataGrid" AutoGenerateColumns="False" EnableRowVirtualization="True" ItemsSource="{Binding}" Margin="206,201,186,18" RowDetailsVisibilityMode="VisibleWhenSelected">
+            <DataGrid.Columns>
+                <DataGridTextColumn x:Name="productIDColumn" Binding="{Binding ProductID}" Header="Product ID" Width="SizeToHeader"/>
+                <DataGridTextColumn x:Name="productNameColumn" Binding="{Binding ProductName}" Header="Product Name" Width="SizeToHeader"/>
+                <DataGridTextColumn x:Name="productDescriptionColumn" Binding="{Binding ProductDescription}" Header="Product Description" Width="SizeToHeader"/>
+                <DataGridTextColumn x:Name="productPriceColumn" Binding="{Binding ProductPrice}" Header="Product Price" Width="SizeToHeader"/>
+                <DataGridCheckBoxColumn x:Name="productActiveColumn" Binding="{Binding ProductActive}" Header="Product Active" Width="SizeToHeader"/>
+            </DataGrid.Columns>
+        </DataGrid>
+
+    </Grid>
+</Window>

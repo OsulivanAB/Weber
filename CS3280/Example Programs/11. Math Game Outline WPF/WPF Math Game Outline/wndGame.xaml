@@ -1,0 +1,11 @@
+﻿<Window x:Class="WPF_Math_Game_Outline.wndGame"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="wndGame" Height="342" Width="598" Closing="Window_Closing">
+    <Grid>
+        <Label Content="This is where the game is played" FontSize="20" FontWeight="Bold" Height="45" HorizontalAlignment="Left" Margin="133,24,0,0" Name="label1" VerticalAlignment="Top" Width="328" />
+        <Button Content="End Game" FontSize="18" Height="45" HorizontalAlignment="Left" Margin="194,75,0,0" Name="cmdEndGame" VerticalAlignment="Top" Width="198" Click="cmdEndGame_Click" />
+        <Label Content="Simulate that the game has ended and the high scores need to be shown" FontSize="15" FontWeight="Bold" Height="31" Margin="24,190,24,0" Name="label2" VerticalAlignment="Top" />
+        <Button Content="High Scores" FontSize="18" Height="45" HorizontalAlignment="Left" Margin="194,227,0,0" Name="cmdHighScores" VerticalAlignment="Top" Width="198" Click="cmdHighScores_Click" />
+    </Grid>
+</Window>

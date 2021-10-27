@@ -1,0 +1,17 @@
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\_Spring Class 2014\My Program Examples\PassingDataAround\PassingDataAround\PassingDataAround\bin\Debug\PassingDataAround.exe.config
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\_Spring Class 2014\My Program Examples\PassingDataAround\PassingDataAround\PassingDataAround\obj\Debug\EmployeeMenu.baml
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\_Spring Class 2014\My Program Examples\PassingDataAround\PassingDataAround\PassingDataAround\obj\Debug\EmployeeMenu.g.cs
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\_Spring Class 2014\My Program Examples\PassingDataAround\PassingDataAround\PassingDataAround\obj\Debug\App.g.cs
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\_Spring Class 2014\My Program Examples\PassingDataAround\PassingDataAround\PassingDataAround\obj\Debug\PassingDataAround_MarkupCompile.cache
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\_Spring Class 2014\My Program Examples\PassingDataAround\PassingDataAround\PassingDataAround\obj\Debug\PassingDataAround.g.resources
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\_Spring Class 2014\My Program Examples\PassingDataAround\PassingDataAround\PassingDataAround\obj\Debug\PassingDataAround.Properties.Resources.resources
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\_Spring Class 2014\My Program Examples\PassingDataAround\PassingDataAround\PassingDataAround\obj\Debug\PassingDataAround.csproj.GenerateResource.Cache
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\_Spring Class 2014\My Program Examples\PassingDataAround\PassingDataAround\PassingDataAround\bin\Debug\PassingDataAround.exe
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\_Spring Class 2014\My Program Examples\PassingDataAround\PassingDataAround\PassingDataAround\bin\Debug\PassingDataAround.pdb
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\_Spring Class 2014\My Program Examples\PassingDataAround\PassingDataAround\PassingDataAround\obj\Debug\PassingDataAround.exe
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\_Spring Class 2014\My Program Examples\PassingDataAround\PassingDataAround\PassingDataAround\obj\Debug\PassingDataAround.pdb
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\_Spring Class 2014\My Program Examples\PassingDataAround\PassingDataAround\PassingDataAround\obj\Debug\Windows\wndEmployeeReport.baml
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\_Spring Class 2014\My Program Examples\PassingDataAround\PassingDataAround\PassingDataAround\obj\Debug\Windows\wndManageEmployees.baml
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\_Spring Class 2014\My Program Examples\PassingDataAround\PassingDataAround\PassingDataAround\obj\Debug\Windows\wndEmployeeReport.g.cs
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\_Spring Class 2014\My Program Examples\PassingDataAround\PassingDataAround\PassingDataAround\obj\Debug\Windows\wndManageEmployees.g.cs
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\_Spring Class 2014\My Program Examples\PassingDataAround\PassingDataAround\PassingDataAround\obj\Debug\PassingDataAround.csprojResolveAssemblyReference.cache

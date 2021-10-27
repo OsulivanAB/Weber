@@ -1,0 +1,12 @@
+C:\Users\Shawn\Desktop\C# WSU\_Spring Class 2017\Code Examples\Book code examples\ch24\Fig24_11-14\Painter\Painter\bin\Debug\Painter.exe
+C:\Users\Shawn\Desktop\C# WSU\_Spring Class 2017\Code Examples\Book code examples\ch24\Fig24_11-14\Painter\Painter\bin\Debug\Painter.pdb
+C:\Users\Shawn\Desktop\C# WSU\_Spring Class 2017\Code Examples\Book code examples\ch24\Fig24_11-14\Painter\Painter\obj\x86\Debug\Painter.csprojResolveAssemblyReference.cache
+C:\Users\Shawn\Desktop\C# WSU\_Spring Class 2017\Code Examples\Book code examples\ch24\Fig24_11-14\Painter\Painter\obj\x86\Debug\MainWindow.baml
+C:\Users\Shawn\Desktop\C# WSU\_Spring Class 2017\Code Examples\Book code examples\ch24\Fig24_11-14\Painter\Painter\obj\x86\Debug\MainWindow.g.cs
+C:\Users\Shawn\Desktop\C# WSU\_Spring Class 2017\Code Examples\Book code examples\ch24\Fig24_11-14\Painter\Painter\obj\x86\Debug\App.g.cs
+C:\Users\Shawn\Desktop\C# WSU\_Spring Class 2017\Code Examples\Book code examples\ch24\Fig24_11-14\Painter\Painter\obj\x86\Debug\Painter_MarkupCompile.cache
+C:\Users\Shawn\Desktop\C# WSU\_Spring Class 2017\Code Examples\Book code examples\ch24\Fig24_11-14\Painter\Painter\obj\x86\Debug\Painter.g.resources
+C:\Users\Shawn\Desktop\C# WSU\_Spring Class 2017\Code Examples\Book code examples\ch24\Fig24_11-14\Painter\Painter\obj\x86\Debug\Painter.Properties.Resources.resources
+C:\Users\Shawn\Desktop\C# WSU\_Spring Class 2017\Code Examples\Book code examples\ch24\Fig24_11-14\Painter\Painter\obj\x86\Debug\Painter.csproj.GenerateResource.Cache
+C:\Users\Shawn\Desktop\C# WSU\_Spring Class 2017\Code Examples\Book code examples\ch24\Fig24_11-14\Painter\Painter\obj\x86\Debug\Painter.exe
+C:\Users\Shawn\Desktop\C# WSU\_Spring Class 2017\Code Examples\Book code examples\ch24\Fig24_11-14\Painter\Painter\obj\x86\Debug\Painter.pdb

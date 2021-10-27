@@ -1,0 +1,2 @@
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\Summer Class 2008\Book Code Examples\Book Examples\ch15\Fig15_09-10\Synchronized\obj\Release\Synchronized.exe
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\Summer Class 2008\Book Code Examples\Book Examples\ch15\Fig15_09-10\Synchronized\obj\Release\Synchronized.pdb

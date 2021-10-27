@@ -1,0 +1,31 @@
+﻿<Window x:Class="ListBoxesWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Restaurants" Height="350" Width="700">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Margin="8">
+            <Label>View:</Label>
+            <ComboBox SelectedIndex="0" SelectionChanged="SwitchStyle">
+                <ComboBoxItem Content="Default" />
+                <ComboBoxItem Content="Simple" />
+                <ComboBoxItem Content="Columns" />
+                <ComboBoxItem Content="Modern" />
+                <ComboBoxItem Content="Grid" />
+                <ComboBoxItem Content="Float" />
+                <ComboBoxItem Content="Map" />
+                <ComboBoxItem Content="Ratings" />
+                <ComboBoxItem Content="Scatter" />
+                <ComboBoxItem Content="3D" />
+            </ComboBox>
+        </StackPanel>
+        
+        <ListBox x:Name="RestaurantList" 
+                 DisplayMemberPath="Name" 
+                 Grid.Row="1" Margin="8" />
+    </Grid>
+</Window>

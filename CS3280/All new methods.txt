@@ -1,0 +1,55 @@
+using System.Reflection;
+
+// Most Methods
+private void MyMethod()
+{
+	try
+	{
+	}
+	catch (Exception ex)
+	{
+		throw new Exception(MethodInfo.GetCurrentMethod().DeclaringType.Name + "." + MethodInfo.GetCurrentMethod().Name + " -> " + ex.Message);
+        }
+	finally
+        {
+        	// Close documents, end connections, ect
+        }
+}
+
+// Base Methods (button clicks, stuff stuff that will never get called by another method)
+private void button_Click()
+{
+	try
+	{
+
+	}
+	catch (Exception ex)
+	{
+		HandleError(MethodInfo.GetCurrentMethod().DeclaringType.Name, MethodInfo.GetCurrentMethod().Name, ex.Message);
+	}
+	finally
+        {
+        	// Close documents, end connections, ect
+        }
+}
+
+
+/// <summary>
+/// Method to handle errors.
+/// </summary>
+/// <param name="sClass"></param>
+/// <param name="sMethod"></param>
+/// <param name="sMessage"></param>
+private void HandleError(string sClass, string sMethod, string sMessage)
+{
+	//Try Catch/finally
+	try
+	{
+		// Would write to a file or database here
+		MessageBox.Show(sClass + "." + sMethod + " -> " + sMessage);
+	}
+	catch (Exception ex)
+	{
+		System.IO.File.AppendAllText("C:\\Error.txt", Environment.NewLine + "handleError Exception: " + ex.Message);
+	}
+}

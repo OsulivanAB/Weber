@@ -1,0 +1,52 @@
+c:\users\ro086b.sw\documents\visual studio 2010\Projects\WPF User Control Example\WPF User Control Example\bin\Debug\WPF User Control Example.exe
+c:\users\ro086b.sw\documents\visual studio 2010\Projects\WPF User Control Example\WPF User Control Example\bin\Debug\WPF User Control Example.pdb
+c:\users\ro086b.sw\documents\visual studio 2010\Projects\WPF User Control Example\WPF User Control Example\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\ro086b.sw\documents\visual studio 2010\Projects\WPF User Control Example\WPF User Control Example\obj\x86\Debug\MainWindow.baml
+c:\users\ro086b.sw\documents\visual studio 2010\Projects\WPF User Control Example\WPF User Control Example\obj\x86\Debug\UserControl1.baml
+c:\users\ro086b.sw\documents\visual studio 2010\Projects\WPF User Control Example\WPF User Control Example\obj\x86\Debug\MainWindow.g.cs
+c:\users\ro086b.sw\documents\visual studio 2010\Projects\WPF User Control Example\WPF User Control Example\obj\x86\Debug\UserControl1.g.cs
+c:\users\ro086b.sw\documents\visual studio 2010\Projects\WPF User Control Example\WPF User Control Example\obj\x86\Debug\App.g.cs
+c:\users\ro086b.sw\documents\visual studio 2010\Projects\WPF User Control Example\WPF User Control Example\obj\x86\Debug\WPF User Control Example_MarkupCompile.cache
+c:\users\ro086b.sw\documents\visual studio 2010\Projects\WPF User Control Example\WPF User Control Example\obj\x86\Debug\WPF User Control Example.g.resources
+c:\users\ro086b.sw\documents\visual studio 2010\Projects\WPF User Control Example\WPF User Control Example\obj\x86\Debug\WPF_User_Control_Example.Properties.Resources.resources
+c:\users\ro086b.sw\documents\visual studio 2010\Projects\WPF User Control Example\WPF User Control Example\obj\x86\Debug\GenerateResource.read.1.tlog
+c:\users\ro086b.sw\documents\visual studio 2010\Projects\WPF User Control Example\WPF User Control Example\obj\x86\Debug\GenerateResource.write.1.tlog
+c:\users\ro086b.sw\documents\visual studio 2010\Projects\WPF User Control Example\WPF User Control Example\obj\x86\Debug\WPF User Control Example.exe
+c:\users\ro086b.sw\documents\visual studio 2010\Projects\WPF User Control Example\WPF User Control Example\obj\x86\Debug\WPF User Control Example.pdb
+c:\users\ro086b.sw\documents\visual studio 2010\Projects\WPF User Control Example\WPF User Control Example\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+c:\users\ro086b.sw\documents\visual studio 2010\Projects\WPF User Control Example\WPF User Control Example\obj\x86\Debug\WPF User Control Example_MarkupCompile.lref
+C:\Users\ro086b.SW\Desktop\C# Class\2012\My Program Examples\WPF User Control Example\WPF User Control Example\obj\x86\Debug\WPF User Control Example.exe
+C:\Users\ro086b.SW\Desktop\C# Class\2012\My Program Examples\WPF User Control Example\WPF User Control Example\obj\x86\Debug\WPF User Control Example.pdb
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\_Summer Class 2014\My Program Examples\Chapter 15 WPF User Control Example\WPF User Control Example\obj\x86\Debug\WPF User Control Example.exe
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\_Summer Class 2014\My Program Examples\Chapter 15 WPF User Control Example\WPF User Control Example\obj\x86\Debug\WPF User Control Example.pdb
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\_Summer Class 2014\My Program Examples\Chapter 15 WPF User Control Example\WPF User Control Example\bin\Debug\WPF User Control Example.exe
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\_Summer Class 2014\My Program Examples\Chapter 15 WPF User Control Example\WPF User Control Example\bin\Debug\WPF User Control Example.pdb
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\_Summer Class 2014\My Program Examples\Chapter 15 WPF User Control Example\WPF User Control Example\obj\x86\Debug\WPF User Control Example.csprojResolveAssemblyReference.cache
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\_Summer Class 2014\My Program Examples\Chapter 15 WPF User Control Example\WPF User Control Example\obj\x86\Debug\UserControl1.baml
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\_Summer Class 2014\My Program Examples\Chapter 15 WPF User Control Example\WPF User Control Example\obj\x86\Debug\MainWindow.g.cs
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\_Summer Class 2014\My Program Examples\Chapter 15 WPF User Control Example\WPF User Control Example\obj\x86\Debug\UserControl1.g.cs
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\_Summer Class 2014\My Program Examples\Chapter 15 WPF User Control Example\WPF User Control Example\obj\x86\Debug\App.g.cs
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\_Summer Class 2014\My Program Examples\Chapter 15 WPF User Control Example\WPF User Control Example\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\_Summer Class 2014\My Program Examples\Chapter 15 WPF User Control Example\WPF User Control Example\obj\x86\Debug\WPF User Control Example_MarkupCompile.cache
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\_Summer Class 2014\My Program Examples\Chapter 15 WPF User Control Example\WPF User Control Example\obj\x86\Debug\WPF User Control Example_MarkupCompile.lref
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\_Summer Class 2014\My Program Examples\Chapter 15 WPF User Control Example\WPF User Control Example\obj\x86\Debug\MainWindow.baml
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\_Summer Class 2014\My Program Examples\Chapter 15 WPF User Control Example\WPF User Control Example\obj\x86\Debug\WPF User Control Example.g.resources
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\_Summer Class 2014\My Program Examples\Chapter 15 WPF User Control Example\WPF User Control Example\obj\x86\Debug\WPF_User_Control_Example.Properties.Resources.resources
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\_Summer Class 2014\My Program Examples\Chapter 15 WPF User Control Example\WPF User Control Example\obj\x86\Debug\WPF User Control Example.csproj.GenerateResource.Cache
+C:\Users\Shawn\Desktop\_WSU C#\_Spring 2019\Class Material\Example Programs\16. Chapter 15 WPF User Control Example\WPF User Control Example\bin\Debug\WPF User Control Example.exe
+C:\Users\Shawn\Desktop\_WSU C#\_Spring 2019\Class Material\Example Programs\16. Chapter 15 WPF User Control Example\WPF User Control Example\bin\Debug\WPF User Control Example.pdb
+C:\Users\Shawn\Desktop\_WSU C#\_Spring 2019\Class Material\Example Programs\16. Chapter 15 WPF User Control Example\WPF User Control Example\obj\x86\Debug\WPF User Control Example.csprojAssemblyReference.cache
+C:\Users\Shawn\Desktop\_WSU C#\_Spring 2019\Class Material\Example Programs\16. Chapter 15 WPF User Control Example\WPF User Control Example\obj\x86\Debug\UserControl1.baml
+C:\Users\Shawn\Desktop\_WSU C#\_Spring 2019\Class Material\Example Programs\16. Chapter 15 WPF User Control Example\WPF User Control Example\obj\x86\Debug\MainWindow.g.cs
+C:\Users\Shawn\Desktop\_WSU C#\_Spring 2019\Class Material\Example Programs\16. Chapter 15 WPF User Control Example\WPF User Control Example\obj\x86\Debug\UserControl1.g.cs
+C:\Users\Shawn\Desktop\_WSU C#\_Spring 2019\Class Material\Example Programs\16. Chapter 15 WPF User Control Example\WPF User Control Example\obj\x86\Debug\App.g.cs
+C:\Users\Shawn\Desktop\_WSU C#\_Spring 2019\Class Material\Example Programs\16. Chapter 15 WPF User Control Example\WPF User Control Example\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Shawn\Desktop\_WSU C#\_Spring 2019\Class Material\Example Programs\16. Chapter 15 WPF User Control Example\WPF User Control Example\obj\x86\Debug\WPF User Control Example_MarkupCompile.cache
+C:\Users\Shawn\Desktop\_WSU C#\_Spring 2019\Class Material\Example Programs\16. Chapter 15 WPF User Control Example\WPF User Control Example\obj\x86\Debug\WPF User Control Example_MarkupCompile.lref
+C:\Users\Shawn\Desktop\_WSU C#\_Spring 2019\Class Material\Example Programs\16. Chapter 15 WPF User Control Example\WPF User Control Example\obj\x86\Debug\MainWindow.baml
+C:\Users\Shawn\Desktop\_WSU C#\_Spring 2019\Class Material\Example Programs\16. Chapter 15 WPF User Control Example\WPF User Control Example\obj\x86\Debug\WPF User Control Example.g.resources
+C:\Users\Shawn\Desktop\_WSU C#\_Spring 2019\Class Material\Example Programs\16. Chapter 15 WPF User Control Example\WPF User Control Example\obj\x86\Debug\WPF_User_Control_Example.Properties.Resources.resources
+C:\Users\Shawn\Desktop\_WSU C#\_Spring 2019\Class Material\Example Programs\16. Chapter 15 WPF User Control Example\WPF User Control Example\obj\x86\Debug\WPF User Control Example.csproj.GenerateResource.cache
+C:\Users\Shawn\Desktop\_WSU C#\_Spring 2019\Class Material\Example Programs\16. Chapter 15 WPF User Control Example\WPF User Control Example\obj\x86\Debug\WPF User Control Example.csproj.CoreCompileInputs.cache
+C:\Users\Shawn\Desktop\_WSU C#\_Spring 2019\Class Material\Example Programs\16. Chapter 15 WPF User Control Example\WPF User Control Example\obj\x86\Debug\WPF User Control Example.exe
+C:\Users\Shawn\Desktop\_WSU C#\_Spring 2019\Class Material\Example Programs\16. Chapter 15 WPF User Control Example\WPF User Control Example\obj\x86\Debug\WPF User Control Example.pdb

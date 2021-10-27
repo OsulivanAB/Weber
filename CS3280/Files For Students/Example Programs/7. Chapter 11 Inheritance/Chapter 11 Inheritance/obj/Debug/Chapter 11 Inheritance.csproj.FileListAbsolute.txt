@@ -1,0 +1,16 @@
+C:\Users\Shawn\Documents\Visual Studio 2008\Projects\Chapter 11 Inheritance\Chapter 11 Inheritance\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Shawn\Documents\Visual Studio 2008\Projects\Chapter 11 Inheritance\Chapter 11 Inheritance\obj\Debug\Chapter_11_Inheritance.Properties.Resources.resources
+C:\Users\Shawn\Documents\Visual Studio 2008\Projects\Chapter 11 Inheritance\Chapter 11 Inheritance\obj\Debug\Chapter 11 Inheritance.csproj.GenerateResource.Cache
+C:\Users\Shawn\Documents\Visual Studio 2008\Projects\Chapter 11 Inheritance\Chapter 11 Inheritance\bin\Debug\Chapter 11 Inheritance.exe
+C:\Users\Shawn\Documents\Visual Studio 2008\Projects\Chapter 11 Inheritance\Chapter 11 Inheritance\bin\Debug\Chapter 11 Inheritance.pdb
+C:\Users\Shawn\Documents\Visual Studio 2008\Projects\Chapter 11 Inheritance\Chapter 11 Inheritance\obj\Debug\Chapter 11 Inheritance.exe
+C:\Users\Shawn\Documents\Visual Studio 2008\Projects\Chapter 11 Inheritance\Chapter 11 Inheritance\obj\Debug\Chapter 11 Inheritance.pdb
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\Summer Class 2009\My Program Examples\Chapter 11 Inheritance\Chapter 11 Inheritance\obj\Debug\Chapter 11 Inheritance.exe
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\Summer Class 2009\My Program Examples\Chapter 11 Inheritance\Chapter 11 Inheritance\obj\Debug\Chapter 11 Inheritance.pdb
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\Summer Class 2010\My Program Examples\Chapter 11 Inheritance\Chapter 11 Inheritance\obj\Debug\Chapter 11 Inheritance.exe
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\Summer Class 2010\My Program Examples\Chapter 11 Inheritance\Chapter 11 Inheritance\obj\Debug\Chapter 11 Inheritance.pdb
+C:\Users\ro086b.SW\Desktop\C# Class\2012\My Program Examples\Chapter 11 Inheritance\Chapter 11 Inheritance\obj\Debug\Chapter 11 Inheritance.exe
+C:\Users\ro086b.SW\Desktop\C# Class\2012\My Program Examples\Chapter 11 Inheritance\Chapter 11 Inheritance\obj\Debug\Chapter 11 Inheritance.pdb
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\_Fall Class 2016\My Program Examples\Code Examples Complete\7. Chapter 11 Inheritance\Chapter 11 Inheritance\bin\Debug\Chapter 11 Inheritance.exe.config
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\_Fall Class 2016\My Program Examples\Code Examples Complete\7. Chapter 11 Inheritance\Chapter 11 Inheritance\obj\Debug\Chapter 11 Inheritance.exe
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\_Fall Class 2016\My Program Examples\Code Examples Complete\7. Chapter 11 Inheritance\Chapter 11 Inheritance\obj\Debug\Chapter 11 Inheritance.pdb

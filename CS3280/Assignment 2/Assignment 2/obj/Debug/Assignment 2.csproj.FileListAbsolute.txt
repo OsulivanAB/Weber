@@ -1,0 +1,10 @@
+D:\School\Spring 2021\CS3280\Assignment 2\Assignment 2\bin\Debug\Assignment 2.exe.config
+D:\School\Spring 2021\CS3280\Assignment 2\Assignment 2\bin\Debug\Assignment 2.exe
+D:\School\Spring 2021\CS3280\Assignment 2\Assignment 2\bin\Debug\Assignment 2.pdb
+D:\School\Spring 2021\CS3280\Assignment 2\Assignment 2\obj\Debug\Assignment 2.csprojAssemblyReference.cache
+D:\School\Spring 2021\CS3280\Assignment 2\Assignment 2\obj\Debug\Assignment_2.Form1.resources
+D:\School\Spring 2021\CS3280\Assignment 2\Assignment 2\obj\Debug\Assignment_2.Properties.Resources.resources
+D:\School\Spring 2021\CS3280\Assignment 2\Assignment 2\obj\Debug\Assignment 2.csproj.GenerateResource.cache
+D:\School\Spring 2021\CS3280\Assignment 2\Assignment 2\obj\Debug\Assignment 2.csproj.CoreCompileInputs.cache
+D:\School\Spring 2021\CS3280\Assignment 2\Assignment 2\obj\Debug\Assignment 2.exe
+D:\School\Spring 2021\CS3280\Assignment 2\Assignment 2\obj\Debug\Assignment 2.pdb

@@ -1,0 +1,16 @@
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\Summer Class 2008\My Program Examples\Chapter 5 and 6 Example\Chapter 5 and 6 Example\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\Summer Class 2008\My Program Examples\Chapter 5 and 6 Example\Chapter 5 and 6 Example\obj\Debug\Chapter_5_and_6_Example.Form1.resources
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\Summer Class 2008\My Program Examples\Chapter 5 and 6 Example\Chapter 5 and 6 Example\obj\Debug\Chapter_5_and_6_Example.Properties.Resources.resources
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\Summer Class 2008\My Program Examples\Chapter 5 and 6 Example\Chapter 5 and 6 Example\obj\Debug\Chapter 5 and 6 Example.csproj.GenerateResource.Cache
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\Summer Class 2008\My Program Examples\Chapter 5 and 6 Example\Chapter 5 and 6 Example\bin\Debug\Chapter 5 and 6 Example.exe
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\Summer Class 2008\My Program Examples\Chapter 5 and 6 Example\Chapter 5 and 6 Example\bin\Debug\Chapter 5 and 6 Example.pdb
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\Summer Class 2008\My Program Examples\Chapter 5 and 6 Example\Chapter 5 and 6 Example\obj\Debug\Chapter 5 and 6 Example.exe
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\Summer Class 2008\My Program Examples\Chapter 5 and 6 Example\Chapter 5 and 6 Example\obj\Debug\Chapter 5 and 6 Example.pdb
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\Summer Class 2009\My Program Examples\Chapter 5 and 6 Example\Chapter 5 and 6 Example\obj\Debug\Chapter 5 and 6 Example.exe
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\Summer Class 2009\My Program Examples\Chapter 5 and 6 Example\Chapter 5 and 6 Example\obj\Debug\Chapter 5 and 6 Example.pdb
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\Summer Class 2009\My Program Examples\Chapter 5 and 6 Example\Chapter 5 and 6 Example\bin\Debug\Chapter 5 and 6 Example.exe
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\Summer Class 2009\My Program Examples\Chapter 5 and 6 Example\Chapter 5 and 6 Example\bin\Debug\Chapter 5 and 6 Example.pdb
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\Summer Class 2009\My Program Examples\Chapter 5 and 6 Example\Chapter 5 and 6 Example\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\Summer Class 2009\My Program Examples\Chapter 5 and 6 Example\Chapter 5 and 6 Example\obj\Debug\Chapter_5_and_6_Example.Form1.resources
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\Summer Class 2009\My Program Examples\Chapter 5 and 6 Example\Chapter 5 and 6 Example\obj\Debug\Chapter_5_and_6_Example.Properties.Resources.resources
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\Summer Class 2009\My Program Examples\Chapter 5 and 6 Example\Chapter 5 and 6 Example\obj\Debug\Chapter 5 and 6 Example.csproj.GenerateResource.Cache

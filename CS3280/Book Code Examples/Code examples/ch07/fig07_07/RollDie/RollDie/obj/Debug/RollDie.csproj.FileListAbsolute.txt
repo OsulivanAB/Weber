@@ -1,0 +1,5 @@
+C:\Users\Shawn\Desktop\C# WSU\_Spring Class 2017\Book Code Examples\Book code examples\ch07\fig07_07\RollDie\RollDie\bin\Debug\RollDie.exe
+C:\Users\Shawn\Desktop\C# WSU\_Spring Class 2017\Book Code Examples\Book code examples\ch07\fig07_07\RollDie\RollDie\bin\Debug\RollDie.pdb
+C:\Users\Shawn\Desktop\C# WSU\_Spring Class 2017\Book Code Examples\Book code examples\ch07\fig07_07\RollDie\RollDie\obj\Debug\RollDie.csprojResolveAssemblyReference.cache
+C:\Users\Shawn\Desktop\C# WSU\_Spring Class 2017\Book Code Examples\Book code examples\ch07\fig07_07\RollDie\RollDie\obj\Debug\RollDie.exe
+C:\Users\Shawn\Desktop\C# WSU\_Spring Class 2017\Book Code Examples\Book code examples\ch07\fig07_07\RollDie\RollDie\obj\Debug\RollDie.pdb

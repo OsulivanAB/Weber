@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="Chapter 13 Exceptions">
+</Property><Property Name="Solution File" Value="C:\Users\ro086b.SW\Desktop\C# Class\2011\My Program Examples\Chapter 13 Exceptions\Chapter 13 Exceptions.sln">
+</Property><Property Name="User Options File" Value="C:\Users\ro086b.SW\Desktop\C# Class\2011\My Program Examples\Chapter 13 Exceptions\Chapter 13 Exceptions.suo">
+</Property><Property Name="Date" Value="Tuesday, June 14, 2011">
+</Property><Property Name="Time" Value="8:29 AM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="Chapter 13 Exceptions.sln" Description="File successfully backed up as C:\Users\ro086b.SW\Desktop\C# Class\2011\My Program Examples\Chapter 13 Exceptions\Backup\Chapter 13 Exceptions.sln">
+</Event><Event ErrorLevel="0" Project="" Source="Chapter 13 Exceptions.suo" Description="File successfully backed up as C:\Users\ro086b.SW\Desktop\C# Class\2011\My Program Examples\Chapter 13 Exceptions\Backup\Chapter 13 Exceptions.suo">
+</Event><Event ErrorLevel="0" Project="Chapter 13 Exceptions" Source="Chapter 13 Exceptions\Chapter 13 Exceptions.csproj" Description="Project file successfully backed up as C:\Users\ro086b.SW\Desktop\C# Class\2011\My Program Examples\Chapter 13 Exceptions\Backup\Chapter 13 Exceptions\Chapter 13 Exceptions.csproj">
+</Event><Event ErrorLevel="0" Project="Chapter 13 Exceptions" Source="Chapter 13 Exceptions\Form1.cs" Description="File successfully backed up as C:\Users\ro086b.SW\Desktop\C# Class\2011\My Program Examples\Chapter 13 Exceptions\Backup\Chapter 13 Exceptions\Form1.cs">
+</Event><Event ErrorLevel="0" Project="Chapter 13 Exceptions" Source="Chapter 13 Exceptions\Form1.Designer.cs" Description="File successfully backed up as C:\Users\ro086b.SW\Desktop\C# Class\2011\My Program Examples\Chapter 13 Exceptions\Backup\Chapter 13 Exceptions\Form1.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Chapter 13 Exceptions" Source="Chapter 13 Exceptions\Program.cs" Description="File successfully backed up as C:\Users\ro086b.SW\Desktop\C# Class\2011\My Program Examples\Chapter 13 Exceptions\Backup\Chapter 13 Exceptions\Program.cs">
+</Event><Event ErrorLevel="0" Project="Chapter 13 Exceptions" Source="Chapter 13 Exceptions\Properties\AssemblyInfo.cs" Description="File successfully backed up as C:\Users\ro086b.SW\Desktop\C# Class\2011\My Program Examples\Chapter 13 Exceptions\Backup\Chapter 13 Exceptions\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="Chapter 13 Exceptions" Source="Chapter 13 Exceptions\Properties\Resources.Designer.cs" Description="File successfully backed up as C:\Users\ro086b.SW\Desktop\C# Class\2011\My Program Examples\Chapter 13 Exceptions\Backup\Chapter 13 Exceptions\Properties\Resources.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Chapter 13 Exceptions" Source="Chapter 13 Exceptions\Properties\Settings.Designer.cs" Description="File successfully backed up as C:\Users\ro086b.SW\Desktop\C# Class\2011\My Program Examples\Chapter 13 Exceptions\Backup\Chapter 13 Exceptions\Properties\Settings.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Chapter 13 Exceptions" Source="Chapter 13 Exceptions\Properties\Settings.settings" Description="File successfully backed up as C:\Users\ro086b.SW\Desktop\C# Class\2011\My Program Examples\Chapter 13 Exceptions\Backup\Chapter 13 Exceptions\Properties\Settings.settings">
+</Event><Event ErrorLevel="0" Project="Chapter 13 Exceptions" Source="Chapter 13 Exceptions\Properties\Resources.resx" Description="File successfully backed up as C:\Users\ro086b.SW\Desktop\C# Class\2011\My Program Examples\Chapter 13 Exceptions\Backup\Chapter 13 Exceptions\Properties\Resources.resx">
+</Event><Event ErrorLevel="0" Project="Chapter 13 Exceptions" Source="Chapter 13 Exceptions\Chapter 13 Exceptions.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Chapter 13 Exceptions" Source="Chapter 13 Exceptions\Chapter 13 Exceptions.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="Chapter 13 Exceptions.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="Chapter 13 Exceptions.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Chapter 13 Exceptions" Source="Chapter 13 Exceptions\Chapter 13 Exceptions.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

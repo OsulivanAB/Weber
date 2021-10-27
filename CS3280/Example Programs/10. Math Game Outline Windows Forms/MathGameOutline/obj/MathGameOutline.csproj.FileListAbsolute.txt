@@ -1,0 +1,22 @@
+C:\Documents and Settings\ro086b\My Documents\Visual Studio 2005\Projects\MathGameOutline\MathGameOutline\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\ro086b\My Documents\Visual Studio 2005\Projects\MathGameOutline\MathGameOutline\obj\Debug\MathGameOutline.frmEnterUserData.resources
+C:\Documents and Settings\ro086b\My Documents\Visual Studio 2005\Projects\MathGameOutline\MathGameOutline\obj\Debug\MathGameOutline.frmGame.resources
+C:\Documents and Settings\ro086b\My Documents\Visual Studio 2005\Projects\MathGameOutline\MathGameOutline\obj\Debug\MathGameOutline.frmHighScores.resources
+C:\Documents and Settings\ro086b\My Documents\Visual Studio 2005\Projects\MathGameOutline\MathGameOutline\obj\Debug\MathGameOutline.frmMathMenu.resources
+C:\Documents and Settings\ro086b\My Documents\Visual Studio 2005\Projects\MathGameOutline\MathGameOutline\obj\Debug\MathGameOutline.Properties.Resources.resources
+C:\Documents and Settings\ro086b\My Documents\Visual Studio 2005\Projects\MathGameOutline\MathGameOutline\obj\Debug\MathGameOutline.csproj.GenerateResource.Cache
+C:\Documents and Settings\ro086b\My Documents\Visual Studio 2005\Projects\MathGameOutline\MathGameOutline\bin\Debug\MathGameOutline.exe
+C:\Documents and Settings\ro086b\My Documents\Visual Studio 2005\Projects\MathGameOutline\MathGameOutline\bin\Debug\MathGameOutline.pdb
+C:\Documents and Settings\ro086b\My Documents\Visual Studio 2005\Projects\MathGameOutline\MathGameOutline\obj\Debug\MathGameOutline.exe
+C:\Documents and Settings\ro086b\My Documents\Visual Studio 2005\Projects\MathGameOutline\MathGameOutline\obj\Debug\MathGameOutline.pdb
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\Summer Class 2009\My Program Examples\MathGameOutline\MathGameOutline\obj\Debug\MathGameOutline.exe
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\Summer Class 2009\My Program Examples\MathGameOutline\MathGameOutline\obj\Debug\MathGameOutline.pdb
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\Summer Class 2009\My Program Examples\MathGameOutline\MathGameOutline\bin\Debug\MathGameOutline.exe
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\Summer Class 2009\My Program Examples\MathGameOutline\MathGameOutline\bin\Debug\MathGameOutline.pdb
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\Summer Class 2009\My Program Examples\MathGameOutline\MathGameOutline\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\Summer Class 2009\My Program Examples\MathGameOutline\MathGameOutline\obj\Debug\MathGameOutline.frmEnterUserData.resources
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\Summer Class 2009\My Program Examples\MathGameOutline\MathGameOutline\obj\Debug\MathGameOutline.frmGame.resources
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\Summer Class 2009\My Program Examples\MathGameOutline\MathGameOutline\obj\Debug\MathGameOutline.frmHighScores.resources
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\Summer Class 2009\My Program Examples\MathGameOutline\MathGameOutline\obj\Debug\MathGameOutline.frmMathMenu.resources
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\Summer Class 2009\My Program Examples\MathGameOutline\MathGameOutline\obj\Debug\MathGameOutline.Properties.Resources.resources
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\Summer Class 2009\My Program Examples\MathGameOutline\MathGameOutline\obj\Debug\MathGameOutline.csproj.GenerateResource.Cache

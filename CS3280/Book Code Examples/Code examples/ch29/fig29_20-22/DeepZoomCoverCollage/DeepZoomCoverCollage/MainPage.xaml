@@ -1,0 +1,47 @@
+﻿<!-- Fig. 29.20: Page.xaml -->
+<!-- DeepZoomCoverCollage employs Silverlight's deep zoom (XAML). -->
+<UserControl x:Class="DeepZoomCoverCollage.MainPage"
+   xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+   xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+   xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+   xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+   mc:Ignorable="d" KeyDown="mainPage_KeyDown" KeyUp="mainPage_KeyUp">
+
+   <Grid x:Name="LayoutRoot" Background="White">
+
+      <!-- instructions on how to interact with the page -->
+      <StackPanel Orientation="Vertical">
+         <TextBlock Text="Hold up-arrow and click to zoom in." />
+         <TextBlock Text="Hold down-arrow and click to zoom out." />
+         <TextBlock Text="Drag to pan the image."  />
+
+         <!-- book title -->
+         <TextBlock x:Name="titleTextBlock" Text="Title:" 
+            HorizontalAlignment="Center" />
+
+         <!-- deep zoom collage that was created in composer -->
+         <MultiScaleImage x:Name="Image" Margin="10" 
+            Source="/GeneratedImages/dzc_output.xml" 
+            MouseLeave="Image_MouseLeave" MouseMove="Image_MouseMove" 
+            MouseLeftButtonDown="Image_MouseLeftButtonDown" 
+            MouseLeftButtonUp="Image_MouseLeftButtonUp" />
+      </StackPanel>
+   </Grid>
+</UserControl>
+
+<!--
+**************************************************************************
+* (C) Copyright 1992-2011 by Deitel & Associates, Inc. and               *
+* Pearson Education, Inc. All Rights Reserved.                           *
+*                                                                        *
+* DISCLAIMER: The authors and publisher of this book have used their     *
+* best efforts in preparing the book. These efforts include the          *
+* development, research, and testing of the theories and programs        *
+* to determine their effectiveness. The authors and publisher make       *
+* no warranty of any kind, expressed or implied, with regard to these    *
+* programs or to the documentation contained in these books. The authors *
+* and publisher shall not be liable in any event for incidental or       *
+* consequential damages in connection with, or arising out of, the       *
+* furnishing, performance, or use of these programs.                     *
+************************************************************************** 
+-->

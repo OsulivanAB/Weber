@@ -1,0 +1,21 @@
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\Summer Class 2010\My Program Examples\Chapter 8 16 26 27 28 Array\Chapter 8 16 26 27 Array\obj\Debug\Chapter 8 16 26 27 Array.exe
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\Summer Class 2010\My Program Examples\Chapter 8 16 26 27 28 Array\Chapter 8 16 26 27 Array\obj\Debug\Chapter 8 16 26 27 Array.pdb
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\Summer Class 2010\My Program Examples\Chapter 8 16 26 27 28 Array\Chapter 8 16 26 27 Array\bin\Debug\Chapter 8 16 26 27 Array.exe
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\Summer Class 2010\My Program Examples\Chapter 8 16 26 27 28 Array\Chapter 8 16 26 27 Array\bin\Debug\Chapter 8 16 26 27 Array.pdb
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\Summer Class 2010\My Program Examples\Chapter 8 16 26 27 28 Array\Chapter 8 16 26 27 Array\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\Summer Class 2010\My Program Examples\Chapter 8 16 26 27 28 Array\Chapter 8 16 26 27 Array\obj\Debug\Chapter_8_16_26_27_Array.Form1.resources
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\Summer Class 2010\My Program Examples\Chapter 8 16 26 27 28 Array\Chapter 8 16 26 27 Array\obj\Debug\Chapter_8_16_26_27_Array.Properties.Resources.resources
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\Summer Class 2010\My Program Examples\Chapter 8 16 26 27 28 Array\Chapter 8 16 26 27 Array\obj\Debug\ResGen.read.1.tlog
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\Summer Class 2010\My Program Examples\Chapter 8 16 26 27 28 Array\Chapter 8 16 26 27 Array\obj\Debug\ResGen.write.1.tlog
+C:\Users\ro086b.SW\Desktop\C# Class\2011\My Program Examples\Chapter 8 16 26 27 28 Array\Chapter 8 16 26 27 Array\obj\Debug\Chapter 8 16 26 27 Array.exe
+C:\Users\ro086b.SW\Desktop\C# Class\2011\My Program Examples\Chapter 8 16 26 27 28 Array\Chapter 8 16 26 27 Array\obj\Debug\Chapter 8 16 26 27 Array.pdb
+C:\Users\ro086b.SW\Desktop\C# Class\2012\My Program Examples\Chapter 8 16 26 27 28 Array\Chapter 8 16 26 27 Array\obj\Debug\Chapter 8 16 26 27 Array.exe
+C:\Users\ro086b.SW\Desktop\C# Class\2012\My Program Examples\Chapter 8 16 26 27 28 Array\Chapter 8 16 26 27 Array\obj\Debug\Chapter 8 16 26 27 Array.pdb
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\_Summer Class 2014\My Program Examples\Chapter 8 16 26 27 28 Array\Chapter 8 16 26 27 Array\obj\Debug\Chapter 8 16 26 27 Array.exe
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\_Summer Class 2014\My Program Examples\Chapter 8 16 26 27 28 Array\Chapter 8 16 26 27 Array\obj\Debug\Chapter 8 16 26 27 Array.pdb
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\_Spring 2016\My Program Examples\Chapter 8 16 26 27 28 Array\Chapter 8 16 26 27 Array\bin\Debug\Chapter 8 16 26 27 Array.exe.config
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\_Spring 2016\My Program Examples\Chapter 8 16 26 27 28 Array\Chapter 8 16 26 27 Array\obj\Debug\Chapter 8 16 26 27 Array.exe
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\_Spring 2016\My Program Examples\Chapter 8 16 26 27 28 Array\Chapter 8 16 26 27 Array\obj\Debug\Chapter 8 16 26 27 Array.pdb
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\_Fall Class 2016\My Program Examples\Code Examples Complete\5. Chapter 8 16 26 27 28 Array\Chapter 8 16 26 27 Array\bin\Debug\Chapter 8 16 26 27 Array.exe.config
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\_Fall Class 2016\My Program Examples\Code Examples Complete\5. Chapter 8 16 26 27 28 Array\Chapter 8 16 26 27 Array\obj\Debug\Chapter 8 16 26 27 Array.exe
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\_Fall Class 2016\My Program Examples\Code Examples Complete\5. Chapter 8 16 26 27 28 Array\Chapter 8 16 26 27 Array\obj\Debug\Chapter 8 16 26 27 Array.pdb

@@ -1,0 +1,6 @@
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\Summer Class 2008\Book Code Examples\Book Examples\ch15\Fig15_04-08\Unsynchronized\obj\Release\Unsynchronized.exe
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\Summer Class 2008\Book Code Examples\Book Examples\ch15\Fig15_04-08\Unsynchronized\obj\Release\Unsynchronized.pdb
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\Summer Class 2008\Book Code Examples\Book Examples\ch15\Fig15_04-08\Unsynchronized\bin\Debug\Unsynchronized.exe
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\Summer Class 2008\Book Code Examples\Book Examples\ch15\Fig15_04-08\Unsynchronized\bin\Debug\Unsynchronized.pdb
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\Summer Class 2008\Book Code Examples\Book Examples\ch15\Fig15_04-08\Unsynchronized\obj\Debug\Unsynchronized.exe
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\Summer Class 2008\Book Code Examples\Book Examples\ch15\Fig15_04-08\Unsynchronized\obj\Debug\Unsynchronized.pdb

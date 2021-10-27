@@ -1,0 +1,25 @@
+C:\Users\Shawn\Documents\Visual Studio 2005\Projects\Chapter 8 16 26 27 Array\Chapter 8 16 26 27 Array\bin\Debug\Chapter 8 16 26 27 Array.exe
+C:\Users\Shawn\Documents\Visual Studio 2005\Projects\Chapter 8 16 26 27 Array\Chapter 8 16 26 27 Array\bin\Debug\Chapter 8 16 26 27 Array.pdb
+C:\Users\Shawn\Documents\Visual Studio 2005\Projects\Chapter 8 16 26 27 Array\Chapter 8 16 26 27 Array\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Shawn\Documents\Visual Studio 2005\Projects\Chapter 8 16 26 27 Array\Chapter 8 16 26 27 Array\obj\Debug\Chapter_8_16_26_27_Array.Properties.Resources.resources
+C:\Users\Shawn\Documents\Visual Studio 2005\Projects\Chapter 8 16 26 27 Array\Chapter 8 16 26 27 Array\obj\Debug\Chapter 8 16 26 27 Array.csproj.GenerateResource.Cache
+C:\Users\Shawn\Documents\Visual Studio 2005\Projects\Chapter 8 16 26 27 Array\Chapter 8 16 26 27 Array\obj\Debug\Chapter 8 16 26 27 Array.exe
+C:\Users\Shawn\Documents\Visual Studio 2005\Projects\Chapter 8 16 26 27 Array\Chapter 8 16 26 27 Array\obj\Debug\Chapter 8 16 26 27 Array.pdb
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\Summer Class 2008\My Program Examples\Chapter 8 16 26 27 Array\Chapter 8 16 26 27 Array\obj\Debug\Chapter 8 16 26 27 Array.exe
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\Summer Class 2008\My Program Examples\Chapter 8 16 26 27 Array\Chapter 8 16 26 27 Array\obj\Debug\Chapter 8 16 26 27 Array.pdb
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\Summer Class 2008\My Program Examples\Chapter 8 16 26 27 Array\Chapter 8 16 26 27 Array\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\Summer Class 2008\My Program Examples\Chapter 8 16 26 27 Array\Chapter 8 16 26 27 Array\obj\Debug\Chapter_8_16_26_27_Array.Form1.resources
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\Summer Class 2008\My Program Examples\Chapter 8 16 26 27 Array\Chapter 8 16 26 27 Array\obj\Debug\Chapter_8_16_26_27_Array.Properties.Resources.resources
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\Summer Class 2008\My Program Examples\Chapter 8 16 26 27 Array\Chapter 8 16 26 27 Array\obj\Debug\Chapter 8 16 26 27 Array.csproj.GenerateResource.Cache
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\Summer Class 2008\My Program Examples\Chapter 8 16 26 27 Array\Chapter 8 16 26 27 Array\bin\Debug\Chapter 8 16 26 27 Array.exe
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\Summer Class 2008\My Program Examples\Chapter 8 16 26 27 Array\Chapter 8 16 26 27 Array\bin\Debug\Chapter 8 16 26 27 Array.pdb
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\Summer Class 2009\My Program Examples\Chapter 8 16 26 27 Array\Chapter 8 16 26 27 Array\obj\Debug\Chapter 8 16 26 27 Array.exe
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\Summer Class 2009\My Program Examples\Chapter 8 16 26 27 Array\Chapter 8 16 26 27 Array\obj\Debug\Chapter 8 16 26 27 Array.pdb
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\Summer Class 2009\My Program Examples\Chapter 8 16 26 27 28 Array\Chapter 8 16 26 27 Array\obj\Debug\Chapter 8 16 26 27 Array.exe
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\Summer Class 2009\My Program Examples\Chapter 8 16 26 27 28 Array\Chapter 8 16 26 27 Array\obj\Debug\Chapter 8 16 26 27 Array.pdb
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\Summer Class 2009\My Program Examples\Chapter 8 16 26 27 28 Array\Chapter 8 16 26 27 Array\bin\Debug\Chapter 8 16 26 27 Array.exe
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\Summer Class 2009\My Program Examples\Chapter 8 16 26 27 28 Array\Chapter 8 16 26 27 Array\bin\Debug\Chapter 8 16 26 27 Array.pdb
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\Summer Class 2009\My Program Examples\Chapter 8 16 26 27 28 Array\Chapter 8 16 26 27 Array\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\Summer Class 2009\My Program Examples\Chapter 8 16 26 27 28 Array\Chapter 8 16 26 27 Array\obj\Debug\Chapter_8_16_26_27_Array.Form1.resources
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\Summer Class 2009\My Program Examples\Chapter 8 16 26 27 28 Array\Chapter 8 16 26 27 Array\obj\Debug\Chapter_8_16_26_27_Array.Properties.Resources.resources
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\Summer Class 2009\My Program Examples\Chapter 8 16 26 27 28 Array\Chapter 8 16 26 27 Array\obj\Debug\Chapter 8 16 26 27 Array.csproj.GenerateResource.Cache

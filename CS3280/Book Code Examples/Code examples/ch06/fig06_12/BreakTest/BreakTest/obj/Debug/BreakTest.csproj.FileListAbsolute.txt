@@ -1,0 +1,5 @@
+C:\Users\Shawn\Desktop\C# WSU\_Spring Class 2017\Book Code Examples\code examples\ch06\fig06_12\BreakTest\BreakTest\bin\Debug\BreakTest.exe
+C:\Users\Shawn\Desktop\C# WSU\_Spring Class 2017\Book Code Examples\code examples\ch06\fig06_12\BreakTest\BreakTest\bin\Debug\BreakTest.pdb
+C:\Users\Shawn\Desktop\C# WSU\_Spring Class 2017\Book Code Examples\code examples\ch06\fig06_12\BreakTest\BreakTest\obj\Debug\BreakTest.csprojResolveAssemblyReference.cache
+C:\Users\Shawn\Desktop\C# WSU\_Spring Class 2017\Book Code Examples\code examples\ch06\fig06_12\BreakTest\BreakTest\obj\Debug\BreakTest.exe
+C:\Users\Shawn\Desktop\C# WSU\_Spring Class 2017\Book Code Examples\code examples\ch06\fig06_12\BreakTest\BreakTest\obj\Debug\BreakTest.pdb

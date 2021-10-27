@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Web Developer Express 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherViewer", "WeatherViewer\WeatherViewer.csproj", "{755FDE05-6EBC-4EB1-9011-9230EB830942}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherViewer.Web", "WeatherViewer.Web\WeatherViewer.Web.csproj", "{BF6B382F-9206-4101-9013-0DFB14C86D50}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{755FDE05-6EBC-4EB1-9011-9230EB830942}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{755FDE05-6EBC-4EB1-9011-9230EB830942}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{755FDE05-6EBC-4EB1-9011-9230EB830942}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{755FDE05-6EBC-4EB1-9011-9230EB830942}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF6B382F-9206-4101-9013-0DFB14C86D50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF6B382F-9206-4101-9013-0DFB14C86D50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF6B382F-9206-4101-9013-0DFB14C86D50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF6B382F-9206-4101-9013-0DFB14C86D50}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

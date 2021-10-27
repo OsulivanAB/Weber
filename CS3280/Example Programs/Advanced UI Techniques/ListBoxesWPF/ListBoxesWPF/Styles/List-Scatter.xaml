@@ -1,0 +1,64 @@
+﻿<ResourceDictionary
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:ListBoxesWPF="clr-namespace:ListBoxesWPF">
+
+    <Style TargetType="ListBox" x:Key="List-Scatter">
+        <Style.Resources>
+            <SolidColorBrush x:Key="{x:Static SystemColors.HighlightBrushKey}" Color="Transparent" />
+        </Style.Resources>
+
+        <Setter Property="Background" Value="{x:Null}"/>
+        <Setter Property="BorderBrush" Value="{x:Null}"/>
+        <Setter Property="ScrollViewer.HorizontalScrollBarVisibility" Value="Hidden" />
+        <Setter Property="ScrollViewer.VerticalScrollBarVisibility" Value="Hidden" />
+        <Setter Property="ClipToBounds" Value="False" />
+
+        <Setter Property="ItemTemplate">
+            <Setter.Value>
+                <DataTemplate>
+                    <Grid Height="350" Width="450">
+                        <Grid.Effect>
+                            <DropShadowEffect Color="Gray" BlurRadius="5" />
+                        </Grid.Effect>
+                        <Rectangle HorizontalAlignment="Stretch" VerticalAlignment="Stretch" 
+                                   Stroke="Black" Fill="White" />
+                        <Rectangle HorizontalAlignment="Stretch" VerticalAlignment="Stretch" 
+                                   Stroke="{x:Null}" Fill="CornflowerBlue" Margin="15" />
+                        <Rectangle Height="200" Width="200" Fill="{Binding Logo}" 
+                                   VerticalAlignment="Bottom" HorizontalAlignment="Left" Margin="40" />
+                        <TextBlock Text="{Binding Name}" Foreground="White"
+                                   FontFamily="Segoe WP Black" FontSize="30"
+                                   VerticalAlignment="Top" HorizontalAlignment="Right"
+                                   Margin="0,30,30,0">
+                            <TextBlock.Effect>
+                                <DropShadowEffect Color="#aadddddd" />
+                            </TextBlock.Effect>
+                        </TextBlock>
+						<TextBlock Text="Wish you were here..." 
+								   VerticalAlignment="Bottom" HorizontalAlignment="Right" 
+								   Margin="0,0,40,40" 
+								   FontFamily="Segoe Script" FontSize="24" FontWeight="Bold" 
+								   Foreground="Red">
+                            <TextBlock.Effect>
+                                <DropShadowEffect Color="#aadddddd" />
+                            </TextBlock.Effect>
+                            <TextBlock.LayoutTransform>
+                                <RotateTransform Angle="-20" />
+                            </TextBlock.LayoutTransform>
+						</TextBlock>
+                    </Grid>
+                </DataTemplate>
+            </Setter.Value>
+        </Setter>
+
+        <Setter Property="ItemsPanel">
+            <Setter.Value>
+                <ItemsPanelTemplate>
+                    <ListBoxesWPF:ScatterPanel IsItemsHost="True"/>
+                </ItemsPanelTemplate>
+            </Setter.Value>
+        </Setter>
+
+    </Style>
+
+</ResourceDictionary>

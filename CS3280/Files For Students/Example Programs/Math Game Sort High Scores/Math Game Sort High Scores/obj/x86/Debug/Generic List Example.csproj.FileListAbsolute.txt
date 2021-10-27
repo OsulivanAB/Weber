@@ -1,0 +1,13 @@
+c:\users\ro086b.sw\documents\visual studio 2010\Projects\Generic List Example\Generic List Example\bin\Debug\Generic List Example.exe
+c:\users\ro086b.sw\documents\visual studio 2010\Projects\Generic List Example\Generic List Example\bin\Debug\Generic List Example.pdb
+c:\users\ro086b.sw\documents\visual studio 2010\Projects\Generic List Example\Generic List Example\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\ro086b.sw\documents\visual studio 2010\Projects\Generic List Example\Generic List Example\obj\x86\Debug\MainWindow.baml
+c:\users\ro086b.sw\documents\visual studio 2010\Projects\Generic List Example\Generic List Example\obj\x86\Debug\MainWindow.g.cs
+c:\users\ro086b.sw\documents\visual studio 2010\Projects\Generic List Example\Generic List Example\obj\x86\Debug\App.g.cs
+c:\users\ro086b.sw\documents\visual studio 2010\Projects\Generic List Example\Generic List Example\obj\x86\Debug\Generic List Example_MarkupCompile.cache
+c:\users\ro086b.sw\documents\visual studio 2010\Projects\Generic List Example\Generic List Example\obj\x86\Debug\Generic List Example.g.resources
+c:\users\ro086b.sw\documents\visual studio 2010\Projects\Generic List Example\Generic List Example\obj\x86\Debug\Generic_List_Example.Properties.Resources.resources
+c:\users\ro086b.sw\documents\visual studio 2010\Projects\Generic List Example\Generic List Example\obj\x86\Debug\GenerateResource.read.1.tlog
+c:\users\ro086b.sw\documents\visual studio 2010\Projects\Generic List Example\Generic List Example\obj\x86\Debug\GenerateResource.write.1.tlog
+c:\users\ro086b.sw\documents\visual studio 2010\Projects\Generic List Example\Generic List Example\obj\x86\Debug\Generic List Example.exe
+c:\users\ro086b.sw\documents\visual studio 2010\Projects\Generic List Example\Generic List Example\obj\x86\Debug\Generic List Example.pdb

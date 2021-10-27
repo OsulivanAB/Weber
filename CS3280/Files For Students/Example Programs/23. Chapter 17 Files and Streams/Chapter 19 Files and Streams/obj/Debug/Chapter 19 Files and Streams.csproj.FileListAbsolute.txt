@@ -1,0 +1,11 @@
+C:\Users\Shawn\Documents\Visual Studio 2008\Projects\Chapter 19 Files and Streams\Chapter 19 Files and Streams\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Shawn\Documents\Visual Studio 2008\Projects\Chapter 19 Files and Streams\Chapter 19 Files and Streams\obj\Debug\Chapter_19_Files_and_Streams.Properties.Resources.resources
+C:\Users\Shawn\Documents\Visual Studio 2008\Projects\Chapter 19 Files and Streams\Chapter 19 Files and Streams\obj\Debug\Chapter 19 Files and Streams.csproj.GenerateResource.Cache
+C:\Users\Shawn\Documents\Visual Studio 2008\Projects\Chapter 19 Files and Streams\Chapter 19 Files and Streams\bin\Debug\Chapter 19 Files and Streams.exe
+C:\Users\Shawn\Documents\Visual Studio 2008\Projects\Chapter 19 Files and Streams\Chapter 19 Files and Streams\bin\Debug\Chapter 19 Files and Streams.pdb
+C:\Users\Shawn\Documents\Visual Studio 2008\Projects\Chapter 19 Files and Streams\Chapter 19 Files and Streams\obj\Debug\Chapter 19 Files and Streams.exe
+C:\Users\Shawn\Documents\Visual Studio 2008\Projects\Chapter 19 Files and Streams\Chapter 19 Files and Streams\obj\Debug\Chapter 19 Files and Streams.pdb
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\Summer Class 2009\My Program Examples\Chapter 19 Files and Streams\Chapter 19 Files and Streams\obj\Debug\Chapter 19 Files and Streams.exe
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\Summer Class 2009\My Program Examples\Chapter 19 Files and Streams\Chapter 19 Files and Streams\obj\Debug\Chapter 19 Files and Streams.pdb
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\Summer Class 2010\My Program Examples\Chapter 19 Files and Streams\Chapter 19 Files and Streams\obj\Debug\Chapter 19 Files and Streams.exe
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\Summer Class 2010\My Program Examples\Chapter 19 Files and Streams\Chapter 19 Files and Streams\obj\Debug\Chapter 19 Files and Streams.pdb

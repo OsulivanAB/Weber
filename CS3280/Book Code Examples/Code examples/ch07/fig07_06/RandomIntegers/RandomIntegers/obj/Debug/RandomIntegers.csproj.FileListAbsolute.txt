@@ -1,0 +1,5 @@
+C:\Users\Shawn\Desktop\C# WSU\_Spring Class 2017\Book Code Examples\Book code examples\ch07\fig07_06\RandomIntegers\RandomIntegers\bin\Debug\RandomIntegers.exe
+C:\Users\Shawn\Desktop\C# WSU\_Spring Class 2017\Book Code Examples\Book code examples\ch07\fig07_06\RandomIntegers\RandomIntegers\bin\Debug\RandomIntegers.pdb
+C:\Users\Shawn\Desktop\C# WSU\_Spring Class 2017\Book Code Examples\Book code examples\ch07\fig07_06\RandomIntegers\RandomIntegers\obj\Debug\RandomIntegers.csprojResolveAssemblyReference.cache
+C:\Users\Shawn\Desktop\C# WSU\_Spring Class 2017\Book Code Examples\Book code examples\ch07\fig07_06\RandomIntegers\RandomIntegers\obj\Debug\RandomIntegers.exe
+C:\Users\Shawn\Desktop\C# WSU\_Spring Class 2017\Book Code Examples\Book code examples\ch07\fig07_06\RandomIntegers\RandomIntegers\obj\Debug\RandomIntegers.pdb

@@ -1,0 +1,32 @@
+	Open Putty
+Host: icarus.cs.weber.edu
+Protocol: SSH
+Port: 22
+
+login as: ab13559
+password: Anthonycs!
+
+clone repo to local machine:
+git clone https://github.com/cowancs3030<SEMESTER>/lab-<YOURGITHUBUSERNAME>
+user name: anthonybahl@mail.weber.edu
+password: dAe7TV7sVo&U
+
+Push changes to github
+git add [filename]
+git commit -m"COMMIT MESSAGE"
+git push origin master
+
+create new file:
+vi [file name]
+
+put this on the top of all files:
+#!/bin/bash
+# Anthony Bahl
+# lab [#] - [Lab name]
+# CS 3030 - Scripting Languages
+
+mkdir /tmp/$USER/data	# Make temporary file to keep info in
+rm -rf /tmp/$USER	# Delete the temporary directory
+
+
+chmod 700 [script name]			Compile script

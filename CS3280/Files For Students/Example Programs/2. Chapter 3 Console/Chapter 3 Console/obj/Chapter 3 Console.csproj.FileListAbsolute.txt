@@ -1,0 +1,9 @@
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\Summer Class 2008\My Program Examples\Chapter 3 Console\Chapter 3 Console\obj\Debug\Chapter 3 Console.exe
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\Summer Class 2008\My Program Examples\Chapter 3 Console\Chapter 3 Console\obj\Debug\Chapter 3 Console.pdb
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\Summer Class 2008\My Program Examples\Chapter 3 Console\Chapter 3 Console\bin\Debug\Chapter 3 Console.exe
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\Summer Class 2008\My Program Examples\Chapter 3 Console\Chapter 3 Console\bin\Debug\Chapter 3 Console.pdb
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\Summer Class 2008\My Program Examples\Chapter 3 Console\Chapter 3 Console\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\Summer Class 2008\My Program Examples\Chapter 3 Console\Chapter 3 Console\obj\Debug\Chapter_3_Console.Properties.Resources.resources
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\Summer Class 2008\My Program Examples\Chapter 3 Console\Chapter 3 Console\obj\Debug\Chapter 3 Console.csproj.GenerateResource.Cache
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\Summer Class 2009\My Program Examples\Chapter 3 Console\Chapter 3 Console\obj\Debug\Chapter 3 Console.exe
+C:\Users\Shawn\Desktop\My Class for Teaching C# at Weber State\Summer Class 2009\My Program Examples\Chapter 3 Console\Chapter 3 Console\obj\Debug\Chapter 3 Console.pdb

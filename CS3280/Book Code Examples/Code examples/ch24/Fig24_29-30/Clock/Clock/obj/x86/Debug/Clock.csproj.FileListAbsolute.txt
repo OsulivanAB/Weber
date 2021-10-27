@@ -1,0 +1,12 @@
+C:\Users\Shawn\Desktop\C# WSU\_Spring Class 2017\Code Examples\Book code examples\ch24\Fig24_29-30\Clock\Clock\bin\Debug\Clock.exe
+C:\Users\Shawn\Desktop\C# WSU\_Spring Class 2017\Code Examples\Book code examples\ch24\Fig24_29-30\Clock\Clock\bin\Debug\Clock.pdb
+C:\Users\Shawn\Desktop\C# WSU\_Spring Class 2017\Code Examples\Book code examples\ch24\Fig24_29-30\Clock\Clock\obj\x86\Debug\Clock.csprojResolveAssemblyReference.cache
+C:\Users\Shawn\Desktop\C# WSU\_Spring Class 2017\Code Examples\Book code examples\ch24\Fig24_29-30\Clock\Clock\obj\x86\Debug\MainWindow.baml
+C:\Users\Shawn\Desktop\C# WSU\_Spring Class 2017\Code Examples\Book code examples\ch24\Fig24_29-30\Clock\Clock\obj\x86\Debug\MainWindow.g.cs
+C:\Users\Shawn\Desktop\C# WSU\_Spring Class 2017\Code Examples\Book code examples\ch24\Fig24_29-30\Clock\Clock\obj\x86\Debug\App.g.cs
+C:\Users\Shawn\Desktop\C# WSU\_Spring Class 2017\Code Examples\Book code examples\ch24\Fig24_29-30\Clock\Clock\obj\x86\Debug\Clock_MarkupCompile.cache
+C:\Users\Shawn\Desktop\C# WSU\_Spring Class 2017\Code Examples\Book code examples\ch24\Fig24_29-30\Clock\Clock\obj\x86\Debug\Clock.g.resources
+C:\Users\Shawn\Desktop\C# WSU\_Spring Class 2017\Code Examples\Book code examples\ch24\Fig24_29-30\Clock\Clock\obj\x86\Debug\Clock.Properties.Resources.resources
+C:\Users\Shawn\Desktop\C# WSU\_Spring Class 2017\Code Examples\Book code examples\ch24\Fig24_29-30\Clock\Clock\obj\x86\Debug\Clock.csproj.GenerateResource.Cache
+C:\Users\Shawn\Desktop\C# WSU\_Spring Class 2017\Code Examples\Book code examples\ch24\Fig24_29-30\Clock\Clock\obj\x86\Debug\Clock.exe
+C:\Users\Shawn\Desktop\C# WSU\_Spring Class 2017\Code Examples\Book code examples\ch24\Fig24_29-30\Clock\Clock\obj\x86\Debug\Clock.pdb

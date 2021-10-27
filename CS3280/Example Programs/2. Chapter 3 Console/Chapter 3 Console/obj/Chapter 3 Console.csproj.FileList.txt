@@ -1,0 +1,7 @@
+bin\Debug\Chapter 3 Console.exe
+bin\Debug\Chapter 3 Console.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\Chapter 3 Console.exe
+obj\Debug\Chapter 3 Console.pdb
+obj\Debug\Chapter_3_Console.Properties.Resources.resources
+obj\Debug\Chapter 3 Console.csproj.GenerateResource.Cache

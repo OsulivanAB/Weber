@@ -1,0 +1,92 @@
+<?xml version="1.0"?>
+<SceneGraph version="1">
+  <AspectRatio>1.56768200265989</AspectRatio>
+  <SceneNode>
+    <FileName>C:\books\2010\VB2010HTP\examples\ch24\DeepZoomProject\CoverCollage\Source Images\c how to program (5th edition).jpg</FileName>
+    <x>0</x>
+    <y>0</y>
+    <Width>0.231605722134142</Width>
+    <Height>0.477326968973747</Height>
+    <ZOrder>1</ZOrder>
+  </SceneNode>
+  <SceneNode>
+    <FileName>C:\books\2010\VB2010HTP\examples\ch24\DeepZoomProject\CoverCollage\Source Images\cpp how to program (6th edition).jpg</FileName>
+    <x>0.254317634415909</x>
+    <y>0</y>
+    <Width>0.23414648500384</Width>
+    <Height>0.477326968973746</Height>
+    <ZOrder>2</ZOrder>
+  </SceneNode>
+  <SceneNode>
+    <FileName>C:\books\2010\VB2010HTP\examples\ch24\DeepZoomProject\CoverCollage\Source Images\internet and world wide web how to program (4th edition).jpg</FileName>
+    <x>0.511085267834419</x>
+    <y>0</y>
+    <Width>0.232693426414102</Width>
+    <Height>0.477326968973747</Height>
+    <ZOrder>3</ZOrder>
+  </SceneNode>
+  <SceneNode>
+    <FileName>C:\books\2010\VB2010HTP\examples\ch24\DeepZoomProject\CoverCollage\Source Images\java how to program (7th edition).jpg</FileName>
+    <x>0.766438974424277</x>
+    <y>0</y>
+    <Width>0.232137806962301</Width>
+    <Height>0.477326968973745</Height>
+    <ZOrder>4</ZOrder>
+  </SceneNode>
+  <SceneNode>
+    <FileName>C:\books\2010\VB2010HTP\examples\ch24\DeepZoomProject\CoverCollage\Source Images\visual basic how to program (3rd edition).jpg</FileName>
+    <x>0</x>
+    <y>0.522673031026253</y>
+    <Width>0.232243261266418</Width>
+    <Height>0.477326968973746</Height>
+    <ZOrder>5</ZOrder>
+  </SceneNode>
+  <SceneNode>
+    <FileName>C:\books\2010\VB2010HTP\examples\ch24\DeepZoomProject\CoverCollage\Source Images\visual cpp 2008 how to program.jpg</FileName>
+    <x>0.254317634415909</x>
+    <y>0.522673031026253</y>
+    <Width>0.234903330320412</Width>
+    <Height>0.477326968973747</Height>
+    <ZOrder>6</ZOrder>
+  </SceneNode>
+  <SceneNode>
+    <FileName>C:\books\2010\VB2010HTP\examples\ch24\DeepZoomProject\CoverCollage\Source Images\visual csharp 2005 how to program.jpg</FileName>
+    <x>0.511085267834419</x>
+    <y>0.522673031026253</y>
+    <Width>0.234257771356028</Width>
+    <Height>0.477326968973747</Height>
+    <ZOrder>7</ZOrder>
+  </SceneNode>
+  <SceneNode>
+    <FileName>C:\books\2010\VB2010HTP\examples\ch24\DeepZoomProject\CoverCollage\Source Images\visual csharp 2008 how to program.jpg</FileName>
+    <x>0.766438974424277</x>
+    <y>0.522673031026253</y>
+    <Width>0.233561025575723</Width>
+    <Height>0.477326968973747</Height>
+    <ZOrder>8</ZOrder>
+  </SceneNode>
+  <SceneNode>
+    <FileName>C:\books\2010\VB2010HTP\examples\ch24\DeepZoomProject\CoverCollage\Source Images\simply cpp.jpg</FileName>
+    <x>0.231605722134143</x>
+    <y>0.477326968973747</y>
+    <Width>0.0227119122817666</Width>
+    <Height>0.0453460620525059</Height>
+    <ZOrder>9</ZOrder>
+  </SceneNode>
+  <SceneNode>
+    <FileName>C:\books\2010\VB2010HTP\examples\ch24\DeepZoomProject\CoverCollage\Source Images\simply csharp.jpg</FileName>
+    <x>0.488464119419748</x>
+    <y>0.477326968973747</y>
+    <Width>0.0226211484146702</Width>
+    <Height>0.0453460620525048</Height>
+    <ZOrder>10</ZOrder>
+  </SceneNode>
+  <SceneNode>
+    <FileName>C:\books\2010\VB2010HTP\examples\ch24\DeepZoomProject\CoverCollage\Source Images\simply java.jpg</FileName>
+    <x>0.743778694248522</x>
+    <y>0.477326968973747</y>
+    <Width>0.0226602801757545</Width>
+    <Height>0.045346062052506</Height>
+    <ZOrder>11</ZOrder>
+  </SceneNode>
+</SceneGraph>

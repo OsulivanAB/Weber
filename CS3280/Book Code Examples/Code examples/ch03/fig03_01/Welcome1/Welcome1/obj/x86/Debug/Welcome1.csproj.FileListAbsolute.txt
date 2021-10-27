@@ -1,0 +1,5 @@
+C:\Users\Shawn\Desktop\C# WSU\_Spring Class 2017\Book Code Examples\code examples\ch03\fig03_01\Welcome1\Welcome1\bin\Debug\Welcome1.exe
+C:\Users\Shawn\Desktop\C# WSU\_Spring Class 2017\Book Code Examples\code examples\ch03\fig03_01\Welcome1\Welcome1\bin\Debug\Welcome1.pdb
+C:\Users\Shawn\Desktop\C# WSU\_Spring Class 2017\Book Code Examples\code examples\ch03\fig03_01\Welcome1\Welcome1\obj\x86\Debug\Welcome1.csprojResolveAssemblyReference.cache
+C:\Users\Shawn\Desktop\C# WSU\_Spring Class 2017\Book Code Examples\code examples\ch03\fig03_01\Welcome1\Welcome1\obj\x86\Debug\Welcome1.exe
+C:\Users\Shawn\Desktop\C# WSU\_Spring Class 2017\Book Code Examples\code examples\ch03\fig03_01\Welcome1\Welcome1\obj\x86\Debug\Welcome1.pdb

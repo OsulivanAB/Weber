@@ -1,0 +1,32 @@
+﻿<l:View x:Class="LayoutArticle.CustomerView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:l="clr-namespace:LayoutArticle"
+        Style="{DynamicResource DataEditLayout}"
+        >
+    <TextBlock>First Name:</TextBlock>
+    <TextBox Text="{Binding FirstName}" />
+    <TextBlock>Last Name:</TextBlock>
+    <TextBox Text="{Binding LastName}" />
+    <TextBlock>Company:</TextBlock>
+    <TextBox Text="{Binding Company}" />
+    <TextBlock>Position:</TextBlock>
+    <TextBox Text="{Binding Position}" />
+
+    <TextBlock l:View.GroupBreak="True">Save As:</TextBlock>
+    <TextBox Text="{Binding SaveAs}" />
+
+    <TextBlock l:View.ColumnBreak="True">Phone:</TextBlock>
+    <TextBox Text="{Binding Phone}" />
+    <TextBlock>Fax:</TextBlock>
+    <TextBox Text="{Binding Fax}" />
+    <TextBlock>Mobile:</TextBlock>
+    <TextBox Text="{Binding Mobile}" />
+
+    <TextBlock l:View.GroupBreak="True">Email:</TextBlock>
+    <TextBox Text="{Binding Email}" />
+    <TextBlock>Twitter:</TextBlock>
+    <TextBox Text="{Binding Twitter}" />
+    <TextBlock>IM:</TextBlock>
+    <TextBox Text="{Binding IM}" />
+</l:View>
