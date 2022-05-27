@@ -13,3 +13,6 @@
 [submodule "WEB3400_Final_Project"]
 	path = WEB3400_Final_Project
 	url = https://github.com/AnthonyBahl/WEB3400_Final_Project.git
+[submodule "RazorPagesMovie"]
+	path = RazorPagesMovie
+	url = https://github.com/AnthonyBahl/RazorPagesMovie.git
