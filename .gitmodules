@@ -16,3 +16,6 @@
 [submodule "RazorPagesMovie"]
 	path = RazorPagesMovie
 	url = https://github.com/AnthonyBahl/RazorPagesMovie.git
+[submodule "emoji-moods-app"]
+	path = emoji-moods-app
+	url = https://github.com/AnthonyBahl/emoji-moods-app.git
