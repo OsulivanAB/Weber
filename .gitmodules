@@ -4,3 +4,12 @@
 [submodule "CS3750_GroupProject"]
 	path = CS3750_GroupProject
 	url = git@github.com:AnthonyBahlWeber/CS3750_GroupProject.git
+[submodule "WEB3400"]
+	path = WEB3400
+	url = https://github.com/AnthonyBahlWeber/WEB3400.git
+[submodule "CS4230"]
+	path = CS4230
+	url = https://github.com/AnthonyBahlWeber/CS4230.git
+[submodule "WEB3400_Final_Project"]
+	path = WEB3400_Final_Project
+	url = https://github.com/AnthonyBahl/WEB3400_Final_Project.git
